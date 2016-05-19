@@ -1,18 +1,17 @@
 #Requires installing selenium (sudo pip install selenium)
 #Requires installing PhantomJS (brew install phantomjs)
-#Requires a review directory (review/)
+#Requires a review directory (review/) if using the "follow fulltext links"
 import logging
 import sys
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from time import sleep
 import time
-import json
+#import json
 import os
 import requests
+import csv
 
-#import re
-#import csv
 #import re
 #import xml.etree.ElementTree
 
@@ -31,12 +30,12 @@ root.addHandler(streamthelog)
 def getxpath(element, searches):
 	for xpath in searches:
 		try:
-			logging.info('Trying: %s', xpath)
+			logging.debug('Trying: %s', xpath)
 			temp = element.find_element_by_xpath(xpath)
-			logging.info('Success! XPath found: %s', temp)
+			logging.debug('Success! XPath found: %s', temp)
 			return temp
 		except:
-			logging.info('Could not find: %s', xpath)
+			logging.debug('Could not find: %s', xpath)
 			continue
 	return 'Not found'
 
@@ -121,13 +120,11 @@ logging.debug('Debugging logging active')
 #INPUT
 #Search Terms for PubMed
 search_terms = [
+'cancer hypothesis',
+'stress inducated taxation',
 'heart disease'
 #'lung cancer'
 ]
-150
-filepath = time.strftime("%Y%m%d-%H%M%S") + "_data.jsonl"
-f = open(filepath,'w')
-f.close()
 
 #proxy for Selenium/PhantomJS for access to server
 service_args = [
@@ -140,15 +137,20 @@ service_args = [
 followed_fulltextlink = ''
 error_pagesource = ''
 counter_item = 1000
+
+#Start PhantomJS browser
+logging.info('Starting PhantomJS...')
+layer1 = webdriver.PhantomJS(service_args=service_args) #for use with proxy
+#layer1 = webdriver.PhantomJS() # no proxy
+layer1.set_window_size(1024, 768)
+logging.info('PhantomJS ready')
+
 #Start the loop
 for term in search_terms:
-
-	#Start PhantomJS browser
-	logging.info('Starting PhantomJS...')
-	layer1 = webdriver.PhantomJS(service_args=service_args) #for use with proxy
-	#layer1 = webdriver.PhantomJS() # no proxy
-	layer1.set_window_size(1024, 768)
-	logging.info('PhantomJS ready')
+	#set the output for this search term
+	filepath = time.strftime("%Y%m%d-%H%M%S") + "_" + term + "_data.csv"
+	f = open(filepath,'w')
+	f.close()
 
 	logging.info('Searching for: "%s"', term)
 	link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"%5BAll+Fields%5D+AND+"loattrfull+text"%5Bsb%5D'
@@ -156,8 +158,26 @@ for term in search_terms:
 	layer1.get(link)
 	logging.info('Search results loaded')
 
+	#start the pagination loop
 	pagination = True
 	while (pagination == True):
+
+		#check number of results shown per page
+		logging.info('Checking the number of results per page...')
+		showResults = getxpathtext(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
+		logging.info('Results per page: %s', showResults)
+		if not (showResults == 'Not found'):
+			if not (showResults == '200 per page'):
+				#click
+				logging.info('Changing to 200 results per page...')
+				showResultsButton = getxpath(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
+				showResultsButton.click()
+				sleep(1)
+				showResultsButton2 = getxpath(layer1,["//input[@id='ps200']"])
+				showResultsButton2.click()
+				logging.info('Showing 200 results per page')
+		else:
+			logging.info('Less than 20 results, no pagination required')
 
 		#Get the number of results
 		numResults = getxpathatt(layer1,"value",["//input[@id='resultcount']"])
@@ -189,14 +209,15 @@ for term in search_terms:
 
 			authors = getxpathtext(reportLink,[".//p[@class='desc']"])
 			logging.info('Authors: %s', authors)
+
 			journalName = getxpathatt(reportLink,"title",[".//span[@class='jrnl']"])
 			logging.info('Full journal name: %s', journalName)
+
 			journalNameShort = getxpathtext(reportLink,[".//span[@class='jrnl']"])
 			logging.info('Short journal name: %s', journalNameShort)
+
 			citation = getxpathtext(reportLink,[".//p[@class='details']"])
 			logging.info('Citation: %s', citation)
-			
-
 
 			reportPage = getxpathatt(reportLink,"href",[".//p[@class='title']/a"])
 			logging.info('Loading report page: %s', reportPage)
@@ -214,8 +235,12 @@ for term in search_terms:
 			#OLD -- Grab FullTextLink with Sel/Phan
 			#fullTextLink = getxpathatt(layer2,"href",["//div[@class='icons portlet']//a"])
 			#NEW -- Grab FullTextLink with BS4
-			fullTextLink = soup.find('div', class_="icons portlet")
-			fullTextLink = fullTextLink.find('a', href=True)['href']
+			try:
+				fullTextLink = soup.find('div', class_="icons portlet")
+				fullTextLink = fullTextLink.find('a', href=True)['href']
+			except:
+				fullTextLink = 'Not found'
+				continue
 			logging.info('Link to full text article: %s', fullTextLink)
 
 			'''
@@ -303,7 +328,9 @@ for term in search_terms:
 						
 					else:
 						logging.info('Full text found')
-			'''			
+			'''	
+
+			'''		
 			#write everything we found to the JSON file
 			end_time = time.time()
 			elapsed = hms_string(end_time - start_time)
@@ -328,9 +355,36 @@ for term in search_terms:
 			#data['error_nofulltext'] = noFullText
 			#data['fulltext'] = fullText
 			#data['error_pagesource'] = error_pagesource
-
-			with open (filepath, mode='a') as outfile:
-				json.dump(data, outfile, indent=2)
+			'''
+			#write everything we found to the CSV file
+			end_time = time.time()
+			elapsed = hms_string(end_time - start_time)
+			data['run_id'] = counter_item
+			data['time_start'] = start_time
+			data['time_end'] = end_time
+			data['time_elapsed'] = elapsed
+			data['search_term'] = term
+			data['search_results'] = numResults
+			data['result_page'] = currentPage
+			data['total_pages'] = pageCount
+			data['result_number'] = resultNumber
+			data['pmid'] = pmid
+			data['title'] = title.encode("utf-8")
+			data['authors'] = authors.encode("utf-8")
+			data['journal_name'] = journalName.encode("utf-8")
+			data['journal_code'] = journalNameShort.encode("utf-8")
+			data['citation'] = citation.encode("utf-8")
+			data['pubmed_page'] = reportPage
+			data['fulltext_page'] = fullTextLink
+			#data['followed_fulltextlink'] = followed_fulltextlink
+			#data['error_nofulltext'] = noFullText
+			#data['fulltext'] = fullText
+			#data['error_pagesource'] = error_pagesource
+			with open (filepath, mode='a') as csvfile:
+				wr = csv.DictWriter(csvfile,data.keys(),dialect=csv.excel)
+				wr.writerow(data)
+			#with open (filepath, mode='a') as outfile: #output to jsonfile in json format
+			#	json.dump(data, outfile, indent=2) #output to jsonfile in json format
 		
 		pagebutton = getxpath(layer1, ['//a[contains(@class,"active") and contains(@class,"next")]','//a[text()="Next >"]'])
 		if not (pagebutton == 'Not found'):
@@ -339,6 +393,7 @@ for term in search_terms:
 			pagination = False
 #closer out the browser
 layer1.close()
+logging.info('Program completed successfully')
 
 '''
 #Other selenium commands:
