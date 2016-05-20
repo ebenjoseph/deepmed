@@ -12,12 +12,13 @@ import json
 import re
 import xml.etree.ElementTree
 from multiprocessing.dummy import Pool as ThreadPool
+import threading
 
 journals_to_scrape = []
-outfile = open('outputnew.jsonl', 'a')
+outfile = open('output_test.jsonl', 'a')
 
 # read in csv
-with open('160510-pubmed-v1-AllItems.csv', 'rU') as csvfile:
+with open('testing.csv', 'rU') as csvfile:
 	reader = csv.reader(csvfile, delimiter=',')
 	counter = 0
 	for row in reader:
@@ -62,6 +63,10 @@ for line in journalfile:
 	journalsRead[line.rstrip()] = 1
 
 journalfile.close()
+journalfile = open('journals', 'a')
+
+journalLock = threading.Lock()
+writingLock = threading.Lock()
 
 # setup logging
 logging.basicConfig(filename='scraping_log.log',level=logging.DEBUG)
@@ -82,13 +87,19 @@ def remove_tags(text):
 def pull_journal(journal):
 	root_link = journal['link']
 
-	if not len(journalsRead) % 100: print len(journalsRead)
+	#if not len(journalsRead) % 10: print len(journalsRead)
+	journalLock.acquire()
+	print len(journalsRead)
 
 	try:
 		journalsRead[root_link]
+		journalLock.release()
+		print 'skipping'
 		return
 	except:
 		journalsRead[root_link] = 1
+
+	journalLock.release()
 	
 	data = {}
 	fullarticle = ""
@@ -284,8 +295,10 @@ def pull_journal(journal):
 		#print data
 		#print '\n\n\n'
 
+		writingLock.acquire()
 		json.dump(data, outfile)
 		outfile.write('\n')
+		writingLock.release()
 
 		return 1
 
@@ -294,7 +307,7 @@ def pull_journal(journal):
 
 
 # setup threadpool
-pool = ThreadPool(8)
+pool = ThreadPool(4)
 
 results = pool.map(pull_journal, journals_to_scrape)
 
@@ -303,7 +316,6 @@ pool.join()
 	
 # output results
 print len(results)
-journalfile = open('journals', 'a')
 
 for key in journalsRead:
 	journalfile.write(key)
