@@ -87,9 +87,11 @@ def remove_tags(text):
 def pull_journal(journal):
 	root_link = journal['link']
 
-	#if not len(journalsRead) % 10: print len(journalsRead)
+	if not len(journalsRead) % 10: print len(journalsRead)
+	
 	journalLock.acquire()
-	print len(journalsRead)
+
+	#print len(journalsRead)
 
 	try:
 		journalsRead[root_link]
@@ -98,6 +100,9 @@ def pull_journal(journal):
 		return
 	except:
 		journalsRead[root_link] = 1
+
+	journalfile.write(root_link)
+	journalfile.write('\n')
 
 	journalLock.release()
 	
@@ -316,10 +321,6 @@ pool.join()
 	
 # output results
 print len(results)
-
-for key in journalsRead:
-	journalfile.write(key)
-	journalfile.write('\n')
 
 outfile.close()
 journalfile.close()
