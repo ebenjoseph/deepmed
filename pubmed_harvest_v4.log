@@ -1,0 +1,1954 @@
+05/25/2016 01:59:29 PM [INFO] Program initiated
+05/25/2016 01:59:29 PM [INFO] Starting PhantomJS...
+05/25/2016 01:59:31 PM [INFO] PhantomJS ready
+05/25/2016 01:59:31 PM [INFO] Searching for: "PLoS One"
+05/25/2016 02:01:51 PM [INFO] Program initiated
+05/25/2016 02:01:51 PM [INFO] Starting PhantomJS...
+05/25/2016 02:01:52 PM [INFO] PhantomJS ready
+05/25/2016 02:01:52 PM [INFO] Searching for: "PLoS One"
+05/25/2016 02:02:02 PM [INFO] Search results loaded
+05/25/2016 02:02:02 PM [INFO] Checking the number of results per page...
+05/25/2016 02:02:02 PM [INFO] Results per page: 20 per page
+05/25/2016 02:02:02 PM [INFO] Changing to 200 results per page...
+05/25/2016 02:02:08 PM [INFO] Showing 200 results per page
+05/25/2016 02:02:08 PM [INFO] Articles found: 154354
+05/25/2016 02:02:08 PM [INFO] Current page: 1/772
+05/25/2016 02:02:08 PM [INFO] Result number: 1
+05/25/2016 02:02:08 PM [INFO] Result number: 27
+05/25/2016 02:02:08 PM [INFO] Result number: 14
+05/25/2016 02:02:08 PM [INFO] Result number: 40
+05/25/2016 02:02:08 PM [INFO] Journal title: Using Link Disconnection Entropy Disorder to Detect Fast Moving Nodes in MANETs.
+05/25/2016 02:02:08 PM [INFO] Journal title: Association between Exposure to Benzodiazepines and Related Drugs and Survivorship of Total Hip Replacement in Arthritis: A Population-Based Cohort Study of 246,940 Patients.
+05/25/2016 02:02:08 PM [INFO] Journal title: Changing Epidemiology of Common Cancers in Southern Iran, 2007-2010: A Cross Sectional Study.
+05/25/2016 02:02:08 PM [INFO] Journal title: Assessing Greater Sage-Grouse Selection of Brood-Rearing Habitat Using Remotely-Sensed Imagery: Can Readily Available High-Resolution Imagery Be Used to Identify Brood-Rearing Habitat Across a Broad Landscape?
+05/25/2016 02:02:08 PM [INFO] PMID: 27219671
+05/25/2016 02:02:08 PM [INFO] PMID: 27219105
+05/25/2016 02:02:09 PM [INFO] PMID: 27219458
+05/25/2016 02:02:09 PM [INFO] PMID: 27218829
+05/25/2016 02:02:09 PM [INFO] Authors: Alvarez CF, Palafox LE, Aguilar L, Sanchez MA, Martinez LG.
+05/25/2016 02:02:09 PM [INFO] Authors: Beziz D, Colas S, Collin C, Dray-Spira R, Zureik M.
+05/25/2016 02:02:09 PM [INFO] Authors: Masoompour SM, Lankarani KB, Honarvar B, Tabatabaee SH, Moghadami M, Khosravizadegan Z.
+05/25/2016 02:02:09 PM [INFO] Authors: Westover M, Baxter J, Baxter R, Day C, Jensen R, Petersen S, Larsen R.
+05/25/2016 02:02:09 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:09 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:09 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:09 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:09 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:09 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:09 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:09 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:09 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155820. doi: 10.1371/journal.pone.0155820. eCollection 2016.
+05/25/2016 02:02:09 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155783. doi: 10.1371/journal.pone.0155783. eCollection 2016.
+05/25/2016 02:02:09 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155669. doi: 10.1371/journal.pone.0155669. eCollection 2016.
+05/25/2016 02:02:09 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156290. doi: 10.1371/journal.pone.0156290. eCollection 2016.
+05/25/2016 02:02:09 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219671
+05/25/2016 02:02:09 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219105
+05/25/2016 02:02:09 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219458
+05/25/2016 02:02:09 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218829
+05/25/2016 02:02:09 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:09 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:09 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:09 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:11 PM [INFO] Report page loaded
+05/25/2016 02:02:11 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155783
+05/25/2016 02:02:11 PM [INFO] Result number: 28
+05/25/2016 02:02:11 PM [INFO] Report page loaded
+05/25/2016 02:02:11 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155669
+05/25/2016 02:02:11 PM [INFO] Journal title: Socially Important Faces Are Processed Preferentially to Other Familiar and Unfamiliar Faces in a Priming Task across a Range of Viewpoints.
+05/25/2016 02:02:11 PM [INFO] Result number: 15
+05/25/2016 02:02:11 PM [INFO] PMID: 27219101
+05/25/2016 02:02:11 PM [INFO] Journal title: The Value of Continuity between Primary Care and Surgical Care in Colon Cancer.
+05/25/2016 02:02:11 PM [INFO] Authors: Keyes H, Zalicks C.
+05/25/2016 02:02:11 PM [INFO] Report page loaded
+05/25/2016 02:02:11 PM [INFO] PMID: 27219454
+05/25/2016 02:02:11 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:11 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155820
+05/25/2016 02:02:11 PM [INFO] Authors: Hussain T, Chang HY, Luu NP, Pollack CE.
+05/25/2016 02:02:11 PM [INFO] Report page loaded
+05/25/2016 02:02:11 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156290
+05/25/2016 02:02:11 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:11 PM [INFO] Result number: 2
+05/25/2016 02:02:11 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:11 PM [INFO] Result number: 41
+05/25/2016 02:02:11 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156350. doi: 10.1371/journal.pone.0156350. eCollection 2016.
+05/25/2016 02:02:11 PM [INFO] Journal title: Correction: Early Treatment Critical: Bexarotene Reduces Amyloid-Beta Burden In Silico.
+05/25/2016 02:02:11 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:11 PM [INFO] Journal title: Differential Expression of Extracellular Matrix and Adhesion Molecules in Fetal-Origin Amniotic Epithelial Cells of Preeclamptic Pregnancy.
+05/25/2016 02:02:11 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219101
+05/25/2016 02:02:11 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:11 PM [INFO] PMID: 27219661
+05/25/2016 02:02:11 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155789. doi: 10.1371/journal.pone.0155789. eCollection 2016.
+05/25/2016 02:02:11 PM [INFO] PMID: 27218821
+05/25/2016 02:02:11 PM [INFO] Authors: Rosenthal J, Belfort G, Isaacson D.
+05/25/2016 02:02:11 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219454
+05/25/2016 02:02:11 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:11 PM [INFO] Authors: Kim MS, Yu JH, Lee MY, Kim AL, Jo MH, Kim M, Cho SR, Kim YH.
+05/25/2016 02:02:11 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:11 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:11 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:11 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:12 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156474. doi: 10.1371/journal.pone.0156474. eCollection 2016.
+05/25/2016 02:02:12 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156038. doi: 10.1371/journal.pone.0156038. eCollection 2016.
+05/25/2016 02:02:12 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219661
+05/25/2016 02:02:12 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:12 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218821
+05/25/2016 02:02:12 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:12 PM [INFO] Report page loaded
+05/25/2016 02:02:12 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156350
+05/25/2016 02:02:12 PM [INFO] Result number: 29
+05/25/2016 02:02:12 PM [INFO] Journal title: A New Approach for On-Demand Generation of Various Oxygen Tensions for In Vitro Hypoxia Models.
+05/25/2016 02:02:12 PM [INFO] PMID: 27219067
+05/25/2016 02:02:12 PM [INFO] Authors: Li C, Chaung W, Mozayan C, Chabra R, Wang P, Narayan RK.
+05/25/2016 02:02:12 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:12 PM [INFO] Report page loaded
+05/25/2016 02:02:12 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:12 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156038
+05/25/2016 02:02:12 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155921. doi: 10.1371/journal.pone.0155921. eCollection 2016.
+05/25/2016 02:02:12 PM [INFO] Result number: 42
+05/25/2016 02:02:12 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219067
+05/25/2016 02:02:12 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:12 PM [INFO] Journal title: Indications for Three Independent Domestication Events for the Tea Plant (Camellia sinensis (L.) O. Kuntze) and New Insights into the Origin of Tea Germplasm in China and India Revealed by Nuclear Microsatellites.
+05/25/2016 02:02:12 PM [INFO] PMID: 27218820
+05/25/2016 02:02:12 PM [INFO] Authors: Meegahakumbura MK, Wambulwa MC, Thapa KK, Li MM, Möller M, Xu JC, Yang JB, Liu BY, Ranjitkar S, Liu J, Li DZ, Gao LM.
+05/25/2016 02:02:12 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:12 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:13 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155369. doi: 10.1371/journal.pone.0155369. eCollection 2016.
+05/25/2016 02:02:13 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218820
+05/25/2016 02:02:13 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:13 PM [INFO] Report page loaded
+05/25/2016 02:02:13 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156474
+05/25/2016 02:02:13 PM [INFO] Result number: 3
+05/25/2016 02:02:13 PM [INFO] Journal title: Comparison of Cardiac and Non-Cardiac Biomarkers for Risk Stratification in Elderly Patients with Non-Massive Pulmonary Embolism.
+05/25/2016 02:02:13 PM [INFO] PMID: 27219621
+05/25/2016 02:02:13 PM [INFO] Authors: Vuilleumier N, Simona A, Méan M, Limacher A, Lescuyer P, Gerstel E, Bounameaux H, Aujesky D, Righini M.
+05/25/2016 02:02:13 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:13 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:13 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155973. doi: 10.1371/journal.pone.0155973. eCollection 2016.
+05/25/2016 02:02:13 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219621
+05/25/2016 02:02:13 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:13 PM [INFO] Report page loaded
+05/25/2016 02:02:13 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155921
+05/25/2016 02:02:13 PM [INFO] Result number: 30
+05/25/2016 02:02:13 PM [INFO] Journal title: Retrogradation of Maize Starch after High Hydrostatic Pressure Gelation: Effect of Amylose Content and Depressurization Rate.
+05/25/2016 02:02:13 PM [INFO] PMID: 27219066
+05/25/2016 02:02:13 PM [INFO] Authors: Yang Z, Swedlund P, Gu Q, Hemar Y, Chaieb S.
+05/25/2016 02:02:13 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:13 PM [INFO] Report page loaded
+05/25/2016 02:02:13 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155369
+05/25/2016 02:02:13 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:13 PM [INFO] Result number: 43
+05/25/2016 02:02:13 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156061. doi: 10.1371/journal.pone.0156061. eCollection 2016.
+05/25/2016 02:02:13 PM [INFO] Journal title: Clustering-Induced Attraction in Granular Mixtures of Rods and Spheres.
+05/25/2016 02:02:13 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219066
+05/25/2016 02:02:13 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:13 PM [INFO] PMID: 27218804
+05/25/2016 02:02:14 PM [INFO] Authors: Rodríguez-Liñán GM, Nahmad-Molinari Y, Pérez-Ángel G.
+05/25/2016 02:02:14 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:14 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:14 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156153. doi: 10.1371/journal.pone.0156153. eCollection 2016.
+05/25/2016 02:02:14 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218804
+05/25/2016 02:02:14 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:14 PM [INFO] Report page loaded
+05/25/2016 02:02:14 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155789
+05/25/2016 02:02:14 PM [INFO] Result number: 16
+05/25/2016 02:02:14 PM [INFO] Journal title: Correction: Methylation Markers for the Identification of Body Fluids and Tissues from Forensic Trace Evidence.
+05/25/2016 02:02:14 PM [INFO] PMID: 27219355
+05/25/2016 02:02:14 PM [INFO] Authors: Forat S, Huettel B, Reinhardt R, Fimmers R, Haidl G, Denschlag D, Olek K.
+05/25/2016 02:02:14 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:14 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:14 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156472. doi: 10.1371/journal.pone.0156472. eCollection 2016.
+05/25/2016 02:02:14 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219355
+05/25/2016 02:02:14 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:14 PM [INFO] Report page loaded
+05/25/2016 02:02:14 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155973
+05/25/2016 02:02:14 PM [INFO] Report page loaded
+05/25/2016 02:02:14 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156153
+05/25/2016 02:02:14 PM [INFO] Result number: 4
+05/25/2016 02:02:14 PM [INFO] Result number: 44
+05/25/2016 02:02:15 PM [INFO] Journal title: Lysosomal Acid Lipase Activity Is Reduced Both in Cryptogenic Cirrhosis and in Cirrhosis of Known Etiology.
+05/25/2016 02:02:15 PM [INFO] Journal title: Computational Framework for Prediction of Peptide Sequences That May Mediate Multiple Protein Interactions in Cancer-Associated Hub Proteins.
+05/25/2016 02:02:15 PM [INFO] PMID: 27219619
+05/25/2016 02:02:15 PM [INFO] PMID: 27218803
+05/25/2016 02:02:15 PM [INFO] Authors: Vespasiani-Gentilucci U, Gallo P, Piemonte F, Riva E, Porcari A, Vorini F, Tozzi G, Piccioni L, Galati G, De Vincentis A, Carotti S, Morini S, D'Amico J, Angeletti S, Pedone C, Picardi A.
+05/25/2016 02:02:15 PM [INFO] Authors: Sarkar D, Patra P, Ghosh A, Saha S.
+05/25/2016 02:02:15 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:15 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:15 PM [INFO] Report page loaded
+05/25/2016 02:02:15 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156061
+05/25/2016 02:02:15 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:15 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:15 PM [INFO] Result number: 31
+05/25/2016 02:02:15 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156113. doi: 10.1371/journal.pone.0156113. eCollection 2016.
+05/25/2016 02:02:15 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155911. doi: 10.1371/journal.pone.0155911. eCollection 2016.
+05/25/2016 02:02:15 PM [INFO] Journal title: Global Carrier Rates of Rare Inherited Disorders Using Population Exome Sequences.
+05/25/2016 02:02:15 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219619
+05/25/2016 02:02:15 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:15 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218803
+05/25/2016 02:02:15 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:15 PM [INFO] PMID: 27219052
+05/25/2016 02:02:15 PM [INFO] Authors: Fujikura K.
+05/25/2016 02:02:15 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:15 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:15 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155552. doi: 10.1371/journal.pone.0155552. eCollection 2016.
+05/25/2016 02:02:15 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219052
+05/25/2016 02:02:15 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:16 PM [INFO] Report page loaded
+05/25/2016 02:02:16 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156113
+05/25/2016 02:02:16 PM [INFO] Result number: 5
+05/25/2016 02:02:16 PM [INFO] Journal title: The New 3D Printed Left Atrial Appendage Closure with a Novel Holdfast Device: A Pre-Clinical Feasibility Animal Study.
+05/25/2016 02:02:16 PM [INFO] PMID: 27219618
+05/25/2016 02:02:16 PM [INFO] Authors: Brzeziński M, Bury K, Dąbrowski L, Holak P, Sejda A, Pawlak M, Jagielak D, Adamiak Z, Rogowski J.
+05/25/2016 02:02:16 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:16 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:16 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0154559. doi: 10.1371/journal.pone.0154559. eCollection 2016.
+05/25/2016 02:02:16 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219618
+05/25/2016 02:02:16 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:17 PM [INFO] Report page loaded
+05/25/2016 02:02:17 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0154559
+05/25/2016 02:02:17 PM [INFO] Result number: 6
+05/25/2016 02:02:17 PM [INFO] Journal title: Pre-Natal Exposure to Mouse Parvovirus at Day 5 and 12 Gestation Does Not Induce Immune Tolerance.
+05/25/2016 02:02:17 PM [INFO] PMID: 27219540
+05/25/2016 02:02:17 PM [INFO] Authors: Kendall LV, Allaband C, Henderson KS.
+05/25/2016 02:02:17 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:17 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:18 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156248. doi: 10.1371/journal.pone.0156248. eCollection 2016.
+05/25/2016 02:02:18 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219540
+05/25/2016 02:02:18 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:18 PM [INFO] Report page loaded
+05/25/2016 02:02:18 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155552
+05/25/2016 02:02:18 PM [INFO] Result number: 32
+05/25/2016 02:02:18 PM [INFO] Journal title: Correction: Presequence-Independent Mitochondrial Import of DNA Ligase Facilitates Establishment of Cell Lines with Reduced mtDNA Copy Number.
+05/25/2016 02:02:18 PM [INFO] PMID: 27219050
+05/25/2016 02:02:18 PM [INFO] Authors: Spadafora D, Kozhukhar N, Alexeyev MF.
+05/25/2016 02:02:18 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:18 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:18 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156168. doi: 10.1371/journal.pone.0156168. eCollection 2016.
+05/25/2016 02:02:18 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219050
+05/25/2016 02:02:18 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:18 PM [INFO] Report page loaded
+05/25/2016 02:02:18 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156248
+05/25/2016 02:02:18 PM [INFO] Result number: 7
+05/25/2016 02:02:18 PM [INFO] Journal title: Adaptive Neuro-Fuzzy Determination of the Effect of Experimental Parameters on Vehicle Agent Speed Relative to Vehicle Intruder.
+05/25/2016 02:02:18 PM [INFO] PMID: 27219539
+05/25/2016 02:02:18 PM [INFO] Authors: Shamshirband S, Banjanovic-Mehmedovic L, Bosankic I, Kasapovic S, Abdul Wahab AW.
+05/25/2016 02:02:18 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:18 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:19 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155697. doi: 10.1371/journal.pone.0155697. eCollection 2016.
+05/25/2016 02:02:19 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219539
+05/25/2016 02:02:19 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:19 PM [INFO] Report page loaded
+05/25/2016 02:02:19 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156168
+05/25/2016 02:02:19 PM [INFO] Result number: 33
+05/25/2016 02:02:19 PM [INFO] Journal title: Autophagy Induced by Intracellular Infection of Propionibacterium acnes.
+05/25/2016 02:02:19 PM [INFO] PMID: 27219015
+05/25/2016 02:02:19 PM [INFO] Authors: Nakamura T, Furukawa A, Uchida K, Ogawa T, Tamura T, Sakonishi D, Wada Y, Suzuki Y, Ishige Y, Minami J, Akashi T, Eishi Y.
+05/25/2016 02:02:19 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:19 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:19 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156298. doi: 10.1371/journal.pone.0156298. eCollection 2016.
+05/25/2016 02:02:19 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219015
+05/25/2016 02:02:19 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:19 PM [INFO] Report page loaded
+05/25/2016 02:02:19 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155697
+05/25/2016 02:02:19 PM [INFO] Result number: 8
+05/25/2016 02:02:19 PM [INFO] Report page loaded
+05/25/2016 02:02:19 PM [INFO] Journal title: Midkine Increases Diagnostic Yield in AFP Negative and NASH-Related Hepatocellular Carcinoma.
+05/25/2016 02:02:19 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156472
+05/25/2016 02:02:19 PM [INFO] PMID: 27219517
+05/25/2016 02:02:19 PM [INFO] Result number: 17
+05/25/2016 02:02:19 PM [INFO] Authors: Vongsuvanh R, van der Poorten D, Iseli T, Strasser SI, McCaughan GW, George J.
+05/25/2016 02:02:19 PM [INFO] Journal title: Down-Regulation of AKT Signalling by Ursolic Acid Induces Intrinsic Apoptosis and Sensitization to Doxorubicin in Soft Tissue Sarcoma.
+05/25/2016 02:02:19 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:19 PM [INFO] PMID: 27219337
+05/25/2016 02:02:19 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:19 PM [INFO] Authors: Villar VH, Vögler O, Barceló F, Martín-Broto J, Martínez-Serra J, Ruiz-Gutiérrez V, Alemany R.
+05/25/2016 02:02:20 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155800. doi: 10.1371/journal.pone.0155800. eCollection 2016.
+05/25/2016 02:02:20 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:20 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219517
+05/25/2016 02:02:20 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:20 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:20 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155946. doi: 10.1371/journal.pone.0155946. eCollection 2016.
+05/25/2016 02:02:20 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219337
+05/25/2016 02:02:20 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:20 PM [INFO] Report page loaded
+05/25/2016 02:02:20 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156298
+05/25/2016 02:02:20 PM [INFO] Result number: 34
+05/25/2016 02:02:20 PM [INFO] Journal title: Ani9, A Novel Potent Small-Molecule ANO1 Inhibitor with Negligible Effect on ANO2.
+05/25/2016 02:02:20 PM [INFO] PMID: 27219012
+05/25/2016 02:02:20 PM [INFO] Authors: Seo Y, Lee HK, Park J, Jeon DK, Jo S, Jo M, Namkung W.
+05/25/2016 02:02:20 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:20 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:20 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155771. doi: 10.1371/journal.pone.0155771. eCollection 2016.
+05/25/2016 02:02:20 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219012
+05/25/2016 02:02:20 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:21 PM [INFO] Report page loaded
+05/25/2016 02:02:21 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155946
+05/25/2016 02:02:21 PM [INFO] Result number: 18
+05/25/2016 02:02:21 PM [INFO] Journal title: Cytokine and Chemokine Expression in Kidneys during Chronic Leptospirosis in Reservoir and Susceptible Animal Models.
+05/25/2016 02:02:21 PM [INFO] PMID: 27219334
+05/25/2016 02:02:21 PM [INFO] Authors: Matsui M, Roche L, Geroult S, Soupé-Gilbert ME, Monchy D, Huerre M, Goarant C.
+05/25/2016 02:02:21 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:21 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:21 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156084. doi: 10.1371/journal.pone.0156084. eCollection 2016.
+05/25/2016 02:02:21 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219334
+05/25/2016 02:02:21 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:21 PM [INFO] Report page loaded
+05/25/2016 02:02:21 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155771
+05/25/2016 02:02:21 PM [INFO] Result number: 35
+05/25/2016 02:02:21 PM [INFO] Journal title: Pigment Epithelium-Derived Factor Mediates Autophagy and Apoptosis in Myocardial Hypoxia/Reoxygenation Injury.
+05/25/2016 02:02:21 PM [INFO] PMID: 27219009
+05/25/2016 02:02:21 PM [INFO] Authors: Kuo HF, Liu PL, Chong IW, Liu YP, Chen YH, Ku PM, Li CY, Chen HH, Chiang HC, Wang CL, Chen HJ, Chen YC, Hsieh CC.
+05/25/2016 02:02:21 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:21 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:21 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156059. doi: 10.1371/journal.pone.0156059. eCollection 2016.
+05/25/2016 02:02:21 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219009
+05/25/2016 02:02:21 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:22 PM [INFO] Report page loaded
+05/25/2016 02:02:22 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156084
+05/25/2016 02:02:22 PM [INFO] Report page loaded
+05/25/2016 02:02:22 PM [INFO] Result number: 19
+05/25/2016 02:02:22 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155800
+05/25/2016 02:02:22 PM [INFO] Journal title: Can Native T1 Mapping Differentiate between Healthy and Diffuse Diseased Myocardium in Clinical Routine Cardiac MR Imaging?
+05/25/2016 02:02:22 PM [INFO] Result number: 9
+05/25/2016 02:02:22 PM [INFO] PMID: 27219329
+05/25/2016 02:02:22 PM [INFO] Journal title: Correction: Relative Importance and Additive Effects of Maternal and Infant Risk Factors on Childhood Asthma.
+05/25/2016 02:02:22 PM [INFO] Report page loaded
+05/25/2016 02:02:22 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156059
+05/25/2016 02:02:22 PM [INFO] Authors: Goebel J, Seifert I, Nensa F, Schemuth HP, Maderwald S, Quick HH, Schlosser T, Jensen C, Bruder O, Nassenstein K.
+05/25/2016 02:02:22 PM [INFO] PMID: 27219510
+05/25/2016 02:02:22 PM [INFO] Result number: 36
+05/25/2016 02:02:22 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:22 PM [INFO] Authors: Wu P, Feldman AS, Rosas-Salazar C, James K, Escobar G, Gebretsadik T, Li SX, Carroll KN, Walsh E, Mitchel E, Das S, Kumar R, Yu C, Dupont WD, Hartert TV.
+05/25/2016 02:02:23 PM [INFO] Journal title: CTCF and CohesinSA-1 Mark Active Promoters and Boundaries of Repressive Chromatin Domains in Primary Human Erythroid Cells.
+05/25/2016 02:02:23 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:23 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:23 PM [INFO] PMID: 27219007
+05/25/2016 02:02:23 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155591. doi: 10.1371/journal.pone.0155591. eCollection 2016.
+05/25/2016 02:02:23 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:23 PM [INFO] Authors: Steiner LA, Schulz V, Makismova Y, Lezon-Geyda K, Gallagher PG.
+05/25/2016 02:02:23 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219329
+05/25/2016 02:02:23 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:23 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156473. doi: 10.1371/journal.pone.0156473. eCollection 2016.
+05/25/2016 02:02:23 PM [INFO] Report page loaded
+05/25/2016 02:02:23 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155911
+05/25/2016 02:02:23 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:23 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219510
+05/25/2016 02:02:23 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:23 PM [INFO] Result number: 45
+05/25/2016 02:02:23 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:23 PM [INFO] Journal title: Developmentally Sensitive Interaction Effects of Genes and the Social Environment on Total and Subcortical Brain Volumes.
+05/25/2016 02:02:23 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155378. doi: 10.1371/journal.pone.0155378. eCollection 2016.
+05/25/2016 02:02:23 PM [INFO] PMID: 27218681
+05/25/2016 02:02:23 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219007
+05/25/2016 02:02:23 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:23 PM [INFO] Authors: Richards JS, Arias Vásquez A, Franke B, Hoekstra PJ, Heslenfeld DJ, Oosterlaan J, Faraone SV, Buitelaar JK, Hartman CA.
+05/25/2016 02:02:23 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:23 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:23 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155755. doi: 10.1371/journal.pone.0155755. eCollection 2016.
+05/25/2016 02:02:23 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218681
+05/25/2016 02:02:23 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:23 PM [INFO] Report page loaded
+05/25/2016 02:02:23 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155591
+05/25/2016 02:02:23 PM [INFO] Result number: 20
+05/25/2016 02:02:23 PM [INFO] Report page loaded
+05/25/2016 02:02:23 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156473
+05/25/2016 02:02:23 PM [INFO] Journal title: Palmitoylethanolamide Modulates Inflammation-Associated Vascular Endothelial Growth Factor (VEGF) Signaling via the Akt/mTOR Pathway in a Selective Peroxisome Proliferator-Activated Receptor Alpha (PPAR-α)-Dependent Manner.
+05/25/2016 02:02:24 PM [INFO] Result number: 10
+05/25/2016 02:02:24 PM [INFO] PMID: 27219328
+05/25/2016 02:02:24 PM [INFO] Journal title: Inhibition in the Human Auditory Cortex.
+05/25/2016 02:02:24 PM [INFO] Authors: Sarnelli G, D'Alessandro A, Iuvone T, Capoccia E, Gigli S, Pesce M, Seguella L, Nobile N, Aprea G, Maione F, de Palma GD, Cuomo R, Steardo L, Esposito G.
+05/25/2016 02:02:24 PM [INFO] PMID: 27219470
+05/25/2016 02:02:24 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:24 PM [INFO] Authors: Inui K, Nakagawa K, Nishihara M, Motomura E, Kakigi R.
+05/25/2016 02:02:24 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:24 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:24 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156198. doi: 10.1371/journal.pone.0156198. eCollection 2016.
+05/25/2016 02:02:24 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:24 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219328
+05/25/2016 02:02:24 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:24 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155972. doi: 10.1371/journal.pone.0155972. eCollection 2016.
+05/25/2016 02:02:24 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219470
+05/25/2016 02:02:24 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:25 PM [INFO] Report page loaded
+05/25/2016 02:02:25 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155378
+05/25/2016 02:02:25 PM [INFO] Report page loaded
+05/25/2016 02:02:25 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155755
+05/25/2016 02:02:25 PM [INFO] Result number: 37
+05/25/2016 02:02:25 PM [INFO] Result number: 46
+05/25/2016 02:02:25 PM [INFO] Journal title: HIV Incidence and Predictors of Incident HIV among Men Who Have Sex with Men Attending a Sexual Health Clinic in Melbourne, Australia.
+05/25/2016 02:02:25 PM [INFO] Journal title: In Vivo Pharmacokinetics/Pharmacodynamics of Cefquinome in an Experimental Mouse Model of Staphylococcus Aureus Mastitis following Intramammary Infusion.
+05/25/2016 02:02:25 PM [INFO] PMID: 27219005
+05/25/2016 02:02:25 PM [INFO] PMID: 27218674
+05/25/2016 02:02:25 PM [INFO] Authors: Cheung KT, Fairley CK, Read TR, Denham I, Fehler G, Bradshaw CS, Chen MY, Chow EP.
+05/25/2016 02:02:25 PM [INFO] Authors: Yu Y, Zhou YF, Chen MR, Li X, Qiao GL, Sun J, Liao XP, Liu YH.
+05/25/2016 02:02:25 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:25 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:25 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:25 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:25 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156160. doi: 10.1371/journal.pone.0156160. eCollection 2016.
+05/25/2016 02:02:25 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156273. doi: 10.1371/journal.pone.0156273. eCollection 2016.
+05/25/2016 02:02:25 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219005
+05/25/2016 02:02:25 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:25 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218674
+05/25/2016 02:02:25 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:25 PM [INFO] Report page loaded
+05/25/2016 02:02:25 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155972
+05/25/2016 02:02:25 PM [INFO] Result number: 11
+05/25/2016 02:02:25 PM [INFO] Journal title: Antibody and Cytokine Responses of Koalas (Phascolarctos cinereus) Vaccinated with Recombinant Chlamydial Major Outer Membrane Protein (MOMP) with Two Different Adjuvants.
+05/25/2016 02:02:25 PM [INFO] PMID: 27219467
+05/25/2016 02:02:25 PM [INFO] Authors: Khan SA, Desclozeaux M, Waugh C, Hanger J, Loader J, Gerdts V, Potter A, Polkinghorne A, Beagley K, Timms P.
+05/25/2016 02:02:25 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:25 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:25 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156094. doi: 10.1371/journal.pone.0156094. eCollection 2016.
+05/25/2016 02:02:25 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219467
+05/25/2016 02:02:25 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:26 PM [INFO] Report page loaded
+05/25/2016 02:02:26 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156160
+05/25/2016 02:02:26 PM [INFO] Report page loaded
+05/25/2016 02:02:26 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156273
+05/25/2016 02:02:26 PM [INFO] Result number: 38
+05/25/2016 02:02:26 PM [INFO] Result number: 47
+05/25/2016 02:02:26 PM [INFO] Journal title: Clinical and Molecular Epidemiology of Multidrug-Resistant P. aeruginosa Carrying aac(6')-Ib-cr, qnrS1 and blaSPM Genes in Brazil.
+05/25/2016 02:02:26 PM [INFO] Journal title: Nation Binding: How Public Service Broadcasting Mitigates Political Selective Exposure.
+05/25/2016 02:02:26 PM [INFO] PMID: 27219003
+05/25/2016 02:02:26 PM [INFO] PMID: 27218659
+05/25/2016 02:02:26 PM [INFO] Authors: Araujo BF, Ferreira ML, Campos PA, Royer S, Batistão DW, Dantas RC, Gonçalves IR, Faria AL, Brito CS, Yokosawa J, Gontijo-Filho PP, Ribas RM.
+05/25/2016 02:02:26 PM [INFO] Authors: Bos L, Kruikemeier S, de Vreese C.
+05/25/2016 02:02:26 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:26 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:26 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:26 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:26 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155914. doi: 10.1371/journal.pone.0155914. eCollection 2016.
+05/25/2016 02:02:26 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155112. doi: 10.1371/journal.pone.0155112. eCollection 2016.
+05/25/2016 02:02:26 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219003
+05/25/2016 02:02:26 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:26 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218659
+05/25/2016 02:02:26 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:27 PM [INFO] Report page loaded
+05/25/2016 02:02:27 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156094
+05/25/2016 02:02:27 PM [INFO] Report page loaded
+05/25/2016 02:02:27 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155112
+05/25/2016 02:02:28 PM [INFO] Result number: 12
+05/25/2016 02:02:28 PM [INFO] Result number: 48
+05/25/2016 02:02:28 PM [INFO] Journal title: How Does National Scientific Funding Support Emerging Interdisciplinary Research: A Comparison Study of Big Data Research in the US and China.
+05/25/2016 02:02:28 PM [INFO] Journal title: Deepwater Chondrichthyan Bycatch of the Eastern King Prawn Fishery in the Southern Great Barrier Reef, Australia.
+05/25/2016 02:02:28 PM [INFO] PMID: 27219466
+05/25/2016 02:02:28 PM [INFO] PMID: 27218654
+05/25/2016 02:02:28 PM [INFO] Authors: Huang Y, Zhang Y, Youtie J, Porter AL, Wang X.
+05/25/2016 02:02:28 PM [INFO] Authors: Rigby CL, White WT, Simpfendorfer CA.
+05/25/2016 02:02:28 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:28 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:28 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:28 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:28 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0154509. doi: 10.1371/journal.pone.0154509. eCollection 2016.
+05/25/2016 02:02:28 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156036. doi: 10.1371/journal.pone.0156036. eCollection 2016.
+05/25/2016 02:02:28 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219466
+05/25/2016 02:02:28 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:28 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218654
+05/25/2016 02:02:28 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:29 PM [INFO] Report page loaded
+05/25/2016 02:02:29 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156198
+05/25/2016 02:02:29 PM [INFO] Result number: 21
+05/25/2016 02:02:29 PM [INFO] Journal title: Intermediate-Range Migration Furnishes a Narrow Margin of Efficiency in the Two-Strategy Competition.
+05/25/2016 02:02:29 PM [INFO] PMID: 27219327
+05/25/2016 02:02:29 PM [INFO] Authors: Zhang Y, Su Q, Sun C.
+05/25/2016 02:02:29 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:30 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:30 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155787. doi: 10.1371/journal.pone.0155787. eCollection 2016.
+05/25/2016 02:02:30 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219327
+05/25/2016 02:02:30 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:30 PM [INFO] Report page loaded
+05/25/2016 02:02:30 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155914
+05/25/2016 02:02:30 PM [INFO] Result number: 39
+05/25/2016 02:02:30 PM [INFO] Journal title: A Comparison of the Cheater Detection and the Unrelated Question Models: A Randomized Response Survey on Physical and Cognitive Doping in Recreational Triathletes.
+05/25/2016 02:02:30 PM [INFO] PMID: 27218830
+05/25/2016 02:02:30 PM [INFO] Authors: Schröter H, Studzinski B, Dietz P, Ulrich R, Striegel H, Simon P.
+05/25/2016 02:02:30 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:30 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:30 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155765. doi: 10.1371/journal.pone.0155765. eCollection 2016.
+05/25/2016 02:02:30 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218830
+05/25/2016 02:02:30 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:30 PM [INFO] Report page loaded
+05/25/2016 02:02:30 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156036
+05/25/2016 02:02:30 PM [INFO] Result number: 49
+05/25/2016 02:02:30 PM [INFO] Journal title: The Effect of Seasonal Ambient Temperatures on Fire-Stimulated Germination of Species with Physiological Dormancy: A Case Study Using Boronia (Rutaceae).
+05/25/2016 02:02:30 PM [INFO] PMID: 27218652
+05/25/2016 02:02:30 PM [INFO] Authors: Mackenzie BD, Auld TD, Keith DA, Hui FK, Ooi MK.
+05/25/2016 02:02:30 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:30 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:30 PM [INFO] Report page loaded
+05/25/2016 02:02:30 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155787
+05/25/2016 02:02:30 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156142. doi: 10.1371/journal.pone.0156142. eCollection 2016.
+05/25/2016 02:02:30 PM [INFO] Result number: 22
+05/25/2016 02:02:30 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218652
+05/25/2016 02:02:30 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:30 PM [INFO] Journal title: Correction: Impact on Patients' Treatment Outcomes of XpertMTB/RIF Implementation for the Diagnosis of Tuberculosis: Follow-Up of a Stepped-Wedge Randomized Clinical Trial.
+05/25/2016 02:02:30 PM [INFO] PMID: 27219325
+05/25/2016 02:02:30 PM [INFO] Authors: Trajman A, Durovni B, Saraceni V, Menezes A, Cordeiro-Santos M, Cobelens F, Van den Hof S.
+05/25/2016 02:02:31 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:31 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:31 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156471. doi: 10.1371/journal.pone.0156471. eCollection 2016.
+05/25/2016 02:02:31 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219325
+05/25/2016 02:02:31 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:31 PM [INFO] Report page loaded
+05/25/2016 02:02:31 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155765
+05/25/2016 02:02:31 PM [INFO] Result number: 53
+05/25/2016 02:02:31 PM [INFO] Journal title: Association between Daily Hydrogen Sulfide Exposure and Incidence of Emergency Hospital Visits: A Population-Based Study.
+05/25/2016 02:02:31 PM [INFO] PMID: 27218467
+05/25/2016 02:02:31 PM [INFO] Authors: Finnbjornsdottir RG, Carlsen HK, Thorsteinsson T, Oudin A, Lund SH, Gislason T, Rafnsson V.
+05/25/2016 02:02:31 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:31 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:31 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0154946. doi: 10.1371/journal.pone.0154946. eCollection 2016.
+05/25/2016 02:02:31 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218467
+05/25/2016 02:02:31 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:32 PM [INFO] Report page loaded
+05/25/2016 02:02:32 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156142
+05/25/2016 02:02:32 PM [INFO] Result number: 50
+05/25/2016 02:02:32 PM [INFO] Journal title: MHD Flow and Heat Transfer between Coaxial Rotating Stretchable Disks in a Thermally Stratified Medium.
+05/25/2016 02:02:32 PM [INFO] PMID: 27218651
+05/25/2016 02:02:32 PM [INFO] Report page loaded
+05/25/2016 02:02:32 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0154509
+05/25/2016 02:02:32 PM [INFO] Authors: Hayat T, Qayyum S, Imtiaz M, Alsaedi A.
+05/25/2016 02:02:32 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:32 PM [INFO] Result number: 13
+05/25/2016 02:02:32 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:32 PM [INFO] Journal title: Identifying Lesbian, Gay, Bisexual, and Transgender Search Terminology: A Systematic Review of Health Systematic Reviews.
+05/25/2016 02:02:32 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155899. doi: 10.1371/journal.pone.0155899. eCollection 2016.
+05/25/2016 02:02:32 PM [INFO] PMID: 27219460
+05/25/2016 02:02:32 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218651
+05/25/2016 02:02:32 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:32 PM [INFO] Authors: Lee JG, Ylioja T, Lackey M.
+05/25/2016 02:02:32 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:32 PM [INFO] Report page loaded
+05/25/2016 02:02:32 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156471
+05/25/2016 02:02:32 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:32 PM [INFO] Result number: 23
+05/25/2016 02:02:32 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156210. doi: 10.1371/journal.pone.0156210. eCollection 2016.
+05/25/2016 02:02:32 PM [INFO] Journal title: Small Molecule DFPM Derivative-Activated Plant Resistance Protein Signaling in Roots Is Unaffected by EDS1 Subcellular Targeting Signal and Chemical Genetic Isolation of victr R-Protein Mutants.
+05/25/2016 02:02:32 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219460
+05/25/2016 02:02:32 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:32 PM [INFO] PMID: 27219122
+05/25/2016 02:02:32 PM [INFO] Authors: Kunz HH, Park J, Mevers E, García AV, Highhouse S, Gerwick WH, Parker JE, Schroeder JI.
+05/25/2016 02:02:32 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:32 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:32 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155937. doi: 10.1371/journal.pone.0155937. eCollection 2016.
+05/25/2016 02:02:32 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219122
+05/25/2016 02:02:32 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:32 PM [INFO] Report page loaded
+05/25/2016 02:02:32 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0154946
+05/25/2016 02:02:33 PM [INFO] Result number: 54
+05/25/2016 02:02:33 PM [INFO] Journal title: Functional Assessment of Corticospinal System Excitability in Karate Athletes.
+05/25/2016 02:02:33 PM [INFO] PMID: 27218465
+05/25/2016 02:02:33 PM [INFO] Authors: Moscatelli F, Messina G, Valenzano A, Monda V, Viggiano A, Messina A, Petito A, Triggiani AI, Ciliberti MA, Monda M, Capranica L, Cibelli G.
+05/25/2016 02:02:33 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:33 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:33 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155998. doi: 10.1371/journal.pone.0155998. eCollection 2016.
+05/25/2016 02:02:33 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218465
+05/25/2016 02:02:33 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:33 PM [INFO] Report page loaded
+05/25/2016 02:02:33 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155899
+05/25/2016 02:02:33 PM [INFO] Result number: 51
+05/25/2016 02:02:33 PM [INFO] Journal title: Construction and Experimental Validation of a Petri Net Model of Wnt/β-Catenin Signaling.
+05/25/2016 02:02:33 PM [INFO] PMID: 27218469
+05/25/2016 02:02:33 PM [INFO] Authors: Jacobsen A, Heijmans N, Verkaar F, Smit MJ, Heringa J, van Amerongen R, Feenstra KA.
+05/25/2016 02:02:33 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:33 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:33 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155743. doi: 10.1371/journal.pone.0155743. eCollection 2016.
+05/25/2016 02:02:33 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218469
+05/25/2016 02:02:33 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:33 PM [INFO] Report page loaded
+05/25/2016 02:02:33 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155998
+05/25/2016 02:02:34 PM [INFO] Result number: 55
+05/25/2016 02:02:34 PM [INFO] Journal title: Prediction and Quantification of Splice Events from RNA-Seq Data.
+05/25/2016 02:02:34 PM [INFO] PMID: 27218464
+05/25/2016 02:02:34 PM [INFO] Authors: Goldstein LD, Cao Y, Pau G, Lawrence M, Wu TD, Seshagiri S, Gentleman R.
+05/25/2016 02:02:34 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:34 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:34 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156132. doi: 10.1371/journal.pone.0156132. eCollection 2016.
+05/25/2016 02:02:34 PM [INFO] Report page loaded
+05/25/2016 02:02:34 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218464
+05/25/2016 02:02:34 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156210
+05/25/2016 02:02:34 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:34 PM [INFO] Result number: 66
+05/25/2016 02:02:34 PM [INFO] Journal title: Identification and Initial Characterization of Prophages in Vibrio campbellii.
+05/25/2016 02:02:34 PM [INFO] PMID: 27214518
+05/25/2016 02:02:34 PM [INFO] Authors: Lorenz N, Reiger M, Toro-Nahuelpan M, Brachmann A, Poettinger L, Plener L, Lassak J, Jung K.
+05/25/2016 02:02:34 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:34 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:34 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0156010. doi: 10.1371/journal.pone.0156010. eCollection 2016.
+05/25/2016 02:02:34 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214518
+05/25/2016 02:02:34 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:35 PM [INFO] Report page loaded
+05/25/2016 02:02:35 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155743
+05/25/2016 02:02:35 PM [INFO] Result number: 52
+05/25/2016 02:02:35 PM [INFO] Report page loaded
+05/25/2016 02:02:35 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156132
+05/25/2016 02:02:35 PM [INFO] Journal title: Spreading Effect in Industrial Complex Network Based on Revised Structural Holes Theory.
+05/25/2016 02:02:35 PM [INFO] Result number: 56
+05/25/2016 02:02:35 PM [INFO] PMID: 27218468
+05/25/2016 02:02:35 PM [INFO] Journal title: Epothilones Suppress Neointimal Thickening in the Rat Carotid Balloon-Injury Model by Inducing Vascular Smooth Muscle Cell Apoptosis through p53-Dependent Signaling Pathway.
+05/25/2016 02:02:35 PM [INFO] Authors: Xing L, Ye Q, Guan J.
+05/25/2016 02:02:35 PM [INFO] PMID: 27218463
+05/25/2016 02:02:35 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:35 PM [INFO] Authors: Son DJ, Jung JC, Hong JT.
+05/25/2016 02:02:35 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:35 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:35 PM [INFO] Report page loaded
+05/25/2016 02:02:35 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156270. doi: 10.1371/journal.pone.0156270. eCollection 2016.
+05/25/2016 02:02:35 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156010
+05/25/2016 02:02:35 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:35 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218468
+05/25/2016 02:02:35 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:35 PM [INFO] Result number: 67
+05/25/2016 02:02:35 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155859. doi: 10.1371/journal.pone.0155859. eCollection 2016.
+05/25/2016 02:02:35 PM [INFO] Journal title: Brain Temperature in Spontaneously Hypertensive Rats during Physical Exercise in Temperate and Warm Environments.
+05/25/2016 02:02:35 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218463
+05/25/2016 02:02:35 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:35 PM [INFO] PMID: 27214497
+05/25/2016 02:02:35 PM [INFO] Authors: Drummond LR, Kunstetter AC, Vaz FF, Campos HO, Andrade AG, Coimbra CC, Natali AJ, Wanner SP, Prímola-Gomes TN.
+05/25/2016 02:02:35 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:35 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:35 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0155919. doi: 10.1371/journal.pone.0155919. eCollection 2016.
+05/25/2016 02:02:35 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214497
+05/25/2016 02:02:35 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:36 PM [INFO] Report page loaded
+05/25/2016 02:02:36 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155937
+05/25/2016 02:02:36 PM [INFO] Result number: 24
+05/25/2016 02:02:36 PM [INFO] Report page loaded
+05/25/2016 02:02:36 PM [INFO] Journal title: Climate Change and Maize Yield in Iowa.
+05/25/2016 02:02:36 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155859
+05/25/2016 02:02:36 PM [INFO] PMID: 27219116
+05/25/2016 02:02:36 PM [INFO] Report page loaded
+05/25/2016 02:02:36 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156270
+05/25/2016 02:02:36 PM [INFO] Result number: 57
+05/25/2016 02:02:36 PM [INFO] Report page loaded
+05/25/2016 02:02:36 PM [INFO] Authors: Xu H, Twine TE, Girvetz E.
+05/25/2016 02:02:36 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155919
+05/25/2016 02:02:36 PM [INFO] Journal title: Correction: Associations of ACE Gene Insertion/Deletion Polymorphism, ACE Activity, and ACE mRNA Expression with Hypertension in a Chinese Population.
+05/25/2016 02:02:36 PM [INFO] Result number: 79
+05/25/2016 02:02:36 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:36 PM [INFO] Result number: 68
+05/25/2016 02:02:36 PM [INFO] PMID: 27218462
+05/25/2016 02:02:36 PM [INFO] Journal title: Imposed Optical Defocus Induces Isoform-Specific Up-Regulation of TGFβ Gene Expression in Chick Retinal Pigment Epithelium and Choroid but Not Neural Retina.
+05/25/2016 02:02:36 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:36 PM [INFO] Journal title: Social and Physical Environmental Factors Influencing Adolescents' Physical Activity in Urban Public Open Spaces: A Qualitative Study Using Walk-Along Interviews.
+05/25/2016 02:02:36 PM [INFO] Authors: He Q, Fan C, Yu M, Wallar G, Zhang ZF, Wang L, Zhang X, Hu R.
+05/25/2016 02:02:36 PM [INFO] PMID: 27214233
+05/25/2016 02:02:37 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156083. doi: 10.1371/journal.pone.0156083. eCollection 2016.
+05/25/2016 02:02:37 PM [INFO] PMID: 27214385
+05/25/2016 02:02:37 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:37 PM [INFO] Authors: Zhang Y, Raychaudhuri S, Wildsoet CF.
+05/25/2016 02:02:37 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219116
+05/25/2016 02:02:37 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:37 PM [INFO] Authors: Van Hecke L, Deforche B, Van Dyck D, De Bourdeaudhuij I, Veitch J, Van Cauwenberg J.
+05/25/2016 02:02:37 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:37 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:37 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:37 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156564. doi: 10.1371/journal.pone.0156564. eCollection 2016.
+05/25/2016 02:02:37 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:37 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:37 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218462
+05/25/2016 02:02:37 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:37 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0155356. doi: 10.1371/journal.pone.0155356. eCollection 2016.
+05/25/2016 02:02:37 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0155686. doi: 10.1371/journal.pone.0155686. eCollection 2016.
+05/25/2016 02:02:37 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214233
+05/25/2016 02:02:37 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:37 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214385
+05/25/2016 02:02:37 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:38 PM [INFO] Report page loaded
+05/25/2016 02:02:38 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155686
+05/25/2016 02:02:38 PM [INFO] Result number: 69
+05/25/2016 02:02:38 PM [INFO] Journal title: IL-4 Causes Hyperpermeability of Vascular Endothelial Cells through Wnt5A Signaling.
+05/25/2016 02:02:38 PM [INFO] PMID: 27214384
+05/25/2016 02:02:38 PM [INFO] Authors: Skaria T, Burgener J, Bachli E, Schoedon G.
+05/25/2016 02:02:38 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:38 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:38 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0156002. doi: 10.1371/journal.pone.0156002. eCollection 2016.
+05/25/2016 02:02:38 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214384
+05/25/2016 02:02:38 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:39 PM [INFO] Report page loaded
+05/25/2016 02:02:39 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155356
+05/25/2016 02:02:39 PM [INFO] Result number: 80
+05/25/2016 02:02:39 PM [INFO] Journal title: Correction: Correlative Gene Expression to Protective Seroconversion In Rift Valley Vaccinates.
+05/25/2016 02:02:39 PM [INFO] PMID: 27214231
+05/25/2016 02:02:39 PM [INFO] Authors: Laughin RC, Drake KL, Morrill JC, Adams LG.
+05/25/2016 02:02:39 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:39 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:39 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0156469. doi: 10.1371/journal.pone.0156469. eCollection 2016.
+05/25/2016 02:02:39 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214231
+05/25/2016 02:02:40 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:41 PM [INFO] Report page loaded
+05/25/2016 02:02:41 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156083
+05/25/2016 02:02:41 PM [INFO] Result number: 25
+05/25/2016 02:02:41 PM [INFO] Journal title: Influence of the Oil Phase and Topical Formulation on the Wound Healing Ability of a Birch Bark Dry Extract.
+05/25/2016 02:02:41 PM [INFO] PMID: 27219110
+05/25/2016 02:02:41 PM [INFO] Report page loaded
+05/25/2016 02:02:41 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156002
+05/25/2016 02:02:41 PM [INFO] Authors: Steinbrenner I, Houdek P, Pollok S, Brandner JM, Daniels R.
+05/25/2016 02:02:41 PM [INFO] Report page loaded
+05/25/2016 02:02:41 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156564
+05/25/2016 02:02:41 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:41 PM [INFO] Result number: 70
+05/25/2016 02:02:41 PM [INFO] Result number: 58
+05/25/2016 02:02:41 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:41 PM [INFO] Journal title: Wnt Pathway Stabilizes MeCP2 Protein to Repress PPAR-γ in Activation of Hepatic Stellate Cells.
+05/25/2016 02:02:41 PM [INFO] Journal title: Potential Connectivity of Coldwater Black Coral Communities in the Northern Gulf of Mexico.
+05/25/2016 02:02:41 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0155582. doi: 10.1371/journal.pone.0155582. eCollection 2016.
+05/25/2016 02:02:41 PM [INFO] PMID: 27214381
+05/25/2016 02:02:41 PM [INFO] PMID: 27218260
+05/25/2016 02:02:41 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27219110
+05/25/2016 02:02:41 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:41 PM [INFO] Authors: Kweon SM, Chi F, Higashiyama R, Lai K, Tsukamoto H.
+05/25/2016 02:02:41 PM [INFO] Authors: Cardona Y, Ruiz-Ramos DV, Baums IB, Bracco A.
+05/25/2016 02:02:41 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:41 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:41 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:41 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:41 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0156111. doi: 10.1371/journal.pone.0156111. eCollection 2016.
+05/25/2016 02:02:41 PM [INFO] Citation: PLoS One. 2016 May 24;11(5):e0156257. doi: 10.1371/journal.pone.0156257. eCollection 2016.
+05/25/2016 02:02:41 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27214381
+05/25/2016 02:02:41 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:41 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27218260
+05/25/2016 02:02:41 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156469
+05/25/2016 02:02:42 PM [INFO] Result number: 81
+05/25/2016 02:02:42 PM [INFO] Journal title: Comparative Profiling of microRNA Expression in Soybean Seeds from Genetically Modified Plants and their Near-Isogenic Parental Lines.
+05/25/2016 02:02:42 PM [INFO] PMID: 27214227
+05/25/2016 02:02:42 PM [INFO] Authors: Wang Y, Lan Q, Zhao X, Xu W, Li F, Wang Q, Chen R.
+05/25/2016 02:02:42 PM [INFO] Full journal name: PloS one
+05/25/2016 02:02:42 PM [INFO] Short journal name: PLoS One
+05/25/2016 02:02:42 PM [INFO] Citation: PLoS One. 2016 May 23;11(5):e0155896. doi: 10.1371/journal.pone.0155896. eCollection 2016.
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:42 PM [INFO] Website request failed.
+05/25/2016 02:02:42 PM [INFO] Report page loaded
+05/25/2016 02:02:42 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:42 PM [INFO] Result number: Not found
+05/25/2016 02:02:42 PM [INFO] Journal title: Not found
+05/25/2016 02:02:42 PM [INFO] PMID: Not found
+05/25/2016 02:02:42 PM [INFO] Authors: Not found
+05/25/2016 02:02:42 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:42 PM [INFO] Citation: Not found
+05/25/2016 02:02:42 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:43 PM [INFO] Website request failed.
+05/25/2016 02:02:43 PM [INFO] Report page loaded
+05/25/2016 02:02:43 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:43 PM [INFO] Result number: Not found
+05/25/2016 02:02:43 PM [INFO] Journal title: Not found
+05/25/2016 02:02:43 PM [INFO] PMID: Not found
+05/25/2016 02:02:43 PM [INFO] Authors: Not found
+05/25/2016 02:02:43 PM [INFO] Report page loaded
+05/25/2016 02:02:43 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:43 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:43 PM [INFO] Citation: Not found
+05/25/2016 02:02:43 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:43 PM [INFO] Website request failed.
+05/25/2016 02:02:43 PM [INFO] Report page loaded
+05/25/2016 02:02:43 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:43 PM [INFO] Result number: Not found
+05/25/2016 02:02:43 PM [INFO] Journal title: Not found
+05/25/2016 02:02:43 PM [INFO] PMID: Not found
+05/25/2016 02:02:43 PM [INFO] Authors: Not found
+05/25/2016 02:02:43 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:43 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:44 PM [INFO] Citation: Not found
+05/25/2016 02:02:44 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:44 PM [INFO] Website request failed.
+05/25/2016 02:02:44 PM [INFO] Report page loaded
+05/25/2016 02:02:44 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:44 PM [INFO] Result number: Not found
+05/25/2016 02:02:44 PM [INFO] Journal title: Not found
+05/25/2016 02:02:44 PM [INFO] PMID: Not found
+05/25/2016 02:02:44 PM [INFO] Authors: Not found
+05/25/2016 02:02:44 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:44 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:44 PM [INFO] Citation: Not found
+05/25/2016 02:02:44 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:44 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156111
+05/25/2016 02:02:45 PM [INFO] Result number: Not found
+05/25/2016 02:02:45 PM [INFO] Journal title: Not found
+05/25/2016 02:02:45 PM [INFO] Website request failed.
+05/25/2016 02:02:45 PM [INFO] Report page loaded
+05/25/2016 02:02:45 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:45 PM [INFO] PMID: Not found
+05/25/2016 02:02:45 PM [INFO] Result number: Not found
+05/25/2016 02:02:45 PM [INFO] Authors: Not found
+05/25/2016 02:02:45 PM [INFO] Journal title: Not found
+05/25/2016 02:02:45 PM [INFO] PMID: Not found
+05/25/2016 02:02:45 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:45 PM [INFO] Authors: Not found
+05/25/2016 02:02:45 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:45 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:45 PM [INFO] Citation: Not found
+05/25/2016 02:02:45 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:45 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:45 PM [INFO] Citation: Not found
+05/25/2016 02:02:45 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:45 PM [INFO] Website request failed.
+05/25/2016 02:02:45 PM [INFO] Report page loaded
+05/25/2016 02:02:45 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:45 PM [INFO] Result number: Not found
+05/25/2016 02:02:45 PM [INFO] Journal title: Not found
+05/25/2016 02:02:45 PM [INFO] Website request failed.
+05/25/2016 02:02:45 PM [INFO] Report page loaded
+05/25/2016 02:02:45 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:45 PM [INFO] PMID: Not found
+05/25/2016 02:02:45 PM [INFO] Authors: Not found
+05/25/2016 02:02:45 PM [INFO] Result number: Not found
+05/25/2016 02:02:46 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:46 PM [INFO] Journal title: Not found
+05/25/2016 02:02:46 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:46 PM [INFO] PMID: Not found
+05/25/2016 02:02:46 PM [INFO] Citation: Not found
+05/25/2016 02:02:46 PM [INFO] Authors: Not found
+05/25/2016 02:02:46 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:46 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:46 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:46 PM [INFO] Citation: Not found
+05/25/2016 02:02:46 PM [INFO] Website request failed.
+05/25/2016 02:02:46 PM [INFO] Report page loaded
+05/25/2016 02:02:46 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:46 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:46 PM [INFO] Result number: Not found
+05/25/2016 02:02:46 PM [INFO] Report page loaded
+05/25/2016 02:02:46 PM [INFO] Journal title: Not found
+05/25/2016 02:02:46 PM [INFO] Website request failed.
+05/25/2016 02:02:46 PM [INFO] Report page loaded
+05/25/2016 02:02:46 PM [INFO] PMID: Not found
+05/25/2016 02:02:46 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:46 PM [INFO] Authors: Not found
+05/25/2016 02:02:46 PM [INFO] Result number: Not found
+05/25/2016 02:02:46 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:46 PM [INFO] Journal title: Not found
+05/25/2016 02:02:46 PM [INFO] PMID: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0156257
+05/25/2016 02:02:47 PM [INFO] Result number: Not found
+05/25/2016 02:02:47 PM [INFO] Journal title: Not found
+05/25/2016 02:02:47 PM [INFO] PMID: Not found
+05/25/2016 02:02:47 PM [INFO] Authors: Not found
+05/25/2016 02:02:47 PM [INFO] Authors: Not found
+05/25/2016 02:02:47 PM [INFO] Citation: Not found
+05/25/2016 02:02:47 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Citation: Not found
+05/25/2016 02:02:47 PM [INFO] Citation: Not found
+05/25/2016 02:02:47 PM [INFO] Website request failed.
+05/25/2016 02:02:47 PM [INFO] Report page loaded
+05/25/2016 02:02:47 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:47 PM [INFO] Report page loaded
+05/25/2016 02:02:47 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:47 PM [INFO] Website request failed.
+05/25/2016 02:02:47 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:47 PM [INFO] Report page loaded
+05/25/2016 02:02:47 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:47 PM [INFO] Result number: Not found
+05/25/2016 02:02:47 PM [INFO] Result number: Not found
+05/25/2016 02:02:47 PM [INFO] Journal title: Not found
+05/25/2016 02:02:47 PM [INFO] Journal title: Not found
+05/25/2016 02:02:47 PM [INFO] PMID: Not found
+05/25/2016 02:02:47 PM [INFO] Website request failed.
+05/25/2016 02:02:47 PM [INFO] Report page loaded
+05/25/2016 02:02:47 PM [INFO] PMID: Not found
+05/25/2016 02:02:47 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:47 PM [INFO] Authors: Not found
+05/25/2016 02:02:47 PM [INFO] Authors: Not found
+05/25/2016 02:02:47 PM [INFO] Result number: Not found
+05/25/2016 02:02:47 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Journal title: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] PMID: Not found
+05/25/2016 02:02:47 PM [INFO] Citation: Not found
+05/25/2016 02:02:47 PM [INFO] Authors: Not found
+05/25/2016 02:02:47 PM [INFO] Citation: Not found
+05/25/2016 02:02:47 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:47 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:47 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:47 PM [INFO] Link to full text article: http://dx.plos.org/10.1371/journal.pone.0155582
+05/25/2016 02:02:48 PM [INFO] Citation: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:48 PM [INFO] Report page loaded
+05/25/2016 02:02:48 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:48 PM [INFO] Report page loaded
+05/25/2016 02:02:48 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:48 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:48 PM [INFO] Journal title: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] PMID: Not found
+05/25/2016 02:02:48 PM [INFO] Journal title: Not found
+05/25/2016 02:02:48 PM [INFO] Journal title: Not found
+05/25/2016 02:02:48 PM [INFO] Authors: Not found
+05/25/2016 02:02:48 PM [INFO] PMID: Not found
+05/25/2016 02:02:48 PM [INFO] Authors: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:48 PM [INFO] Report page loaded
+05/25/2016 02:02:48 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:48 PM [INFO] PMID: Not found
+05/25/2016 02:02:48 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Authors: Not found
+05/25/2016 02:02:48 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Citation: Not found
+05/25/2016 02:02:48 PM [INFO] Journal title: Not found
+05/25/2016 02:02:48 PM [INFO] Citation: Not found
+05/25/2016 02:02:48 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:48 PM [INFO] PMID: Not found
+05/25/2016 02:02:48 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:48 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:48 PM [INFO] Authors: Not found
+05/25/2016 02:02:48 PM [INFO] Citation: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:48 PM [INFO] Report page loaded
+05/25/2016 02:02:48 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:48 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:48 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:48 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:48 PM [INFO] Report page loaded
+05/25/2016 02:02:48 PM [INFO] Journal title: Not found
+05/25/2016 02:02:48 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:48 PM [INFO] Citation: Not found
+05/25/2016 02:02:48 PM [INFO] PMID: Not found
+05/25/2016 02:02:48 PM [INFO] Result number: Not found
+05/25/2016 02:02:48 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] Citation: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Citation: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Citation: Not found
+05/25/2016 02:02:49 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Citation: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Citation: Not found
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] PMID: Not found
+05/25/2016 02:02:49 PM [INFO] Result number: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Website request failed.
+05/25/2016 02:02:49 PM [INFO] Report page loaded
+05/25/2016 02:02:49 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:49 PM [INFO] Journal title: Not found
+05/25/2016 02:02:49 PM [INFO] Authors: Not found
+05/25/2016 02:02:49 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] PMID: Not found
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Authors: Not found
+05/25/2016 02:02:50 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:50 PM [INFO] PMID: Not found
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:50 PM [INFO] Authors: Not found
+05/25/2016 02:02:50 PM [INFO] Website request failed.
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Report page loaded
+05/25/2016 02:02:50 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Website request failed.
+05/25/2016 02:02:50 PM [INFO] Report page loaded
+05/25/2016 02:02:50 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:50 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:50 PM [INFO] PMID: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Website request failed.
+05/25/2016 02:02:50 PM [INFO] Report page loaded
+05/25/2016 02:02:50 PM [INFO] Authors: Not found
+05/25/2016 02:02:50 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] PMID: Not found
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:50 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:50 PM [INFO] Authors: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Website request failed.
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Report page loaded
+05/25/2016 02:02:50 PM [INFO] Website request failed.
+05/25/2016 02:02:50 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:50 PM [INFO] PMID: Not found
+05/25/2016 02:02:50 PM [INFO] Report page loaded
+05/25/2016 02:02:50 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Result number: Not found
+05/25/2016 02:02:50 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Authors: Not found
+05/25/2016 02:02:50 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Journal title: Not found
+05/25/2016 02:02:50 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Website request failed.
+05/25/2016 02:02:51 PM [INFO] Website request failed.
+05/25/2016 02:02:51 PM [INFO] Report page loaded
+05/25/2016 02:02:51 PM [INFO] Report page loaded
+05/25/2016 02:02:51 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Website request failed.
+05/25/2016 02:02:51 PM [INFO] Report page loaded
+05/25/2016 02:02:51 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Result number: Not found
+05/25/2016 02:02:51 PM [INFO] Result number: Not found
+05/25/2016 02:02:51 PM [INFO] Result number: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Journal title: Not found
+05/25/2016 02:02:51 PM [INFO] Journal title: Not found
+05/25/2016 02:02:51 PM [INFO] Journal title: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] Website request failed.
+05/25/2016 02:02:51 PM [INFO] Report page loaded
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Result number: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Journal title: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] PMID: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Citation: Not found
+05/25/2016 02:02:51 PM [INFO] Authors: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:51 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:51 PM [INFO] Website request failed.
+05/25/2016 02:02:51 PM [INFO] Report page loaded
+05/25/2016 02:02:51 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Citation: Not found
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:52 PM [INFO] Journal title: Not found
+05/25/2016 02:02:52 PM [INFO] Journal title: Not found
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:52 PM [INFO] PMID: Not found
+05/25/2016 02:02:52 PM [INFO] PMID: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Journal title: Not found
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Authors: Not found
+05/25/2016 02:02:52 PM [INFO] Authors: Not found
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:52 PM [INFO] PMID: Not found
+05/25/2016 02:02:52 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Journal title: Not found
+05/25/2016 02:02:52 PM [INFO] Authors: Not found
+05/25/2016 02:02:52 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:52 PM [INFO] PMID: Not found
+05/25/2016 02:02:52 PM [INFO] Citation: Not found
+05/25/2016 02:02:52 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Authors: Not found
+05/25/2016 02:02:52 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:52 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Citation: Not found
+05/25/2016 02:02:52 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Citation: Not found
+05/25/2016 02:02:52 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:52 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:52 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:52 PM [INFO] Citation: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Website request failed.
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Report page loaded
+05/25/2016 02:02:52 PM [INFO] Journal title: Not found
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:52 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Citation: Not found
+05/25/2016 02:02:53 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Citation: Not found
+05/25/2016 02:02:53 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:53 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:53 PM [INFO] Citation: Not found
+05/25/2016 02:02:53 PM [INFO] Citation: Not found
+05/25/2016 02:02:53 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:53 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:53 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:53 PM [INFO] Website request failed.
+05/25/2016 02:02:53 PM [INFO] Website request failed.
+05/25/2016 02:02:53 PM [INFO] Report page loaded
+05/25/2016 02:02:53 PM [INFO] Report page loaded
+05/25/2016 02:02:53 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:53 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] Website request failed.
+05/25/2016 02:02:53 PM [INFO] Report page loaded
+05/25/2016 02:02:53 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] Website request failed.
+05/25/2016 02:02:53 PM [INFO] Report page loaded
+05/25/2016 02:02:53 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Result number: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] Authors: Not found
+05/25/2016 02:02:53 PM [INFO] Journal title: Not found
+05/25/2016 02:02:53 PM [INFO] PMID: Not found
+05/25/2016 02:02:53 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] PMID: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Citation: Not found
+05/25/2016 02:02:54 PM [INFO] Citation: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:54 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Citation: Not found
+05/25/2016 02:02:54 PM [INFO] Citation: Not found
+05/25/2016 02:02:54 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:54 PM [INFO] Website request failed.
+05/25/2016 02:02:54 PM [INFO] Report page loaded
+05/25/2016 02:02:54 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:54 PM [INFO] Website request failed.
+05/25/2016 02:02:54 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:54 PM [INFO] Report page loaded
+05/25/2016 02:02:54 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:54 PM [INFO] Result number: Not found
+05/25/2016 02:02:54 PM [INFO] Result number: Not found
+05/25/2016 02:02:54 PM [INFO] Website request failed.
+05/25/2016 02:02:54 PM [INFO] Report page loaded
+05/25/2016 02:02:54 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:54 PM [INFO] Journal title: Not found
+05/25/2016 02:02:54 PM [INFO] Journal title: Not found
+05/25/2016 02:02:54 PM [INFO] Website request failed.
+05/25/2016 02:02:54 PM [INFO] Report page loaded
+05/25/2016 02:02:54 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:54 PM [INFO] Result number: Not found
+05/25/2016 02:02:54 PM [INFO] PMID: Not found
+05/25/2016 02:02:54 PM [INFO] PMID: Not found
+05/25/2016 02:02:54 PM [INFO] Result number: Not found
+05/25/2016 02:02:54 PM [INFO] Journal title: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] PMID: Not found
+05/25/2016 02:02:54 PM [INFO] Journal title: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] PMID: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Authors: Not found
+05/25/2016 02:02:54 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:54 PM [INFO] Citation: Not found
+05/25/2016 02:02:55 PM [INFO] Citation: Not found
+05/25/2016 02:02:55 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:55 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:55 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Citation: Not found
+05/25/2016 02:02:55 PM [INFO] Citation: Not found
+05/25/2016 02:02:55 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:55 PM [INFO] Website request failed.
+05/25/2016 02:02:55 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:55 PM [INFO] Report page loaded
+05/25/2016 02:02:55 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:55 PM [INFO] Website request failed.
+05/25/2016 02:02:55 PM [INFO] Report page loaded
+05/25/2016 02:02:55 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:55 PM [INFO] Result number: Not found
+05/25/2016 02:02:55 PM [INFO] Website request failed.
+05/25/2016 02:02:55 PM [INFO] Report page loaded
+05/25/2016 02:02:55 PM [INFO] Result number: Not found
+05/25/2016 02:02:55 PM [INFO] Website request failed.
+05/25/2016 02:02:55 PM [INFO] Journal title: Not found
+05/25/2016 02:02:55 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:55 PM [INFO] Report page loaded
+05/25/2016 02:02:55 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:55 PM [INFO] PMID: Not found
+05/25/2016 02:02:55 PM [INFO] Journal title: Not found
+05/25/2016 02:02:55 PM [INFO] Result number: Not found
+05/25/2016 02:02:55 PM [INFO] Result number: Not found
+05/25/2016 02:02:55 PM [INFO] Authors: Not found
+05/25/2016 02:02:55 PM [INFO] PMID: Not found
+05/25/2016 02:02:55 PM [INFO] Journal title: Not found
+05/25/2016 02:02:55 PM [INFO] Journal title: Not found
+05/25/2016 02:02:55 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Authors: Not found
+05/25/2016 02:02:55 PM [INFO] PMID: Not found
+05/25/2016 02:02:55 PM [INFO] PMID: Not found
+05/25/2016 02:02:55 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Authors: Not found
+05/25/2016 02:02:55 PM [INFO] Authors: Not found
+05/25/2016 02:02:55 PM [INFO] Citation: Not found
+05/25/2016 02:02:55 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:55 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:56 PM [INFO] Citation: Not found
+05/25/2016 02:02:56 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:56 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Citation: Not found
+05/25/2016 02:02:56 PM [INFO] Website request failed.
+05/25/2016 02:02:56 PM [INFO] Report page loaded
+05/25/2016 02:02:56 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:56 PM [INFO] Citation: Not found
+05/25/2016 02:02:56 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:56 PM [INFO] Result number: Not found
+05/25/2016 02:02:56 PM [INFO] Website request failed.
+05/25/2016 02:02:56 PM [INFO] Report page loaded
+05/25/2016 02:02:56 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:56 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:56 PM [INFO] Journal title: Not found
+05/25/2016 02:02:56 PM [INFO] Result number: Not found
+05/25/2016 02:02:56 PM [INFO] PMID: Not found
+05/25/2016 02:02:56 PM [INFO] Website request failed.
+05/25/2016 02:02:56 PM [INFO] Report page loaded
+05/25/2016 02:02:56 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:56 PM [INFO] Journal title: Not found
+05/25/2016 02:02:56 PM [INFO] Website request failed.
+05/25/2016 02:02:56 PM [INFO] Authors: Not found
+05/25/2016 02:02:56 PM [INFO] Report page loaded
+05/25/2016 02:02:56 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:56 PM [INFO] PMID: Not found
+05/25/2016 02:02:56 PM [INFO] Result number: Not found
+05/25/2016 02:02:56 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Result number: Not found
+05/25/2016 02:02:56 PM [INFO] Journal title: Not found
+05/25/2016 02:02:56 PM [INFO] Authors: Not found
+05/25/2016 02:02:56 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Journal title: Not found
+05/25/2016 02:02:56 PM [INFO] PMID: Not found
+05/25/2016 02:02:56 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Citation: Not found
+05/25/2016 02:02:56 PM [INFO] PMID: Not found
+05/25/2016 02:02:56 PM [INFO] Authors: Not found
+05/25/2016 02:02:56 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Authors: Not found
+05/25/2016 02:02:56 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:56 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Citation: Not found
+05/25/2016 02:02:56 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:56 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:57 PM [INFO] Citation: Not found
+05/25/2016 02:02:57 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Website request failed.
+05/25/2016 02:02:57 PM [INFO] Report page loaded
+05/25/2016 02:02:57 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:57 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:57 PM [INFO] Citation: Not found
+05/25/2016 02:02:57 PM [INFO] Result number: Not found
+05/25/2016 02:02:57 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:57 PM [INFO] Website request failed.
+05/25/2016 02:02:57 PM [INFO] Report page loaded
+05/25/2016 02:02:57 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:57 PM [INFO] Journal title: Not found
+05/25/2016 02:02:57 PM [INFO] Result number: Not found
+05/25/2016 02:02:57 PM [INFO] PMID: Not found
+05/25/2016 02:02:57 PM [INFO] Website request failed.
+05/25/2016 02:02:57 PM [INFO] Report page loaded
+05/25/2016 02:02:57 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:57 PM [INFO] Journal title: Not found
+05/25/2016 02:02:57 PM [INFO] Website request failed.
+05/25/2016 02:02:57 PM [INFO] Report page loaded
+05/25/2016 02:02:57 PM [INFO] Authors: Not found
+05/25/2016 02:02:57 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:57 PM [INFO] Result number: Not found
+05/25/2016 02:02:57 PM [INFO] PMID: Not found
+05/25/2016 02:02:57 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Result number: Not found
+05/25/2016 02:02:57 PM [INFO] Journal title: Not found
+05/25/2016 02:02:57 PM [INFO] Authors: Not found
+05/25/2016 02:02:57 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Journal title: Not found
+05/25/2016 02:02:57 PM [INFO] PMID: Not found
+05/25/2016 02:02:57 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Citation: Not found
+05/25/2016 02:02:57 PM [INFO] PMID: Not found
+05/25/2016 02:02:57 PM [INFO] Authors: Not found
+05/25/2016 02:02:57 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:57 PM [INFO] Authors: Not found
+05/25/2016 02:02:57 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Citation: Not found
+05/25/2016 02:02:57 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:57 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:57 PM [INFO] Citation: Not found
+05/25/2016 02:02:57 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:58 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:58 PM [INFO] Citation: Not found
+05/25/2016 02:02:58 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Result number: Not found
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:58 PM [INFO] Journal title: Not found
+05/25/2016 02:02:58 PM [INFO] Result number: Not found
+05/25/2016 02:02:58 PM [INFO] PMID: Not found
+05/25/2016 02:02:58 PM [INFO] Journal title: Not found
+05/25/2016 02:02:58 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Authors: Not found
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:58 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:58 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:58 PM [INFO] PMID: Not found
+05/25/2016 02:02:58 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Result number: Not found
+05/25/2016 02:02:58 PM [INFO] Authors: Not found
+05/25/2016 02:02:58 PM [INFO] Result number: Not found
+05/25/2016 02:02:58 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Journal title: Not found
+05/25/2016 02:02:58 PM [INFO] Journal title: Not found
+05/25/2016 02:02:58 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Citation: Not found
+05/25/2016 02:02:58 PM [INFO] PMID: Not found
+05/25/2016 02:02:58 PM [INFO] PMID: Not found
+05/25/2016 02:02:58 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Authors: Not found
+05/25/2016 02:02:58 PM [INFO] Authors: Not found
+05/25/2016 02:02:58 PM [INFO] Citation: Not found
+05/25/2016 02:02:58 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:58 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:58 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:58 PM [INFO] Citation: Not found
+05/25/2016 02:02:58 PM [INFO] Citation: Not found
+05/25/2016 02:02:58 PM [INFO] Result number: Not found
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:58 PM [INFO] Website request failed.
+05/25/2016 02:02:58 PM [INFO] Report page loaded
+05/25/2016 02:02:59 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:59 PM [INFO] Journal title: Not found
+05/25/2016 02:02:59 PM [INFO] Result number: Not found
+05/25/2016 02:02:59 PM [INFO] PMID: Not found
+05/25/2016 02:02:59 PM [INFO] Website request failed.
+05/25/2016 02:02:59 PM [INFO] Authors: Not found
+05/25/2016 02:02:59 PM [INFO] Report page loaded
+05/25/2016 02:02:59 PM [INFO] Journal title: Not found
+05/25/2016 02:02:59 PM [INFO] Website request failed.
+05/25/2016 02:02:59 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:59 PM [INFO] Report page loaded
+05/25/2016 02:02:59 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:59 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:59 PM [INFO] PMID: Not found
+05/25/2016 02:02:59 PM [INFO] Result number: Not found
+05/25/2016 02:02:59 PM [INFO] Result number: Not found
+05/25/2016 02:02:59 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Authors: Not found
+05/25/2016 02:02:59 PM [INFO] Journal title: Not found
+05/25/2016 02:02:59 PM [INFO] Journal title: Not found
+05/25/2016 02:02:59 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Citation: Not found
+05/25/2016 02:02:59 PM [INFO] PMID: Not found
+05/25/2016 02:02:59 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:59 PM [INFO] PMID: Not found
+05/25/2016 02:02:59 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Authors: Not found
+05/25/2016 02:02:59 PM [INFO] Authors: Not found
+05/25/2016 02:02:59 PM [INFO] Citation: Not found
+05/25/2016 02:02:59 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Full journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:59 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Website request failed.
+05/25/2016 02:02:59 PM [INFO] Report page loaded
+05/25/2016 02:02:59 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:59 PM [INFO] Short journal name: Not found
+05/25/2016 02:02:59 PM [INFO] Citation: Not found
+05/25/2016 02:02:59 PM [INFO] Result number: Not found
+05/25/2016 02:02:59 PM [INFO] Citation: Not found
+05/25/2016 02:02:59 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:59 PM [INFO] Loading report page: Not found
+05/25/2016 02:02:59 PM [INFO] Journal title: Not found
+05/25/2016 02:02:59 PM [INFO] Website request failed.
+05/25/2016 02:02:59 PM [INFO] Report page loaded
+05/25/2016 02:02:59 PM [INFO] Link to full text article: Not found
+05/25/2016 02:02:59 PM [INFO] PMID: Not found
+05/25/2016 02:02:59 PM [INFO] Authors: Not found
+05/25/2016 02:02:59 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Journal title: Not found
+05/25/2016 02:03:00 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:00 PM [INFO] PMID: Not found
+05/25/2016 02:03:00 PM [INFO] Journal title: Not found
+05/25/2016 02:03:00 PM [INFO] Journal title: Not found
+05/25/2016 02:03:00 PM [INFO] Citation: Not found
+05/25/2016 02:03:00 PM [INFO] Authors: Not found
+05/25/2016 02:03:00 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:00 PM [INFO] PMID: Not found
+05/25/2016 02:03:00 PM [INFO] PMID: Not found
+05/25/2016 02:03:00 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:00 PM [INFO] Authors: Not found
+05/25/2016 02:03:00 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Authors: Not found
+05/25/2016 02:03:00 PM [INFO] Citation: Not found
+05/25/2016 02:03:00 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:00 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Citation: Not found
+05/25/2016 02:03:00 PM [INFO] Citation: Not found
+05/25/2016 02:03:00 PM [INFO] Journal title: Not found
+05/25/2016 02:03:00 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:00 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] PMID: Not found
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Authors: Not found
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:00 PM [INFO] Website request failed.
+05/25/2016 02:03:00 PM [INFO] Report page loaded
+05/25/2016 02:03:00 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:00 PM [INFO] Journal title: Not found
+05/25/2016 02:03:00 PM [INFO] Result number: Not found
+05/25/2016 02:03:00 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:01 PM [INFO] PMID: Not found
+05/25/2016 02:03:01 PM [INFO] Result number: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] Citation: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] Authors: Not found
+05/25/2016 02:03:01 PM [INFO] PMID: Not found
+05/25/2016 02:03:01 PM [INFO] PMID: Not found
+05/25/2016 02:03:01 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:01 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Authors: Not found
+05/25/2016 02:03:01 PM [INFO] Authors: Not found
+05/25/2016 02:03:01 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Citation: Not found
+05/25/2016 02:03:01 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Website request failed.
+05/25/2016 02:03:01 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Report page loaded
+05/25/2016 02:03:01 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:01 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:01 PM [INFO] Citation: Not found
+05/25/2016 02:03:01 PM [INFO] Citation: Not found
+05/25/2016 02:03:01 PM [INFO] Result number: Not found
+05/25/2016 02:03:01 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:01 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] PMID: Not found
+05/25/2016 02:03:01 PM [INFO] Website request failed.
+05/25/2016 02:03:01 PM [INFO] Report page loaded
+05/25/2016 02:03:01 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:01 PM [INFO] Authors: Not found
+05/25/2016 02:03:01 PM [INFO] Result number: Not found
+05/25/2016 02:03:01 PM [INFO] Website request failed.
+05/25/2016 02:03:01 PM [INFO] Website request failed.
+05/25/2016 02:03:01 PM [INFO] Report page loaded
+05/25/2016 02:03:01 PM [INFO] Report page loaded
+05/25/2016 02:03:01 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:01 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:01 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] Result number: Not found
+05/25/2016 02:03:01 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:01 PM [INFO] Result number: Not found
+05/25/2016 02:03:01 PM [INFO] PMID: Not found
+05/25/2016 02:03:01 PM [INFO] Citation: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] Journal title: Not found
+05/25/2016 02:03:01 PM [INFO] Authors: Not found
+05/25/2016 02:03:02 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:02 PM [INFO] PMID: Not found
+05/25/2016 02:03:02 PM [INFO] PMID: Not found
+05/25/2016 02:03:02 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Authors: Not found
+05/25/2016 02:03:02 PM [INFO] Authors: Not found
+05/25/2016 02:03:02 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Citation: Not found
+05/25/2016 02:03:02 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Website request failed.
+05/25/2016 02:03:02 PM [INFO] Report page loaded
+05/25/2016 02:03:02 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:02 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:02 PM [INFO] Result number: Not found
+05/25/2016 02:03:02 PM [INFO] Citation: Not found
+05/25/2016 02:03:02 PM [INFO] Citation: Not found
+05/25/2016 02:03:02 PM [INFO] Journal title: Not found
+05/25/2016 02:03:02 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:02 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:02 PM [INFO] Website request failed.
+05/25/2016 02:03:02 PM [INFO] Report page loaded
+05/25/2016 02:03:02 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:02 PM [INFO] PMID: Not found
+05/25/2016 02:03:02 PM [INFO] Result number: Not found
+05/25/2016 02:03:02 PM [INFO] Authors: Not found
+05/25/2016 02:03:02 PM [INFO] Journal title: Not found
+05/25/2016 02:03:02 PM [INFO] Website request failed.
+05/25/2016 02:03:02 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Report page loaded
+05/25/2016 02:03:02 PM [INFO] PMID: Not found
+05/25/2016 02:03:02 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:02 PM [INFO] Website request failed.
+05/25/2016 02:03:02 PM [INFO] Authors: Not found
+05/25/2016 02:03:02 PM [INFO] Report page loaded
+05/25/2016 02:03:02 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:02 PM [INFO] Result number: Not found
+05/25/2016 02:03:02 PM [INFO] Citation: Not found
+05/25/2016 02:03:02 PM [INFO] Result number: Not found
+05/25/2016 02:03:02 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:02 PM [INFO] Journal title: Not found
+05/25/2016 02:03:02 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:02 PM [INFO] Citation: Not found
+05/25/2016 02:03:02 PM [INFO] Journal title: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:03 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:03 PM [INFO] Authors: Not found
+05/25/2016 02:03:03 PM [INFO] Authors: Not found
+05/25/2016 02:03:03 PM [INFO] Website request failed.
+05/25/2016 02:03:03 PM [INFO] Report page loaded
+05/25/2016 02:03:03 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:03 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Result number: Not found
+05/25/2016 02:03:03 PM [INFO] Website request failed.
+05/25/2016 02:03:03 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Report page loaded
+05/25/2016 02:03:03 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:03 PM [INFO] Citation: Not found
+05/25/2016 02:03:03 PM [INFO] Journal title: Not found
+05/25/2016 02:03:03 PM [INFO] Citation: Not found
+05/25/2016 02:03:03 PM [INFO] Result number: Not found
+05/25/2016 02:03:03 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:03 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:03 PM [INFO] Journal title: Not found
+05/25/2016 02:03:03 PM [INFO] Authors: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:03 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Authors: Not found
+05/25/2016 02:03:03 PM [INFO] Website request failed.
+05/25/2016 02:03:03 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Report page loaded
+05/25/2016 02:03:03 PM [INFO] Website request failed.
+05/25/2016 02:03:03 PM [INFO] Report page loaded
+05/25/2016 02:03:03 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:03 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:03 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Result number: Not found
+05/25/2016 02:03:03 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:03 PM [INFO] Citation: Not found
+05/25/2016 02:03:03 PM [INFO] Result number: Not found
+05/25/2016 02:03:03 PM [INFO] Journal title: Not found
+05/25/2016 02:03:03 PM [INFO] Citation: Not found
+05/25/2016 02:03:03 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:03 PM [INFO] Journal title: Not found
+05/25/2016 02:03:03 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:03 PM [INFO] PMID: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Website request failed.
+05/25/2016 02:03:04 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Report page loaded
+05/25/2016 02:03:04 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:04 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Website request failed.
+05/25/2016 02:03:04 PM [INFO] Report page loaded
+05/25/2016 02:03:04 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:04 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Result number: Not found
+05/25/2016 02:03:04 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Result number: Not found
+05/25/2016 02:03:04 PM [INFO] Citation: Not found
+05/25/2016 02:03:04 PM [INFO] Citation: Not found
+05/25/2016 02:03:04 PM [INFO] Journal title: Not found
+05/25/2016 02:03:04 PM [INFO] Journal title: Not found
+05/25/2016 02:03:04 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:04 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:04 PM [INFO] PMID: Not found
+05/25/2016 02:03:04 PM [INFO] PMID: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Website request failed.
+05/25/2016 02:03:04 PM [INFO] Website request failed.
+05/25/2016 02:03:04 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Report page loaded
+05/25/2016 02:03:04 PM [INFO] Report page loaded
+05/25/2016 02:03:04 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:04 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:04 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:04 PM [INFO] Result number: Not found
+05/25/2016 02:03:04 PM [INFO] Result number: Not found
+05/25/2016 02:03:04 PM [INFO] Citation: Not found
+05/25/2016 02:03:04 PM [INFO] Citation: Not found
+05/25/2016 02:03:04 PM [INFO] Journal title: Not found
+05/25/2016 02:03:04 PM [INFO] Journal title: Not found
+05/25/2016 02:03:04 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:04 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:04 PM [INFO] PMID: Not found
+05/25/2016 02:03:04 PM [INFO] PMID: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Authors: Not found
+05/25/2016 02:03:04 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Website request failed.
+05/25/2016 02:03:05 PM [INFO] Report page loaded
+05/25/2016 02:03:05 PM [INFO] Website request failed.
+05/25/2016 02:03:05 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:05 PM [INFO] Report page loaded
+05/25/2016 02:03:05 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:05 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Result number: Not found
+05/25/2016 02:03:05 PM [INFO] Result number: Not found
+05/25/2016 02:03:05 PM [INFO] Citation: Not found
+05/25/2016 02:03:05 PM [INFO] Citation: Not found
+05/25/2016 02:03:05 PM [INFO] Journal title: Not found
+05/25/2016 02:03:05 PM [INFO] Journal title: Not found
+05/25/2016 02:03:05 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:05 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:05 PM [INFO] PMID: Not found
+05/25/2016 02:03:05 PM [INFO] PMID: Not found
+05/25/2016 02:03:05 PM [INFO] Authors: Not found
+05/25/2016 02:03:05 PM [INFO] Authors: Not found
+05/25/2016 02:03:05 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Website request failed.
+05/25/2016 02:03:05 PM [INFO] Website request failed.
+05/25/2016 02:03:05 PM [INFO] Report page loaded
+05/25/2016 02:03:05 PM [INFO] Report page loaded
+05/25/2016 02:03:05 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:05 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:05 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:05 PM [INFO] Result number: Not found
+05/25/2016 02:03:05 PM [INFO] Result number: Not found
+05/25/2016 02:03:05 PM [INFO] Citation: Not found
+05/25/2016 02:03:05 PM [INFO] Citation: Not found
+05/25/2016 02:03:05 PM [INFO] Journal title: Not found
+05/25/2016 02:03:05 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:05 PM [INFO] Journal title: Not found
+05/25/2016 02:03:05 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:05 PM [INFO] PMID: Not found
+05/25/2016 02:03:05 PM [INFO] PMID: Not found
+05/25/2016 02:03:05 PM [INFO] Authors: Not found
+05/25/2016 02:03:05 PM [INFO] Authors: Not found
+05/25/2016 02:03:05 PM [INFO] Website request failed.
+05/25/2016 02:03:05 PM [INFO] Report page loaded
+05/25/2016 02:03:05 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:06 PM [INFO] Website request failed.
+05/25/2016 02:03:06 PM [INFO] Report page loaded
+05/25/2016 02:03:06 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:06 PM [INFO] Result number: Not found
+05/25/2016 02:03:06 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Journal title: Not found
+05/25/2016 02:03:06 PM [INFO] Result number: Not found
+05/25/2016 02:03:06 PM [INFO] Citation: Not found
+05/25/2016 02:03:06 PM [INFO] Citation: Not found
+05/25/2016 02:03:06 PM [INFO] PMID: Not found
+05/25/2016 02:03:06 PM [INFO] Journal title: Not found
+05/25/2016 02:03:06 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:06 PM [INFO] Loading report page: Not found
+05/25/2016 02:03:06 PM [INFO] Authors: Not found
+05/25/2016 02:03:06 PM [INFO] PMID: Not found
+05/25/2016 02:03:06 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Authors: Not found
+05/25/2016 02:03:06 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Website request failed.
+05/25/2016 02:03:06 PM [INFO] Full journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Report page loaded
+05/25/2016 02:03:06 PM [INFO] Website request failed.
+05/25/2016 02:03:06 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:06 PM [INFO] Report page loaded
+05/25/2016 02:03:06 PM [INFO] Link to full text article: Not found
+05/25/2016 02:03:06 PM [INFO] Citation: Not found
+05/25/2016 02:03:06 PM [INFO] Short journal name: Not found
+05/25/2016 02:03:06 PM [INFO] Result number: Not found
