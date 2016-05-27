@@ -194,6 +194,34 @@ search_terms = [
 'PLoS One'
 ]
 
+sub_terms = [
+'Antibiotic',
+'Cardiac screening',
+'Cervical cancer',
+'chronic kidney disease',
+'colorectal cancer',
+'copd',
+'high value care',
+'depression',
+'diabetes',
+'end of life care',
+'pulmonary embolism',
+'generic medications',
+'gerd',
+'hematuria',
+'inpatient glycemic control',
+'insomnia',
+'nephrolithiasis',
+'obstructive sleep apnea',
+'pressure ulcers',
+'cancer',
+'pelvic examination',
+'prostate cancer',
+'stable ischemic heart disease',
+'urinary incontinence',
+'venous thrombembolism'
+]
+
 #proxy for Selenium/PhantomJS for access to server
 '''
 service_args = [
@@ -222,56 +250,57 @@ for term in search_terms:
 	f = open(filepath,'w')
 	f.close()
 
-	logging.info('Searching for: "%s"', term)
-	link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"%5BAll+Fields%5D+AND+"loattrfull+text"%5Bsb%5D'
-	#link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term #testing link to search for simple terms
-	layer1.get(link)
-	logging.info('Search results loaded')
+	for subterm in sub_terms:
+		logging.info('Searching for: "%s" -- "%s"', term, subterm)
+		link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"%5BAll+Fields%5D+AND+"loattrfull+text"%5Bsb%5D+AND+"' + subterm + '"'
+		#link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term #testing link to search for simple terms
+		layer1.get(link)
+		logging.info('Search results loaded')
 
-	#start the pagination loop
-	pagination = True
-	while (pagination == True):
+		#start the pagination loop
+		pagination = True
+		while (pagination == True):
 
-		#check number of results shown per page
-		logging.info('Checking the number of results per page...')
-		showResults = getxpathtext(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
-		logging.info('Results per page: %s', showResults)
-		if not (showResults == 'Not found'):
-			if not (showResults == '200 per page'):
-				#click
-				logging.info('Changing to 200 results per page...')
-				showResultsButton = getxpath(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
-				showResultsButton.click()
-				sleep(1)
-				showResultsButton2 = getxpath(layer1,["//input[@id='ps200']"])
-				showResultsButton2.click()
-				logging.info('Showing 200 results per page')
-		else:
-			logging.info('Less than 20 results, no pagination required')
+			#check number of results shown per page
+			logging.info('Checking the number of results per page...')
+			showResults = getxpathtext(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
+			logging.info('Results per page: %s', showResults)
+			if not (showResults == 'Not found'):
+				if not (showResults == '200 per page'):
+					#click
+					logging.info('Changing to 200 results per page...')
+					showResultsButton = getxpath(layer1,["//a[contains(@data-jigconfig,'#display_settings_menu_ps')]"])
+					showResultsButton.click()
+					sleep(1)
+					showResultsButton2 = getxpath(layer1,["//input[@id='ps200']"])
+					showResultsButton2.click()
+					logging.info('Showing 200 results per page')
+			else:
+				logging.info('Less than 20 results, no pagination required')
 
-		#Get the number of results
-		numResults = getxpathatt(layer1,"value",["//input[@id='resultcount']"])
-		logging.info('Articles found: %s', numResults)
+			#Get the number of results
+			numResults = getxpathatt(layer1,"value",["//input[@id='resultcount']"])
+			logging.info('Articles found: %s', numResults)
 
-		#Grab the current page number
-		currentPage = getxpathatt(layer1,"value",["//input[@id='pageno']"])
-		pageCount = getxpathatt(layer1,"last",["//input[@id='pageno']"])
-		logging.info('Current page: %s/%s', currentPage, pageCount)
+			#Grab the current page number
+			currentPage = getxpathatt(layer1,"value",["//input[@id='pageno']"])
+			pageCount = getxpathatt(layer1,"last",["//input[@id='pageno']"])
+			logging.info('Current page: %s/%s', currentPage, pageCount)
 
-		#grab all the report links on this search result page
-		searchResults = getallxpath(layer1,["//div[@class='rprt']"])
+			#grab all the report links on this search result page
+			searchResults = getallxpath(layer1,["//div[@class='rprt']"])
 
-		# setup threadpool
-		pool = ThreadPool(4)
-		results = pool.map(getlink, searchResults)
-		pool.close()
-		pool.join()
+			# setup threadpool
+			pool = ThreadPool(4)
+			results = pool.map(getlink, searchResults)
+			pool.close()
+			pool.join()
 
-		pagebutton = getxpath(layer1, ['//a[contains(@class,"active") and contains(@class,"next")]','//a[text()="Next >"]'])
-		if not (pagebutton == 'Not found'):
-			pagebutton.click()
-		else:
-			pagination = False
+			pagebutton = getxpath(layer1, ['//a[contains(@class,"active") and contains(@class,"next")]','//a[text()="Next >"]'])
+			if not (pagebutton == 'Not found'):
+				pagebutton.click()
+			else:
+				pagination = False
 #closer out the browser
 layer1.close()
 logging.info('Program completed successfully')
