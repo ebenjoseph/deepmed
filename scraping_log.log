@@ -3814,3 +3814,552 @@ INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 
 DEBUG:requests.packages.urllib3.connectionpool:"GET /doifinder/10.1038/ismej.2014.176 HTTP/1.1" 301 20
 DEBUG:requests.packages.urllib3.connectionpool:"GET /ismej/journal/v9/n4/full/ismej2014176a.html HTTP/1.1" 200 None
 INFO:root:Scraper started 2016-05-20 13:57:14.172902
+INFO:root:Scraper started 2016-05-27 16:21:49.882118
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150274 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151724 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151270 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152375 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152375 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151270 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151724 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150274 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152375 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151724 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150274 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151270 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153076 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152075 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155770 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154546 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153076 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155770 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152075 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154546 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155770 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153076 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154546 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152075 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150937 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150937 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152530 HTTP/1.1" 302 0
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152530 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150514 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155905 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155905 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150514 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152530 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150514 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155905 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150937 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154012 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151976 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154012 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151976 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151659 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151659 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151976 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154012 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0156047 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151659 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0156047 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0156047 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154121 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154121 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:root:PLoS
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154121 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153468 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152420 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154092 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152420 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154092 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153468 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152420 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154092 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153468 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151451 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151451 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151451 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151964 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151199 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152986 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151199 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152986 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151964 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151199 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151964 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152986 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155914 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155914 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155914 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154086 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155033 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150643 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155033 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154086 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150643 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150643 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155033 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154086 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151788 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151788 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151788 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149844 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152524 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152524 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149844 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152524 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149844 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154662 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151705 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154662 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151705 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154662 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151705 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149195 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151348 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151348 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149195 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151348 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149195 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153616 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155127 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153616 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155127 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153616 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155127 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152515 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155472 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152515 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155472 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152515 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155472 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152065 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152065 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153554 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152065 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153554 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153554 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150396 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149742 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150396 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149742 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150396 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149742 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150958 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150958 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150958 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153279 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153279 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149310 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149310 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153279 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149310 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0151357 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0151357 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0151357 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152160 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152160 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152160 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155363 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155363 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0148367 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155363 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0148367 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0152020 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0152020 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0148367 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0152020 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150907 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150907 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149198 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149198 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150907 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149198 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0150031 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0150031 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0155479 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0155479 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0150031 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0155479 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0154490 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0154490 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0147651 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0147651 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0154490 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0147651 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149455 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149455 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153561 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153561 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0148797 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149455 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0148797 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153561 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149326 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149326 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0148797 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149326 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149211 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149211 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149211 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0148098 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0148098 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0153571 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0146916 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0148386 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0148098 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0153571 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0146916 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0148386 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0153571 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0146916 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0148386 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149769 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149769 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149769 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0146599 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0146599 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0146599 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149307 HTTP/1.1" 302 0
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0148437 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149307 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0146852 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0148437 HTTP/1.1" 301 360
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0146408 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0146852 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0146408 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149307 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0146852 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0148437 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0146408 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149960 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149960 HTTP/1.1" 301 360
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149389 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0144871 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0143729 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149960 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149389 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0144871 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0143729 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149389 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0144871 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0143729 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0147131 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0147131 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0147131 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1371/journal.pone.0149929 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.plosone.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /article/info%3Adoi%2F10.1371%2Fjournal.pone.0149929 HTTP/1.1" 301 360
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): journals.plos.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149929 HTTP/1.1" 200 None
+INFO:root:PLoS
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org

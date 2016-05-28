@@ -191,7 +191,12 @@ logging.debug('Debugging logging active')
 #INPUT
 #Search Terms for PubMed
 search_terms = [
-'PLoS One'
+'Antimicrob Agents Chemother',
+'J Antimicrob Chemother',
+'World J Gastroenterol',
+'J Am Coll Cardiol',
+'BMC Infect Dis',
+'J Am Heart Assoc',
 ]
 
 sub_terms = [
