@@ -191,12 +191,23 @@ logging.debug('Debugging logging active')
 #INPUT
 #Search Terms for PubMed
 search_terms = [
-'Antimicrob Agents Chemother',
-'J Antimicrob Chemother',
-'World J Gastroenterol',
-'J Am Coll Cardiol',
-'BMC Infect Dis',
-'J Am Heart Assoc',
+'Clin Infect Dis',
+'Pediatrics',
+'Int J Chron Obstruct Pulmon Dis',
+'BMJ Open',
+'Europace',
+'Crit Care',
+'Eur J Heart Fail',
+'Circ Arrhythm Electrophysiol',
+'Circ Res',
+'Proc Natl Acad Sci U S A',
+'Medicine (Baltimore)',
+'Circ Heart Fail',
+'Sci Rep',
+'Biomed Res Int',
+'Ultrasound Obstet Gynecol',
+'Eur Heart J',
+'N Engl J Med'
 ]
 
 sub_terms = [
