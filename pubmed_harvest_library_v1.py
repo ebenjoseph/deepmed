@@ -247,7 +247,7 @@ search_terms = [
 'prostate cancer',
 'stable ischemic heart disease',
 'urinary incontinence',
-'venous thrombembolism'
+'venous thrombembolism' #add more diseases?
 ]
 
 #proxy for Selenium/PhantomJS for access to server
@@ -274,7 +274,7 @@ logging.info('PhantomJS ready')
 #Start the loop
 for term in search_terms:
 	logging.info('Searching "%s" library for "%s"', library, term)
-	link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"[All Fields] AND "' + library + '[Filter] AND "loattrfull text"[sb] AND "humans"[Filter]'
+	link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"[All Fields] AND "' + library + '"[Filter] AND "loattrfull text"[sb] AND "humans"[Filter]'
 	#link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"%5BAll+Fields%5D+AND+"loattrfull+text"%5Bsb%5D+AND+"' + subterm + '"'
 	#link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term + '"%5BAll+Fields%5D+AND+"loattrfull+text"%5Bsb%5D+AND+"' + subterm + '"'
 	#link = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + term #testing link to search for simple terms
