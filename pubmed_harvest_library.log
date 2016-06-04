@@ -1,0 +1,801 @@
+06/04/2016 03:04:17 PM [INFO] Program initiated
+06/04/2016 03:04:17 PM [INFO] Starting PhantomJS...
+06/04/2016 03:04:18 PM [INFO] PhantomJS ready
+06/04/2016 03:04:18 PM [INFO] Begin "loprovOvid" library pull
+06/04/2016 03:04:18 PM [INFO] Searching "loprovOvid" library for "Antibiotic"
+06/04/2016 03:04:24 PM [INFO] Search results loaded
+06/04/2016 03:04:24 PM [INFO] Checking the number of results per page...
+06/04/2016 03:04:24 PM [INFO] Results per page: 20 per page
+06/04/2016 03:04:24 PM [INFO] Changing to 200 results per page...
+06/04/2016 03:04:27 PM [INFO] Showing 200 results per page
+06/04/2016 03:04:27 PM [INFO] Articles found: 22498
+06/04/2016 03:04:27 PM [INFO] Current page: 1/113
+06/04/2016 03:04:28 PM [INFO] Result number: 1
+06/04/2016 03:04:28 PM [INFO] Result number: 14
+06/04/2016 03:04:28 PM [INFO] Result number: 27
+06/04/2016 03:04:28 PM [INFO] Result number: 40
+06/04/2016 03:04:28 PM [INFO] Journal title: Interconnected microbiomes and resistomes in low-income human habitats.
+06/04/2016 03:04:28 PM [INFO] Journal title: Maggot Debridement Therapy: Advancing to the Past in Wound Care.
+06/04/2016 03:04:28 PM [INFO] Journal title: Choosing the Duration of Therapy for Bacteremia: Keep Calm and Work With Your Infectious Disease and Antibiotic Stewardship Colleagues.
+06/04/2016 03:04:28 PM [INFO] Journal title: A Retrospective Study of 39 Patients Treated With Anterior Approach of Thoracic and Lumbar Spondylodiscitis: Clinical Manifestations, Anterior Surgical Treatment, and Outcome.
+06/04/2016 03:04:28 PM [INFO] PMID: 27172044
+06/04/2016 03:04:28 PM [INFO] PMID: 26863704
+06/04/2016 03:04:28 PM [INFO] PMID: 26771787
+06/04/2016 03:04:28 PM [INFO] PMID: 26632729
+06/04/2016 03:04:28 PM [INFO] Authors: Pehrsson EC, Tsukayama P, Patel S, Mejía-Bautista M, Sosa-Soto G, Navarrete KM, Calderon M, Cabrera L, Hoyos-Arango W, Bertoli MT, Berg DE, Gilman RH, Dantas G.
+06/04/2016 03:04:28 PM [INFO] Authors: Klaus K, Steinwedel C.
+06/04/2016 03:04:28 PM [INFO] Authors: Sweeney DA, Kalil AC.
+06/04/2016 03:04:28 PM [INFO] Authors: Yaldz C, Özdemir N, Yaman O, Feran HG, Tansug T, Minoglu M.
+06/04/2016 03:04:28 PM [INFO] Full journal name: Nature
+06/04/2016 03:04:28 PM [INFO] Full journal name: Medsurg nursing : official journal of the Academy of Medical-Surgical Nurses
+06/04/2016 03:04:28 PM [INFO] Full journal name: Critical care medicine
+06/04/2016 03:04:28 PM [INFO] Full journal name: Medicine
+06/04/2016 03:04:29 PM [INFO] Short journal name: Nature
+06/04/2016 03:04:29 PM [INFO] Short journal name: Medsurg Nurs
+06/04/2016 03:04:29 PM [INFO] Short journal name: Crit Care Med
+06/04/2016 03:04:29 PM [INFO] Short journal name: Medicine (Baltimore)
+06/04/2016 03:04:29 PM [INFO] Citation: Nature. 2016 May 11;533(7602):212-6. doi: 10.1038/nature17672.
+06/04/2016 03:04:29 PM [INFO] Citation: Medsurg Nurs. 2015 Nov-Dec;24(6):407-11.
+06/04/2016 03:04:29 PM [INFO] Citation: Crit Care Med. 2016 Feb;44(2):439-40. doi: 10.1097/CCM.0000000000001503. No abstract available.
+06/04/2016 03:04:29 PM [INFO] Citation: Medicine (Baltimore). 2015 Nov;94(47):e2110. doi: 10.1097/MD.0000000000002110.
+06/04/2016 03:04:29 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27172044
+06/04/2016 03:04:29 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26863704
+06/04/2016 03:04:29 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26771787
+06/04/2016 03:04:29 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:29 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:29 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26632729
+06/04/2016 03:04:29 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:29 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:30 PM [INFO] Report page loaded
+06/04/2016 03:04:30 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26632729.ui
+06/04/2016 03:04:30 PM [INFO] Result number: 41
+06/04/2016 03:04:30 PM [INFO] Journal title: Multiple Genetic Analysis System-Based Antibiotic Susceptibility Testing in Helicobacter pylori and High Eradication Rate With Phenotypic Resistance-Guided Quadruple Therapy.
+06/04/2016 03:04:30 PM [INFO] PMID: 26632710
+06/04/2016 03:04:30 PM [INFO] Authors: Dong F, Ji D, Huang R, Zhang F, Huang Y, Xiang P, Kong M, Nan L, Zeng X, Wu Y, Bao Z.
+06/04/2016 03:04:30 PM [INFO] Full journal name: Medicine
+06/04/2016 03:04:30 PM [INFO] Short journal name: Medicine (Baltimore)
+06/04/2016 03:04:30 PM [INFO] Citation: Medicine (Baltimore). 2015 Nov;94(47):e2056. doi: 10.1097/MD.0000000000002056.
+06/04/2016 03:04:30 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26632710
+06/04/2016 03:04:30 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:30 PM [INFO] Report page loaded
+06/04/2016 03:04:30 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26771787.ui
+06/04/2016 03:04:30 PM [INFO] Report page loaded
+06/04/2016 03:04:30 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26863704.ui
+06/04/2016 03:04:30 PM [INFO] Report page loaded
+06/04/2016 03:04:31 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=27172044.ui
+06/04/2016 03:04:31 PM [INFO] Result number: 28
+06/04/2016 03:04:31 PM [INFO] Result number: 15
+06/04/2016 03:04:31 PM [INFO] Journal title: Etiologies and Management of Aseptic Meningitis in Patients Admitted to an Internal Medicine Department.
+06/04/2016 03:04:31 PM [INFO] Result number: 2
+06/04/2016 03:04:31 PM [INFO] Journal title: Routine Amoxicillin for Uncomplicated Severe Acute Malnutrition in Children.
+06/04/2016 03:04:31 PM [INFO] PMID: 26765411
+06/04/2016 03:04:31 PM [INFO] Journal title: Prevalence of Inappropriate Antibiotic Prescriptions Among US Ambulatory Care Visits, 2010-2011.
+06/04/2016 03:04:31 PM [INFO] PMID: 26840134
+06/04/2016 03:04:31 PM [INFO] Authors: Jarrin I, Sellier P, Lopes A, Morgand M, Makovec T, Delcey V, Champion K, Simoneau G, Green A, Mouly S, Bergmann JF, Lloret-Linares C.
+06/04/2016 03:04:31 PM [INFO] PMID: 27139059
+06/04/2016 03:04:31 PM [INFO] Authors: Isanaka S, Langendorf C, Berthé F, Gnegne S, Li N, Ousmane N, Harouna S, Hassane H, Schaefer M, Adehossi E, Grais RF.
+06/04/2016 03:04:31 PM [INFO] Full journal name: Medicine
+06/04/2016 03:04:31 PM [INFO] Authors: Fleming-Dutra KE, Hersh AL, Shapiro DJ, Bartoces M, Enns EA, File TM Jr, Finkelstein JA, Gerber JS, Hyun DY, Linder JA, Lynfield R, Margolis DJ, May LS, Merenstein D, Metlay JP, Newland JG, Piccirillo JF, Roberts RM, Sanchez GV, Suda KJ, Thomas A, Woo TM, Zetts RM, Hicks LA.
+06/04/2016 03:04:31 PM [INFO] Full journal name: The New England journal of medicine
+06/04/2016 03:04:31 PM [INFO] Short journal name: Medicine (Baltimore)
+06/04/2016 03:04:31 PM [INFO] Full journal name: JAMA
+06/04/2016 03:04:31 PM [INFO] Short journal name: N Engl J Med
+06/04/2016 03:04:31 PM [INFO] Citation: Medicine (Baltimore). 2016 Jan;95(2):e2372. doi: 10.1097/MD.0000000000002372.
+06/04/2016 03:04:31 PM [INFO] Short journal name: JAMA
+06/04/2016 03:04:31 PM [INFO] Citation: N Engl J Med. 2016 Feb 4;374(5):444-53. doi: 10.1056/NEJMoa1507024.
+06/04/2016 03:04:31 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26765411
+06/04/2016 03:04:31 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:31 PM [INFO] Citation: JAMA. 2016 May 3;315(17):1864-73. doi: 10.1001/jama.2016.4151.
+06/04/2016 03:04:31 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/26840134
+06/04/2016 03:04:31 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:31 PM [INFO] Loading report page: http://www.ncbi.nlm.nih.gov/pubmed/27139059
+06/04/2016 03:04:31 PM [INFO] Starting new HTTP connection (1): www.ncbi.nlm.nih.gov
+06/04/2016 03:04:31 PM [INFO] Report page loaded
+06/04/2016 03:04:31 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26632710.ui
+06/04/2016 03:04:31 PM [INFO] Result number: Not found
+06/04/2016 03:04:31 PM [INFO] Journal title: Not found
+06/04/2016 03:04:31 PM [INFO] PMID: Not found
+06/04/2016 03:04:31 PM [INFO] Authors: Not found
+06/04/2016 03:04:31 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:31 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:31 PM [INFO] Citation: Not found
+06/04/2016 03:04:31 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:31 PM [INFO] Website request failed.
+06/04/2016 03:04:31 PM [INFO] Report page loaded
+06/04/2016 03:04:31 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:31 PM [INFO] Result number: Not found
+06/04/2016 03:04:31 PM [INFO] Journal title: Not found
+06/04/2016 03:04:31 PM [INFO] PMID: Not found
+06/04/2016 03:04:31 PM [INFO] Authors: Not found
+06/04/2016 03:04:31 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:31 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:31 PM [INFO] Citation: Not found
+06/04/2016 03:04:31 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:32 PM [INFO] PMID: Not found
+06/04/2016 03:04:32 PM [INFO] Authors: Not found
+06/04/2016 03:04:32 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:32 PM [INFO] Citation: Not found
+06/04/2016 03:04:32 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:32 PM [INFO] Website request failed.
+06/04/2016 03:04:32 PM [INFO] Report page loaded
+06/04/2016 03:04:32 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:32 PM [INFO] Result number: Not found
+06/04/2016 03:04:32 PM [INFO] Journal title: Not found
+06/04/2016 03:04:34 PM [INFO] PMID: Not found
+06/04/2016 03:04:34 PM [INFO] Authors: Not found
+06/04/2016 03:04:34 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:34 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:34 PM [INFO] Citation: Not found
+06/04/2016 03:04:35 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:35 PM [INFO] Website request failed.
+06/04/2016 03:04:35 PM [INFO] Report page loaded
+06/04/2016 03:04:35 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:35 PM [INFO] Result number: Not found
+06/04/2016 03:04:35 PM [INFO] Journal title: Not found
+06/04/2016 03:04:35 PM [INFO] PMID: Not found
+06/04/2016 03:04:35 PM [INFO] Authors: Not found
+06/04/2016 03:04:35 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:35 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:35 PM [INFO] Citation: Not found
+06/04/2016 03:04:35 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:35 PM [INFO] Report page loaded
+06/04/2016 03:04:36 PM [INFO] Website request failed.
+06/04/2016 03:04:36 PM [INFO] Report page loaded
+06/04/2016 03:04:36 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:36 PM [INFO] Result number: Not found
+06/04/2016 03:04:36 PM [INFO] Journal title: Not found
+06/04/2016 03:04:36 PM [INFO] PMID: Not found
+06/04/2016 03:04:36 PM [INFO] Authors: Not found
+06/04/2016 03:04:36 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:36 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:36 PM [INFO] Citation: Not found
+06/04/2016 03:04:36 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:36 PM [INFO] Website request failed.
+06/04/2016 03:04:37 PM [INFO] Report page loaded
+06/04/2016 03:04:37 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:37 PM [INFO] Result number: Not found
+06/04/2016 03:04:37 PM [INFO] Journal title: Not found
+06/04/2016 03:04:37 PM [INFO] PMID: Not found
+06/04/2016 03:04:37 PM [INFO] Authors: Not found
+06/04/2016 03:04:37 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:37 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:37 PM [INFO] Citation: Not found
+06/04/2016 03:04:37 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:37 PM [INFO] Report page loaded
+06/04/2016 03:04:37 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26840134.ui
+06/04/2016 03:04:37 PM [INFO] Website request failed.
+06/04/2016 03:04:37 PM [INFO] Report page loaded
+06/04/2016 03:04:37 PM [INFO] Report page loaded
+06/04/2016 03:04:37 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:38 PM [INFO] Result number: Not found
+06/04/2016 03:04:38 PM [INFO] Result number: Not found
+06/04/2016 03:04:38 PM [INFO] Journal title: Not found
+06/04/2016 03:04:38 PM [INFO] Journal title: Not found
+06/04/2016 03:04:38 PM [INFO] PMID: Not found
+06/04/2016 03:04:38 PM [INFO] PMID: Not found
+06/04/2016 03:04:38 PM [INFO] Authors: Not found
+06/04/2016 03:04:38 PM [INFO] Authors: Not found
+06/04/2016 03:04:38 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:38 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:38 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:38 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:38 PM [INFO] Citation: Not found
+06/04/2016 03:04:38 PM [INFO] Citation: Not found
+06/04/2016 03:04:38 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:38 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:38 PM [INFO] Website request failed.
+06/04/2016 03:04:38 PM [INFO] Report page loaded
+06/04/2016 03:04:38 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:38 PM [INFO] Website request failed.
+06/04/2016 03:04:38 PM [INFO] Report page loaded
+06/04/2016 03:04:38 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:38 PM [INFO] Result number: Not found
+06/04/2016 03:04:39 PM [INFO] Result number: Not found
+06/04/2016 03:04:39 PM [INFO] Journal title: Not found
+06/04/2016 03:04:39 PM [INFO] Journal title: Not found
+06/04/2016 03:04:39 PM [INFO] PMID: Not found
+06/04/2016 03:04:39 PM [INFO] PMID: Not found
+06/04/2016 03:04:39 PM [INFO] Authors: Not found
+06/04/2016 03:04:39 PM [INFO] Authors: Not found
+06/04/2016 03:04:39 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:39 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:39 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:39 PM [INFO] Citation: Not found
+06/04/2016 03:04:39 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:39 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:39 PM [INFO] Citation: Not found
+06/04/2016 03:04:39 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:39 PM [INFO] Website request failed.
+06/04/2016 03:04:39 PM [INFO] Report page loaded
+06/04/2016 03:04:39 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:39 PM [INFO] Website request failed.
+06/04/2016 03:04:39 PM [INFO] Report page loaded
+06/04/2016 03:04:39 PM [INFO] Result number: Not found
+06/04/2016 03:04:39 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:39 PM [INFO] Journal title: Not found
+06/04/2016 03:04:39 PM [INFO] Result number: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Journal title: Not found
+06/04/2016 03:04:40 PM [INFO] Authors: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Authors: Not found
+06/04/2016 03:04:40 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Citation: Not found
+06/04/2016 03:04:40 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:40 PM [INFO] Citation: Not found
+06/04/2016 03:04:40 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:40 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=26765411.ui
+06/04/2016 03:04:40 PM [INFO] Website request failed.
+06/04/2016 03:04:40 PM [INFO] Report page loaded
+06/04/2016 03:04:40 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:40 PM [INFO] Website request failed.
+06/04/2016 03:04:40 PM [INFO] Report page loaded
+06/04/2016 03:04:40 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:40 PM [INFO] Result number: Not found
+06/04/2016 03:04:40 PM [INFO] Result number: Not found
+06/04/2016 03:04:40 PM [INFO] Result number: Not found
+06/04/2016 03:04:40 PM [INFO] Journal title: Not found
+06/04/2016 03:04:40 PM [INFO] Journal title: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Journal title: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Link to full text article: http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=linkout&SEARCH=27139059.ui
+06/04/2016 03:04:40 PM [INFO] Authors: Not found
+06/04/2016 03:04:40 PM [INFO] Authors: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Result number: Not found
+06/04/2016 03:04:40 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Authors: Not found
+06/04/2016 03:04:40 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Journal title: Not found
+06/04/2016 03:04:40 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Citation: Not found
+06/04/2016 03:04:40 PM [INFO] PMID: Not found
+06/04/2016 03:04:40 PM [INFO] Citation: Not found
+06/04/2016 03:04:40 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:40 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Authors: Not found
+06/04/2016 03:04:41 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Citation: Not found
+06/04/2016 03:04:41 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Website request failed.
+06/04/2016 03:04:41 PM [INFO] Website request failed.
+06/04/2016 03:04:41 PM [INFO] Report page loaded
+06/04/2016 03:04:41 PM [INFO] Report page loaded
+06/04/2016 03:04:41 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:41 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:41 PM [INFO] Citation: Not found
+06/04/2016 03:04:41 PM [INFO] Result number: Not found
+06/04/2016 03:04:41 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Result number: Not found
+06/04/2016 03:04:41 PM [INFO] Website request failed.
+06/04/2016 03:04:41 PM [INFO] Report page loaded
+06/04/2016 03:04:41 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:41 PM [INFO] Journal title: Not found
+06/04/2016 03:04:41 PM [INFO] Journal title: Not found
+06/04/2016 03:04:41 PM [INFO] Result number: Not found
+06/04/2016 03:04:41 PM [INFO] PMID: Not found
+06/04/2016 03:04:41 PM [INFO] PMID: Not found
+06/04/2016 03:04:41 PM [INFO] Authors: Not found
+06/04/2016 03:04:41 PM [INFO] Journal title: Not found
+06/04/2016 03:04:41 PM [INFO] Website request failed.
+06/04/2016 03:04:41 PM [INFO] Authors: Not found
+06/04/2016 03:04:41 PM [INFO] Report page loaded
+06/04/2016 03:04:41 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:41 PM [INFO] PMID: Not found
+06/04/2016 03:04:41 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Result number: Not found
+06/04/2016 03:04:41 PM [INFO] Authors: Not found
+06/04/2016 03:04:41 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Journal title: Not found
+06/04/2016 03:04:41 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Citation: Not found
+06/04/2016 03:04:41 PM [INFO] Citation: Not found
+06/04/2016 03:04:41 PM [INFO] PMID: Not found
+06/04/2016 03:04:41 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:41 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:41 PM [INFO] Authors: Not found
+06/04/2016 03:04:41 PM [INFO] Citation: Not found
+06/04/2016 03:04:42 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:42 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Website request failed.
+06/04/2016 03:04:42 PM [INFO] Website request failed.
+06/04/2016 03:04:42 PM [INFO] Report page loaded
+06/04/2016 03:04:42 PM [INFO] Report page loaded
+06/04/2016 03:04:42 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:42 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:42 PM [INFO] Citation: Not found
+06/04/2016 03:04:42 PM [INFO] Result number: Not found
+06/04/2016 03:04:42 PM [INFO] Result number: Not found
+06/04/2016 03:04:42 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:42 PM [INFO] Website request failed.
+06/04/2016 03:04:42 PM [INFO] Report page loaded
+06/04/2016 03:04:42 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:42 PM [INFO] Journal title: Not found
+06/04/2016 03:04:42 PM [INFO] Journal title: Not found
+06/04/2016 03:04:42 PM [INFO] PMID: Not found
+06/04/2016 03:04:42 PM [INFO] Result number: Not found
+06/04/2016 03:04:42 PM [INFO] PMID: Not found
+06/04/2016 03:04:42 PM [INFO] Authors: Not found
+06/04/2016 03:04:42 PM [INFO] Journal title: Not found
+06/04/2016 03:04:42 PM [INFO] Authors: Not found
+06/04/2016 03:04:42 PM [INFO] Website request failed.
+06/04/2016 03:04:42 PM [INFO] Report page loaded
+06/04/2016 03:04:42 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:42 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:42 PM [INFO] PMID: Not found
+06/04/2016 03:04:42 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Result number: Not found
+06/04/2016 03:04:42 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Authors: Not found
+06/04/2016 03:04:42 PM [INFO] Journal title: Not found
+06/04/2016 03:04:42 PM [INFO] Citation: Not found
+06/04/2016 03:04:42 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Citation: Not found
+06/04/2016 03:04:42 PM [INFO] PMID: Not found
+06/04/2016 03:04:42 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:42 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:42 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:42 PM [INFO] Authors: Not found
+06/04/2016 03:04:42 PM [INFO] Citation: Not found
+06/04/2016 03:04:43 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:43 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:43 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Result number: Not found
+06/04/2016 03:04:43 PM [INFO] Result number: Not found
+06/04/2016 03:04:43 PM [INFO] Citation: Not found
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Journal title: Not found
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:43 PM [INFO] Journal title: Not found
+06/04/2016 03:04:43 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:43 PM [INFO] PMID: Not found
+06/04/2016 03:04:43 PM [INFO] Result number: Not found
+06/04/2016 03:04:43 PM [INFO] PMID: Not found
+06/04/2016 03:04:43 PM [INFO] Authors: Not found
+06/04/2016 03:04:43 PM [INFO] Journal title: Not found
+06/04/2016 03:04:43 PM [INFO] Authors: Not found
+06/04/2016 03:04:43 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:43 PM [INFO] PMID: Not found
+06/04/2016 03:04:43 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:43 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Authors: Not found
+06/04/2016 03:04:43 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Result number: Not found
+06/04/2016 03:04:43 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Citation: Not found
+06/04/2016 03:04:43 PM [INFO] Citation: Not found
+06/04/2016 03:04:43 PM [INFO] Journal title: Not found
+06/04/2016 03:04:43 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:43 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:43 PM [INFO] PMID: Not found
+06/04/2016 03:04:43 PM [INFO] Citation: Not found
+06/04/2016 03:04:43 PM [INFO] Authors: Not found
+06/04/2016 03:04:43 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:43 PM [INFO] Website request failed.
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:43 PM [INFO] Report page loaded
+06/04/2016 03:04:43 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:44 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Result number: Not found
+06/04/2016 03:04:44 PM [INFO] Result number: Not found
+06/04/2016 03:04:44 PM [INFO] Website request failed.
+06/04/2016 03:04:44 PM [INFO] Report page loaded
+06/04/2016 03:04:44 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:44 PM [INFO] Citation: Not found
+06/04/2016 03:04:44 PM [INFO] Journal title: Not found
+06/04/2016 03:04:44 PM [INFO] Journal title: Not found
+06/04/2016 03:04:44 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:44 PM [INFO] Result number: Not found
+06/04/2016 03:04:44 PM [INFO] PMID: Not found
+06/04/2016 03:04:44 PM [INFO] PMID: Not found
+06/04/2016 03:04:44 PM [INFO] Journal title: Not found
+06/04/2016 03:04:44 PM [INFO] Authors: Not found
+06/04/2016 03:04:44 PM [INFO] Authors: Not found
+06/04/2016 03:04:44 PM [INFO] PMID: Not found
+06/04/2016 03:04:44 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Website request failed.
+06/04/2016 03:04:44 PM [INFO] Report page loaded
+06/04/2016 03:04:44 PM [INFO] Authors: Not found
+06/04/2016 03:04:44 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:44 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Result number: Not found
+06/04/2016 03:04:44 PM [INFO] Citation: Not found
+06/04/2016 03:04:44 PM [INFO] Citation: Not found
+06/04/2016 03:04:44 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:44 PM [INFO] Journal title: Not found
+06/04/2016 03:04:44 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:44 PM [INFO] Citation: Not found
+06/04/2016 03:04:44 PM [INFO] PMID: Not found
+06/04/2016 03:04:44 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:44 PM [INFO] Authors: Not found
+06/04/2016 03:04:44 PM [INFO] Website request failed.
+06/04/2016 03:04:44 PM [INFO] Report page loaded
+06/04/2016 03:04:44 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:44 PM [INFO] Website request failed.
+06/04/2016 03:04:44 PM [INFO] Report page loaded
+06/04/2016 03:04:44 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:44 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:44 PM [INFO] Result number: Not found
+06/04/2016 03:04:45 PM [INFO] Result number: Not found
+06/04/2016 03:04:45 PM [INFO] Website request failed.
+06/04/2016 03:04:45 PM [INFO] Report page loaded
+06/04/2016 03:04:45 PM [INFO] Citation: Not found
+06/04/2016 03:04:45 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:45 PM [INFO] Journal title: Not found
+06/04/2016 03:04:45 PM [INFO] Journal title: Not found
+06/04/2016 03:04:45 PM [INFO] Loading report page: Not found
+06/04/2016 03:04:45 PM [INFO] Result number: Not found
+06/04/2016 03:04:45 PM [INFO] PMID: Not found
+06/04/2016 03:04:45 PM [INFO] PMID: Not found
+06/04/2016 03:04:45 PM [INFO] Journal title: Not found
+06/04/2016 03:04:45 PM [INFO] Authors: Not found
+06/04/2016 03:04:45 PM [INFO] Authors: Not found
+06/04/2016 03:04:45 PM [INFO] PMID: Not found
+06/04/2016 03:04:45 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:45 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:45 PM [INFO] Website request failed.
+06/04/2016 03:04:45 PM [INFO] Report page loaded
+06/04/2016 03:04:45 PM [INFO] Link to full text article: Not found
+06/04/2016 03:04:45 PM [INFO] Authors: Not found
+06/04/2016 03:04:45 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:45 PM [INFO] Short journal name: Not found
+06/04/2016 03:04:45 PM [INFO] Result number: Not found
+06/04/2016 03:04:45 PM [INFO] Full journal name: Not found
+06/04/2016 03:04:45 PM [INFO] Citation: Not found

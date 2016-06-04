@@ -4363,3 +4363,865 @@ INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 
 DEBUG:requests.packages.urllib3.connectionpool:"GET /plosone/article?id=10.1371/journal.pone.0149929 HTTP/1.1" 200 None
 INFO:root:PLoS
 INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.plos.org
+INFO:root:Scraper started 2016-05-29 21:35:13.478656
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:error parsing initial page
+INFO:root:Scraper started 2016-05-29 21:35:49.619602
+INFO:root:wjg
+INFO:root:wjg
+INFO:root:wjg
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i45/12987.htm HTTP/1.1" 200 50096
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i12/3731.htm HTTP/1.1" 200 87315
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i37/10669.htm HTTP/1.1" 200 104556
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i13/4069.htm HTTP/1.1" 200 117053
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i16/4201.htm HTTP/1.1" 200 106446
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i43/12322.htm HTTP/1.1" 200 144057
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i7/2179.htm HTTP/1.1" 200 274153
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i11/3078.htm HTTP/1.1" 200 340143
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i45/17084.htm HTTP/1.1" 200 111069
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i43/16029.htm HTTP/1.1" 200 130620
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i9/2786.htm HTTP/1.1" 200 97507
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i12/3587.htm HTTP/1.1" 200 86755
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i13/4096.htm HTTP/1.1" 200 79148
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i11/3150.htm HTTP/1.1" 200 158010
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i36/12847.htm HTTP/1.1" 200 245279
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i37/10704.htm HTTP/1.1" 200 77222
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i45/12954.htm HTTP/1.1" 200 111449
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i12/3736.htm HTTP/1.1" 200 81567
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i37/10644.htm HTTP/1.1" 200 156589
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i9/2861.htm HTTP/1.1" 200 93661
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i40/11221.htm HTTP/1.1" 200 235063
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i4/1331.htm HTTP/1.1" 200 74767
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i15/4049.htm HTTP/1.1" 200 104573
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i39/14079.htm HTTP/1.1" 200 127222
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i34/12260.htm HTTP/1.1" 200 123101
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i43/16245.htm HTTP/1.1" 200 98236
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i11/3166.htm HTTP/1.1" 200 87752
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i3/803.htm HTTP/1.1" 200 206101
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i42/15837.htm HTTP/1.1" 200 97802
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i29/8739.htm HTTP/1.1" 200 164924
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i18/5663.htm HTTP/1.1" 200 87789
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i30/9150.htm HTTP/1.1" 200 96986
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v20/i27/8993.htm HTTP/1.1" 200 85337
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+INFO:root:wjg
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.wjgnet.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i48/13432.htm HTTP/1.1" 200 101709
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v21/i46/13166.htm HTTP/1.1" 200 107164
+DEBUG:requests.packages.urllib3.connectionpool:"GET /1007-9327/full/v22/i3/1078.htm HTTP/1.1" 200 164428
+INFO:root:Scraper started 2016-06-01 00:25:00.021497
+INFO:root:nejm
+INFO:root:nejm
+INFO:root:nejm
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1411162?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMct1115170?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1505425?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMcibr1500292?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292?cookieSet=1 HTTP/1.1" 302 90
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292 HTTP/1.1" 200 33645
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162?cookieSet=1 HTTP/1.1" 302 88
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425 HTTP/1.1" 302 100
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292?cookieSet=1 HTTP/1.1" 302 90
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1411162 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1115170 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcibr1500292 HTTP/1.1" 200 33645
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1505425 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMe1404774?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMclde1105791?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1306863 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791?cookieSet=1 HTTP/1.1" 302 90
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1310480?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1404774 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791?cookieSet=1 HTTP/1.1" 302 90
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310480 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1105791 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1106920?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1013587 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1210335 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMe1500331?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1106920 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331 HTTP/1.1" 200 34101
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1013587 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1500331 HTTP/1.1" 200 34101
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1406330?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMcpc1411928?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928 HTTP/1.1" 302 101
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928?cookieSet=1 HTTP/1.1" 302 89
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1301630?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630 HTTP/1.1" 302 100
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1406330 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMclde1108637?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637?cookieSet=1 HTTP/1.1" 302 90
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928 HTTP/1.1" 302 101
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928?cookieSet=1 HTTP/1.1" 302 89
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcpc1411928 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1107643?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1301630 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637 HTTP/1.1" 302 102
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637?cookieSet=1 HTTP/1.1" 302 90
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMclde1108637 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1306863?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1210335 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1107643 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1507024?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024?cookieSet=1 HTTP/1.1" 302 88
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1306863 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1303359?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1507024 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMp1205847?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMra1007755?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1210335 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755?cookieSet=1 HTTP/1.1" 302 88
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1205847 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMra1007755 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1303359 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMe1011211?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1403789?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1210335 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1403086?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1011211 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086?cookieSet=1 HTTP/1.1" 302 88
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403086 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1403789 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1300799?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMp1013771?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMp1212370?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1000837?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837?cookieSet=1 HTTP/1.1" 302 88
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1300799 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1013771 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1212370 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1000837 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1408896?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMp1408040?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1310422?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422 HTTP/1.1" 200 None
+INFO:root:error parsing initial page
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa0902295?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMp1408040 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1408896 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1310422 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0902295 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMct1108922?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1004409?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMcp1103639?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1100441?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1004409 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMct1108922 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1103639 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1100441 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1205037?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1212055?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMc1210335 HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa054408?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1210335 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMc1212055 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408?cookieSet=1 HTTP/1.1" 302 87
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1205037 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa054408 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa1109910?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMoa0900928?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0900928 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa0900928?cookieSet=1 HTTP/1.1" 302 88
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMcp1314291?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910 HTTP/1.1" 200 None
+INFO:root:nejm
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/abs/10.1056/NEJMe1108464?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed HTTP/1.1" 301 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1108464 HTTP/1.1" 302 99
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1108464?cookieSet=1 HTTP/1.1" 302 87
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.nejm.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291 HTTP/1.1" 302 100
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910?cookieSet=1 HTTP/1.1" 302 88
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMoa1109910 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMcp1314291 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/full/10.1056/NEJMe1108464 HTTP/1.1" 200 None
+INFO:root:Scraper started 2016-06-03 00:53:42.125494
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27208045 HTTP/1.1" 301 372
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27199462 HTTP/1.1" 301 372
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26936673 HTTP/1.1" 301 372
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26945013 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27208045 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26936673 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27199462 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26945013 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26945013 HTTP/1.1" 302 244
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27208045 HTTP/1.1" 302 256
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26936673 HTTP/1.1" 302 243
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27199462 HTTP/1.1" 302 256
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/05/19/cid.ciw333.long HTTP/1.1" 200 1699
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1322.long HTTP/1.1" 200 17893
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26602619 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26602619 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26602619 HTTP/1.1" 302 249
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/05/18/cid.ciw323.long HTTP/1.1" 200 1776
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449951 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449951 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26449951 HTTP/1.1" 302 249
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1242.long HTTP/1.1" 200 33599
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26270684 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26270684 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26270684 HTTP/1.1" 302 244
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449952 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449952 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26449952 HTTP/1.1" 302 249
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_8/S802.long HTTP/1.1" 200 43906
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_4/S346.long HTTP/1.1" 200 31428
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/11/1655.long HTTP/1.1" 200 31834
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_4/S354.long HTTP/1.1" 200 31461
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27143671 HTTP/1.1" 301 372
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26316558 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26316558 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27143671 HTTP/1.1" 301 232
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26486707 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26486707 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26486707 HTTP/1.1" 302 242
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27143671 HTTP/1.1" 302 256
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26316558 HTTP/1.1" 302 249
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/05/02/cid.ciw283.long HTTP/1.1" 200 1872
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27161773 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27161773 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27161773 HTTP/1.1" 302 257
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/3/400.long HTTP/1.1" 200 18280
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26223995 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26223995 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26223995 HTTP/1.1" 302 243
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26265496 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26265496 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26265496 HTTP/1.1" 302 242
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_2/S48.long HTTP/1.1" 200 42709
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/05/30/cid.ciw299.long HTTP/1.1" 200 34117
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27025824 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27025824 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27025824 HTTP/1.1" 302 245
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26224767 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26224767 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/1/84.long HTTP/1.1" 200 30709
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26224767 HTTP/1.1" 302 247
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/9/1403.long HTTP/1.1" 200 32781
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/12/1558.long HTTP/1.1" 200 32427
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26936671 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26936671 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26936671 HTTP/1.1" 302 244
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26917813 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26917813 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26917813 HTTP/1.1" 302 244
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26917812 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26917812 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_1/S10.long HTTP/1.1" 200 31707
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26917812 HTTP/1.1" 302 243
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26908806 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26908806 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1235.long HTTP/1.1" 200 29423
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1251.long HTTP/1.1" 200 38234
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449948 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449948 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1262.long HTTP/1.1" 200 34797
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26908806 HTTP/1.1" 302 242
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26449948 HTTP/1.1" 302 249
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27090993 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27090993 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27090993 HTTP/1.1" 302 256
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/8/957.long HTTP/1.1" 200 30042
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/04/17/cid.ciw232.long HTTP/1.1" 200 1855
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449946 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26449946 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26449946 HTTP/1.1" 302 249
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27080992 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27080992 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_4/S325.long HTTP/1.1" 200 33611
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27080992 HTTP/1.1" 302 243
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26433719 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26433719 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26433719 HTTP/1.1" 302 242
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/suppl_4/S310.long HTTP/1.1" 200 32465
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27118828 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27118828 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27118828 HTTP/1.1" 302 244
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/3/403.long HTTP/1.1" 200 16692
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27098167 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=27098167 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/1197.long HTTP/1.1" 200 27692
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=27098167 HTTP/1.1" 302 257
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26206847 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26206847 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26206847 HTTP/1.1" 302 242
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/62/10/e51.long HTTP/1.1" 200 124406
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26223992 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26223992 HTTP/1.1" 301 232
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26223992 HTTP/1.1" 302 244
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26409276 HTTP/1.1" 301 372
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): cid.oxfordjournals.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /cgi/pmidlookup?view=long&pmid=26409276 HTTP/1.1" 301 233
+DEBUG:requests.packages.urllib3.connectionpool:"GET /lookup/pmid?view=long&pmid=26409276 HTTP/1.1" 302 249
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/6/892.long HTTP/1.1" 200 36957
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/early/2016/05/23/cid.ciw247.long HTTP/1.1" 200 29945
+DEBUG:requests.packages.urllib3.connectionpool:"GET /content/61/10/1536.long HTTP/1.1" 200 31153
