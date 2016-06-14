@@ -27,8 +27,8 @@ with open('testing.csv', 'rU') as csvfile:
 			counter += 1
 			continue
 
-		data['journal'] = row[6]
-		data['id'] = row[16]
+		data['journal'] = row[2]
+		data['id'] = row[8]
 		data['link'] = row[13]
 		journals_to_scrape.append(data)
 
