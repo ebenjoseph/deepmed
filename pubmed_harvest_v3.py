@@ -120,10 +120,10 @@ logging.debug('Debugging logging active')
 #INPUT
 #Search Terms for PubMed
 search_terms = [
-'cancer hypothesis',
-'stress inducated taxation',
 'heart disease'
 #'lung cancer'
+#'cancer hypothesis', #60 results for pagination tests
+#'stress inducated taxation', #0 results for tests
 ]
 
 #proxy for Selenium/PhantomJS for access to server
