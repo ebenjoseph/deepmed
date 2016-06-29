@@ -7451,3 +7451,1753 @@ INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 
 DEBUG:requests.packages.urllib3.connectionpool:"GET /sp-3.20.0b/ovidweb.cgi?QS2=434f4e1a73d37e8ca2f1a384710471f91b9701c678dcd5b05ed8456ee45bc67768d79ecf704859d09ac6e437b995eda34972e6127fa814eec9ae67ff34f6f0547d63cc9c3248f698ba288042d3f75d87fe5b856d3ce5065ede3bd25d95f903b345b5fc7d6c4173e8c733eb7d4369feff88ccc648ff98911559bd392af395da9937dc380e1aecd488aabbc70f147015f33571658f8eec047195c18ca1916ce4301542ae7d6ce8fcc967f034c5923aeff4353e457cad2a5b3f5fabeab51bbbcd14 HTTP/1.1" 302 None
 INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: ovidsp.tx.ovid.com
 DEBUG:requests.packages.urllib3.connectionpool:"GET /sp-3.20.0b/ovidweb.cgi?T=JS&PAGE=fulltext&D=ovft&AN=01451458-201602010-00026&NEWS=N&CSC=Y&CHANNEL=PubMed HTTP/1.1" 200 None
+INFO:root:Scraper started 2016-06-28 22:06:00.871006
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1556 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=627 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1976.tb07021.x/abstract;jsessionid=80967B2E550C44A74EB885444C973C5E.f03t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640403/abstract;jsessionid=125F615754942CEEADD7A0C01982AE93.f03t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197610)38:4%3C1556::AID-CNCR2820380418%3E3.0.CO;2-8/abstract;jsessionid=A13528B44937F3E78687A100572E5815.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630817/abstract;jsessionid=34D5758F2909854875FB4FEC1C561EDC.f03t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197610000-00004 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=538 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1976.tb03038.x/abstract;jsessionid=F6AAFC6D219AC2AF7EEC49FFF19AEF85.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197610000-00004 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197610000-00004 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630711/abstract;jsessionid=03D70B08B1FA6A04096DF4BEDBD1060C.f04t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197610000-00004/abstract;jsessionid=31C43A619A0ED9AF46F3EC8CFE55C5F6.f01t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664 HTTP/1.1" 404 12768
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=315 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.0954-6820.1978.tb08466.x/abstract;jsessionid=A7763B8F412DECEC52B7E931C6A48043.f02t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1977&volume=3&issue=3&spage=133 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640505/abstract;jsessionid=357D24CACB45B9069C5449AF0B770C87.f03t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1600-0536.1977.tb03627.x/abstract;jsessionid=2920E1EC108EB0FC7FE4E088C42A493B.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1046/j.1537-2995.1977.17277151918.x/abstract;jsessionid=4D1E86F25EDBB13A6230EBC0B9F90F83.f02t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1177/009127007701700406/abstract;jsessionid=40ECDDDFEB97FAF89EC19EAA3085734A.f04t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=643 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=5&spage=887 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780190509/abstract;jsessionid=935BE6090E8344F6D76FE8E1858BE685.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630821/abstract;jsessionid=3B9F16D9C96FBFA8568C1200BF3FD758.f02t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800631007/abstract;jsessionid=69F556B37912DA0C7F448DC29DFC0600.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1977.tb06616.x/abstract;jsessionid=CF1E09193E8683FB8882AB130AF83040.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1977&volume=4&issue=1&spage=57 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197607000-00003 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197607000-00003 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1977.tb00667.x/abstract;jsessionid=B576C8A29AE1233E14E78DE530CEA5F5.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197607000-00003 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197607000-00003/abstract;jsessionid=39241085A413ABCA4014E172C483EE2C.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1976.tb04886.x/abstract;jsessionid=C9209AB3D6EA8162C135CC54CC7FBEB1.f03t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1977.tb04172.x/abstract;jsessionid=CF5448E4170AED284B1E7542D1991423.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1750 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=5&spage=2081 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197610)38:4%3C1750::AID-CNCR2820380450%3E3.0.CO;2-3/abstract;jsessionid=5C780F4155E1FF402A6672E8EF29E891.f03t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197705)39:5%3C2081::AID-CNCR2820390526%3E3.0.CO;2-E/abstract;jsessionid=1671FC047A7D96C91D929C08A3541295.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=4&spage=321 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800631222/abstract;jsessionid=8558D4E3B5EDEF67AF534647B454CE85.f02t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=6&spage=2579 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197706)39:6%3C2579::AID-CNCR2820390641%3E3.0.CO;2-J/abstract;jsessionid=AC44508789F2F9EF69EF5B83F57A2B9D.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1977&volume=3&issue=4&spage=379 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1977&volume=96&issue=2&spage=179 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950030409/abstract;jsessionid=AC3CA0A6C71EC176EEFDFE50547CFA6B.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1977.tb12541.x/abstract;jsessionid=EA697D815D2AC2E3183C37E8709E6087.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640415/abstract;jsessionid=698C2E591ED61C5A09A7D4D3EC8FA6BE.f01t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=528 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197609000-00011 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197609000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=5&spage=891 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630709/abstract;jsessionid=7D3BFC2C83DE7BEC151FD799397D8724.f04t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197609000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1976.tb00643.x/abstract;jsessionid=A94AF2ABACD404591E8F0EDDFF1A4618.f04t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197609000-00011/abstract;jsessionid=482DF0703D3E726809822447F278D2FA.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1976.tb03316.x/abstract;jsessionid=098A8B1825318D7DE0969B647189FA12.f03t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1977&volume=35&issue=1&spage=135 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2141.1977.tb00569.x/abstract;jsessionid=C69C58F783B589E149EEC5C207F18B69.f03t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=7&spage=379 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=6&spage=499 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197611000-00015 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1977.tb04620.x/abstract;jsessionid=8D70324F3C1069C27E0C1406F058EBCC.f01t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630626/abstract;jsessionid=5A0C928F5D7451D06CC9A6759B9D1E4F.f01t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197611000-00015/abstract;jsessionid=3DD6BD01950ACF58D84FE70F9A27DE24.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1977&volume=7&issue=3&spage=294 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1977.tb03690.x/abstract;jsessionid=BB9F97AD6D4CF0828DE2841E4BDC8239.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0307-7772&date=1977&volume=2&issue=1&spage=53 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2273.1977.tb01335.x/abstract;jsessionid=90AE8483D15CA9330AD5DD7F40E9D860.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2580 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197606)37:6%3C2580::AID-CNCR2820370603%3E3.0.CO;2-H/abstract;jsessionid=B346BF6250A285F12B742AE4B52F9FF7.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197712)40:6%3C2787::AID-CNCR2820400605%3E3.0.CO;2-G/abstract;jsessionid=EFED09F4A5D09CAC83B253EC8CCAC233.f01t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1977&volume=202&issue=6&spage=523 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.0954-6820.1977.tb16876.x/abstract;jsessionid=8D20C9078FE6D17C5FE90A0BB7DE7BFA.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1976&volume=24&issue=4&spage=155 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=322 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=3&spage=198 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1976.tb04292.x/abstract;jsessionid=DFD9148F5EFA60BF9D9B9237F7EAB7DB.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640506/abstract;jsessionid=E1629CE82669F8F8332FD1BA292107F8.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1975.tb04568.x/abstract;jsessionid=980183F4A2C76BE762AA6B129BF97780.f04t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1975&volume=20&issue=6&spage=375 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2671 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1834-7819.1975.tb04385.x/abstract;jsessionid=13C2BFDB34C61D847696715D51D81AA0.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=5&spage=447 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=1%20suppl&spage=487 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197606)37:6%3C2671::AID-CNCR2820370615%3E3.0.CO;2-5/abstract;jsessionid=720592934D2FBED4033BD13F3A11B9CB.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1975.tb03055.x/abstract;jsessionid=0074A31B709996D2F529CA932F430C64.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197601)37:1%2B%3C487::AID-CNCR2820370714%3E3.0.CO;2-F/abstract;jsessionid=F0C0C186B17C060CBB4D2CA41F33AF34.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=4&spage=299 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=7&spage=518 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630412/abstract;jsessionid=8475663948C3A933A572F84BB0D6A724.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1976&volume=15&issue=3&spage=219 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00008 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00008 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197605000-00008 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-4362.1976.tb00695.x/abstract;jsessionid=A7B54BBC100963F9EC50D6A301E43FCE.f01t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620704/abstract;jsessionid=BDB61026479F3A8AEF1736691B226A8A.f03t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197605000-00008/abstract;jsessionid=4030CE8B73C2A024A672A56CF33E1614.f02t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0022-3549&date=1975&volume=64&issue=5&spage=793 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/jps.2600640513/abstract;jsessionid=2A07CF460754D42063F28AA66CB2CBBC.f03t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=3&spage=229 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1976&volume=48&issue=7&spage=531 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1976&volume=15&issue=2%20Suppl&spage=1 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800630316/abstract;jsessionid=59AE2C0465FED209A21180FD28242F69.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1976.tb06698.x/abstract;jsessionid=FA88BB73C7FCCC9E894D8AA7BCA7A67F.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-4362.1976.tb05089.x/abstract;jsessionid=D3B3BEFC064C2FD52407733CA07D38B3.f01t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2%20Suppl&spage=1186 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197602)37:2%2B%3C1186::AID-CNCR2820370830%3E3.0.CO;2-V/abstract;jsessionid=9A59C2D571D4ACB630F9AB815EB7628C.f04t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=5&spage=435 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=3&spage=299 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=219 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1975.tb03053.x/abstract;jsessionid=28F902C6D895E7FC67F2B8FC9754D83F.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950020311/abstract;jsessionid=861F2BADEBD7FEA7A81D6A8E89F0015F.f04t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1975&volume=93&issue=5&spage=487 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1975.tb02241.x/abstract;jsessionid=2555646346E0332374ABDDCF38888ADE.f01t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1976&volume=2&issue=1&spage=43 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=4&spage=1937 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1976&volume=33&issue=1&spage=53 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1600-0536.1976.tb02976.x/abstract;jsessionid=53177B2315D4BDF6F49090F6E7D58181.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197604)37:4%3C1937::AID-CNCR2820370445%3E3.0.CO;2-V/abstract;jsessionid=AEFA3CD9B27CBCCF8504157ED725C46D.f02t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2141.1976.tb00971.x/abstract;jsessionid=9DC5FB06136563A3A02F364C08E38150.f03t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=5-6&spage=401 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb02361.x/abstract;jsessionid=687D7692954A71B6EC5E2738324BE44D.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197605000-00006/abstract;jsessionid=CEB4E0FEA518BD73FA48F1DE501FBECD.f02t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=4%20Pt%201&spage=252 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780190207/abstract;jsessionid=6B08DB617C4FAE0D6AC7F48FB723F6BC.f04t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb01445.x/abstract;jsessionid=5C9D8180ECDD4291BBB2EC9A4528C872.f01t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1975&volume=47&issue=6&spage=679 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2&spage=922 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1975.tb04036.x/abstract;jsessionid=DD504AC9568EF74F25EC0B99D2BAEF5C.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197602)37:2%3C922::AID-CNCR2820370245%3E3.0.CO;2-P/abstract;jsessionid=26B5D7DEDD12B3E62EDFA0B38D6F5AF5.f01t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=1&spage=99 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=404 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950020111/abstract;jsessionid=0050CE3E4E9B526118A89EDEBD05EBC6.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620519/abstract;jsessionid=F2B5A5CAA73213C36DD8DF818161F0F0.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1975&volume=2&issue=3&spage=277 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197604000-00011/abstract;jsessionid=762DEA9BB83838DB765A2C7C5F71BDFC.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1975.tb01588.x/abstract;jsessionid=D63B7ACBB99B5989CB78B9AD5CE23A1C.f04t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1973&volume=32&issue=1&spage=9 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197307)32:1%3C9::AID-CNCR2820320102%3E3.0.CO;2-6/abstract;jsessionid=455772292A96C43A348DCEB2ED115981.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=285 HTTP/1.1" 404 12768
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=10&spage=666 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2751&date=1976&volume=4&issue=1&spage=23 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb05918.x/abstract;jsessionid=81C43ABD90542F7A3C8188EAA1391DC6.f01t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/jcu.1870040109/abstract;jsessionid=D823CAB36C4BC894945D49C96F7617D4.f03t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=2&spage=131 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=8&spage=638 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1976.tb03215.x/abstract;jsessionid=2585853E7D34E96760018BEA174AD460.f01t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620814/abstract;jsessionid=B18A2EF0C356EA1363F2F6FBE5BE8A37.f04t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=94&issue=1&spage=89 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0303-6979&date=1976&volume=3&issue=2&spage=104 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8461&date=1976&volume=20&issue=1&spage=38 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1976.tb04348.x/abstract;jsessionid=771E234CE5749D282FB3E4B2F259AB40.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1600-051X.1976.tb01856.x/abstract;jsessionid=90AB3EE0172D63FB739EC781BE60F859.f01t01 HTTP/1.1" 200 10622
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=4&spage=275 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1440-1673.1976.tb01991.x/abstract;jsessionid=E371858C7A5ED01CE766C5BBD7399142.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620406/abstract;jsessionid=8EF8BAE8CB8DB8290457F6D09CB785EA.f04t02 HTTP/1.1" 200 None
+INFO:root:Scraper started 2016-06-28 22:07:34.220236
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=4%20Pt%201&spage=252 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=5-6&spage=401 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197605000-00006/abstract;jsessionid=8092AAE1AD7C7B671DDF65382ABF90E9.f02t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb01445.x/abstract;jsessionid=667F72ABB26A2B948E664A3209241FEE.f03t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb02361.x/abstract;jsessionid=A7A5B201D827BEEE58B391067FE88790.f03t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780190207/abstract;jsessionid=F7624B7DDBA4D235CC62528A69D84514.f03t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=1&spage=99 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=404 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2&spage=922 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1975&volume=47&issue=6&spage=679 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620519/abstract;jsessionid=D9DAD8AFB1E3B40A7E2A36F04B18DCCA.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197602)37:2%3C922::AID-CNCR2820370245%3E3.0.CO;2-P/abstract;jsessionid=046BFCD430E95813823C37200E11FCAA.f03t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950020111/abstract;jsessionid=06C5CDD294A73C8712121123B32C0234.f03t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1975.tb04036.x/abstract;jsessionid=5863E326B47F1EC97703C89E3715BCFB.f04t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=285 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1975&volume=2&issue=3&spage=277 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1973&volume=32&issue=1&spage=9 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1975.tb01588.x/abstract;jsessionid=988108899FEDC0FBD2110ECD21AA07FF.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197307)32:1%3C9::AID-CNCR2820320102%3E3.0.CO;2-6/abstract;jsessionid=946CF96B8F20E4EFB31BF14C94E756B7.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197604000-00011/abstract;jsessionid=E1B62FC503082B7F8B80BE53FB395376.f01t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=2&spage=131 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1976.tb03215.x/abstract;jsessionid=CD2D9422FE60DCE2F5FB9859A59700FF.f01t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=8&spage=638 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2751&date=1976&volume=4&issue=1&spage=23 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=10&spage=666 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620814/abstract;jsessionid=A415E1598C00299AEB969433CD3A3210.f03t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb05918.x/abstract;jsessionid=DCFD14A9CA9A234FA4BD895C6C526CD5.f01t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/jcu.1870040109/abstract;jsessionid=DE63FEBCBCBB265B1B2524D0C7057FAD.f03t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8461&date=1976&volume=20&issue=1&spage=38 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1440-1673.1976.tb01991.x/abstract;jsessionid=C11BE78EA3406E9D8572D69F2E07BC98.f04t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=4&spage=275 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=94&issue=1&spage=89 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0303-6979&date=1976&volume=3&issue=2&spage=104 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620406/abstract;jsessionid=0D72AD4312D3D0582667B6C53CB226F7.f02t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1976.tb04348.x/abstract;jsessionid=EDC25255C5435AA609D36B6DACC71CB4.f03t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1600-051X.1976.tb01856.x/abstract;jsessionid=453F0E9BC560AEB1F696BA2D333FD8F2.f04t02 HTTP/1.1" 200 10619
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=4&spage=340 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=4%20Pt%201&spage=246 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1975.tb03269.x/abstract;jsessionid=C88DFB7E659E0CE735D68366ED9DD3AC.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=375 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0021-9754&date=1972&volume=12&issue=7&spage=241 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620512/abstract;jsessionid=88834CCF82C7D46B6849CF36D5C08232.f03t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb01444.x/abstract;jsessionid=256FCCBF05F34F7591A7870EAA716166.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1972.tb00049.x/abstract;jsessionid=55A92BDE2D632789D1EFA6AB60EC5DA0.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1973&volume=88&issue=6&spage=533 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0003-2409&date=1967&volume=22&issue=2&spage=220 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1973.tb08015.x/abstract;jsessionid=A78C2B62DA485A1F903C55B96374BCC6.f04t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1973&volume=60&issue=11&spage=910 HTTP/1.1" 404 12768
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1975&volume=18&issue=1&spage=83 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2044.1967.tb02722.x/abstract;jsessionid=8244B71B994A05B07ECF0799403FCD84.f01t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780180116/abstract;jsessionid=BCFA391A779A61B6ACDA06384B272237.f04t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1969&volume=14&issue=2&spage=104 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1975&volume=1&issue=3&spage=289 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950010311/abstract;jsessionid=FE9D42F8DF8316487474579945A46899.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0514-7166&date=1970&volume=17&issue=1&spage=121 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1834-7819.1969.tb04289.x/abstract;jsessionid=82C7CD307092ECE2CFFF8D1DA84E0D7E.f04t02 HTTP/1.1" 200 None
+INFO:root:Scraper started 2016-06-28 22:08:40.889894
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=4%20Pt%201&spage=252 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=5-6&spage=401 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197605000-00006 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780190207/abstract;jsessionid=5C171302CAC5553F1F6875C22B3F66A5.f01t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197605000-00006/abstract;jsessionid=7D3B22B73F667136CEF95D3FBE9A3159.f02t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb01445.x/abstract;jsessionid=2F275FF9B6797B1DE82AA95FF9202A2E.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb02361.x/abstract;jsessionid=0DDCAC6CDFBF629C1A086C291AFD0198.f03t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2&spage=922 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=1&spage=99 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1975&volume=47&issue=6&spage=679 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=404 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197602)37:2%3C922::AID-CNCR2820370245%3E3.0.CO;2-P/abstract;jsessionid=66F35C794BC319CC668E21E907E3DCA6.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1975.tb04036.x/abstract;jsessionid=748FF396C3E15C1F15CF8976AFB34E32.f01t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950020111/abstract;jsessionid=C21AEA0D6901A8153667261CD1DA0B77.f04t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620519/abstract;jsessionid=663987DE8340C0ACDF5931B04203A49E.f01t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=285 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1975&volume=2&issue=3&spage=277 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1973&volume=32&issue=1&spage=9 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197604000-00011 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1975.tb01588.x/abstract;jsessionid=1685DD70B11605674C324990F29207FC.f02t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197307)32:1%3C9::AID-CNCR2820320102%3E3.0.CO;2-6/abstract;jsessionid=C2E8CC75707CDE8294CB725A201E04EE.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197604000-00011/abstract;jsessionid=DD9FCD83F8A32FD16AE24FCF11A28141.f01t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=2&spage=131 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1976.tb03215.x/abstract;jsessionid=582D1BDBE6C924005F8BA2F4C3490618.f04t04 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2751&date=1976&volume=4&issue=1&spage=23 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=8&spage=638 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=10&spage=666 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/jcu.1870040109/abstract;jsessionid=D8A1062E64810F5676A20DFE5438FCA6.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620814/abstract;jsessionid=B5DC30E49129C8370A3210DFA3891568.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb05918.x/abstract;jsessionid=B34CE7CACD60A15FAD088DB625BF091D.f03t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0303-6979&date=1976&volume=3&issue=2&spage=104 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=4&spage=275 HTTP/1.1" 302 0
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8461&date=1976&volume=20&issue=1&spage=38 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=94&issue=1&spage=89 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620406/abstract;jsessionid=186F97624EA7D8F4B9E200AF34243F40.f02t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1440-1673.1976.tb01991.x/abstract;jsessionid=71FE4142698B2A8FE625DB6EDB66F0EF.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1976.tb04348.x/abstract;jsessionid=54AE1887698C20F16B3E1575505F7E7B.f04t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1600-051X.1976.tb01856.x/abstract;jsessionid=41606D1EBCE673EE91127CD3A69F1446.f01t01 HTTP/1.1" 200 10621
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=4%20Pt%201&spage=246 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=4&spage=340 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=375 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0021-9754&date=1972&volume=12&issue=7&spage=241 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1975.tb03269.x/abstract;jsessionid=5590758EEE16990DC566C58EFAE8A752.f03t02 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1975.tb01444.x/abstract;jsessionid=23F9053C3F62E7AF915E0784234DA2B3.f03t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800620512/abstract;jsessionid=F4F3EC0E558E7B7FE9D8F1AF6D2D2601.f03t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/j.1552-4604.1972.tb00049.x/abstract;jsessionid=95D32A6CF85860DFA941557BE9A9BE76.f03t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1973&volume=88&issue=6&spage=533 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0003-2409&date=1967&volume=22&issue=2&spage=220 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1973&volume=60&issue=11&spage=910 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1975&volume=18&issue=1&spage=83 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2044.1967.tb02722.x/abstract;jsessionid=D56C045BA4E43790E66F7E4E291ACF1C.f04t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1973.tb08015.x/abstract;jsessionid=9C3C4BFD24B2DA8514ED9BDBE0A4F350.f04t01 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780180116/abstract;jsessionid=8321D9226A420F2FDF3E8546CBBD425D.f01t02 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1969&volume=14&issue=2&spage=104 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1975&volume=1&issue=3&spage=289 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0514-7166&date=1970&volume=17&issue=1&spage=121 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1834-7819.1969.tb04289.x/abstract;jsessionid=A1F683F54EF661560687C6C5B24068C2.f03t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1971&volume=79&issue=3&spage=377 HTTP/1.1" 404 12768
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950010311/abstract;jsessionid=4CB2CCC949FB4DF26A3164C95DC2CA9B.f01t03 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=3&spage=219 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1188&date=1971&volume=43&issue=1&spage=151 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=10&spage=954 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1967.tb01130.x/abstract;jsessionid=37E93990C39A1DE90A3B3592C01C00D9.f02t03 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1975&volume=23&issue=4&spage=161 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1476-5381.1971.tb07164.x/abstract;jsessionid=AD8F841487338E09E753FEB115BE1CAF.f02t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1967.tb02528.x/abstract;jsessionid=2596C3BCEAA4B3D1D2F28D12AB0F3EE6.f01t04 HTTP/1.1" 200 None
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1975.tb00162.x/abstract;jsessionid=3A7F0388391A488ED4E03738C1B13DC0.f02t01 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:root:Scraper started at 2016-06-28 22:20:50.780907
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/art.1780190207/abstract;jsessionid=A05313979D2725FD924E2B6C7B4EFF41.f02t03 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1975&volume=23&issue=4&spage=161 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1975.tb00162.x/abstract;jsessionid=19D673A2C18C72056F340F672E6C0F08.f01t03 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1975&volume=23&issue=4&spage=161
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1973&volume=&issue=&spage=Suppl HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1973&volume=&issue=&spage=Suppl
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6349&date=1971&volume=50&issue=1&spage=25 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.3109/00016347109157281/abstract;jsessionid=D8C871EAC85931E7C6442058B649DBB7.f01t04 HTTP/1.1" 200 11408
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6349&date=1971&volume=50&issue=1&spage=25
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1975&volume=1&issue=2&spage=175 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/mpo.2950010213/abstract;jsessionid=E350BE39EDD5CF0CA5DCDA52B2F78F6C.f03t02 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1975&volume=1&issue=2&spage=175
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1968&volume=13&issue=2&spage=151 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1834-7819.1968.tb02255.x/abstract;jsessionid=505D2A47D42789CD47C4F93CE526C7AC.f02t03 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1968&volume=13&issue=2&spage=151
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1971&volume=79&issue=3&spage=314 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1971&volume=79&issue=3&spage=314
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1972&volume=30&issue=2&spage=573 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197208)30:2%3C573::AID-CNCR2820300238%3E3.0.CO;2-O/abstract;jsessionid=DC470DFC85C21D213D4FE5F1DEA3D7E2.f04t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1972&volume=30&issue=2&spage=573
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5555&date=1968&volume=72&issue=3&spage=460 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5555&date=1968&volume=72&issue=3&spage=460
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=10&spage=954 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1967.tb02528.x/abstract;jsessionid=F514CD4C62061C9D6C9D76F3031B14A2.f02t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=10&spage=954
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1974&volume=13&issue=6&spage=342 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-4362.1974.tb05066.x/abstract;jsessionid=9F605F0C22A5985CE11E00CF09713880.f03t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1974&volume=13&issue=6&spage=342
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1972&volume=59&issue=2&spage=98 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800590206/abstract;jsessionid=4E8C7E3A6575679092192FF1B7D09A70.f02t03 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1972&volume=59&issue=2&spage=98
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1971&volume=79&issue=3&spage=325 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0365-5571&date=1971&volume=79&issue=3&spage=325
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0077-8923&date=1967&volume=145&spage=329 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1749-6632.1967.tb50230.x/abstract;jsessionid=2F5CA505045641797A4AAAA535FA3E3D.f02t02 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0077-8923&date=1967&volume=145&spage=329
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1974&volume=61&issue=9&spage=739 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800610917/abstract;jsessionid=0AC600A49018B6A2D967790AEE0E88A0.f01t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1974&volume=61&issue=9&spage=739
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0044-2208&date=1970&volume=10&issue=8&spage=607 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/jobm.19700100807/abstract;jsessionid=FC906C0D720CE5D818C626FE7A941CA7.f03t02 HTTP/1.1" 200 7798
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0044-2208&date=1970&volume=10&issue=8&spage=607
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0077-8923&date=1974&volume=236&spage=395 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1749-6632.1974.tb41506.x/abstract;jsessionid=1E8F43FBC531EE578072A3AAD9324E71.f02t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0077-8923&date=1974&volume=236&spage=395
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=3&spage=219 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1532-5415.1967.tb01130.x/abstract;jsessionid=DBCDB09BEEB41EE3AEEF5848859EAAD0.f01t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1967&volume=15&issue=3&spage=219
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0022-3549&date=1974&volume=63&issue=6&spage=932 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0022-3549&date=1974&volume=63&issue=6&spage=932
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1188&date=1971&volume=43&issue=4&spage=828 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1476-5381.1971.tb07219.x/abstract;jsessionid=2551B7E08015D374EEF941F21F24F46A.f02t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1188&date=1971&volume=43&issue=4&spage=828
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1188&date=1969&volume=37&issue=3&spage=738 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1476-5381.1969.tb08513.x/abstract;jsessionid=9A4A14014995C71DF5BA592B282CB16D.f01t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1188&date=1969&volume=37&issue=3&spage=738
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1967&volume=20&issue=3&spage=333 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Scraper started at 2016-06-28 22:25:32.136470
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2133.1976.tb07021.x/abstract;jsessionid=43A673AD098D9FA97635BC56D805DF6C.f01t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.0954-6820.1978.tb08466.x/abstract;jsessionid=28018B92B0929119F7110E3BD8908329.f02t02 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1177/009127007701700406/abstract;jsessionid=10EB8D771FCBC22F0B38E4A696F39A7F.f02t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1977.tb06616.x/abstract;jsessionid=5B08C73BFCB503EB85D2A1378008933C.f02t02 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1365-2125.1976.tb04886.x/abstract;jsessionid=0F9AF947BA6A91C7970E448B1544189B.f04t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800631222/abstract;jsessionid=0BD115C47E20CB79A58AA51EAD8A8FFD.f03t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640415/abstract;jsessionid=7B7BDF1E5CB2AE398EC4F450A08F0A0B.f02t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-2197.1976.tb03316.x/abstract;jsessionid=FB9711086CA22AAD4DEAFA9FAF87E981.f01t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197611000-00015 HTTP/1.1" 303 191
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/doi?DOI=10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1288/00005537-197611000-00015/abstract;jsessionid=1F699D26AE50AF846D916EA404E3D780.f03t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/1097-0142(197712)40:6%3C2787::AID-CNCR2820400605%3E3.0.CO;2-G/abstract;jsessionid=606AA246801CD25ACD5427212D85DC73.f03t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800640403/abstract;jsessionid=4C64BFB6679EAA289F1331A0946DAEC6.f02t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1445-5994.1976.tb03038.x/abstract;jsessionid=F0A2A0471884EDE2ED0418AA0A03BAE2.f01t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664 HTTP/1.1" 404 12768
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1046/j.1537-2995.1977.17277151918.x/abstract;jsessionid=49A0A306E04461CCA06E5AFB7BD586C7.f03t01 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1002/bjs.1800631007/abstract;jsessionid=D5A4957BA8F976D2F07FDE2AD7160EF2.f01t02 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431 HTTP/1.1" 302 0
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /doi/10.1111/j.1464-410X.1977.tb04172.x/abstract;jsessionid=E14BEC09A1F289F93046A338C70104DA.f02t04 HTTP/1.1" 200 None
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=4&spage=321 HTTP/1.1" 404 12768
+INFO:root:Scraper started at 2016-06-28 22:28:37.730024
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): dx.doi.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): doi.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+INFO:root:Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+INFO:root:Article added!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): onlinelibrary.wiley.com
+INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:05 PM [INFO] Scraper started at 2016-06-28 22:30:05.616976
+06/28/2016 10:30:05 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:05 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323 HTTP/1.1" 302 0
+06/28/2016 10:30:05 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:06 PM [DEBUG] "GET /doi/10.1111/j.1365-2133.1976.tb07021.x/abstract;jsessionid=6690D5515AF9FD8B74AAE5B5BAEA8E4C.f02t04 HTTP/1.1" 200 None
+06/28/2016 10:30:08 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:30:08 PM [INFO] Article added!
+06/28/2016 10:30:08 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:09 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359 HTTP/1.1" 404 12768
+06/28/2016 10:30:11 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:30:11 PM [INFO] Article added!
+06/28/2016 10:30:11 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:11 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423 HTTP/1.1" 302 0
+06/28/2016 10:30:11 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:12 PM [DEBUG] "GET /doi/10.1111/j.0954-6820.1978.tb08466.x/abstract;jsessionid=46D09D116AB7D6AC40E3CE5D18CA8923.f02t03 HTTP/1.1" 200 None
+06/28/2016 10:30:14 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:30:14 PM [INFO] Article added!
+06/28/2016 10:30:14 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:14 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225 HTTP/1.1" 302 0
+06/28/2016 10:30:14 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:15 PM [DEBUG] "GET /doi/10.1177/009127007701700406/abstract;jsessionid=86E54958120A0138678DAF3ECCF1E180.f01t01 HTTP/1.1" 200 None
+06/28/2016 10:30:17 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:30:17 PM [INFO] Article added!
+06/28/2016 10:30:17 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:18 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745 HTTP/1.1" 302 0
+06/28/2016 10:30:18 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:18 PM [DEBUG] "GET /doi/10.1111/j.1445-2197.1977.tb06616.x/abstract;jsessionid=EADA4E28C02FE18B2ED66FF0490FEDA2.f02t04 HTTP/1.1" 200 None
+06/28/2016 10:30:21 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:30:21 PM [INFO] Article added!
+06/28/2016 10:30:21 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:21 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627 HTTP/1.1" 302 0
+06/28/2016 10:30:21 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:21 PM [DEBUG] "GET /doi/10.1111/j.1365-2125.1976.tb04886.x/abstract;jsessionid=675706C1D08196B27BB3D72274ED34F1.f02t02 HTTP/1.1" 200 None
+06/28/2016 10:30:24 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:30:24 PM [INFO] Article added!
+06/28/2016 10:30:24 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:24 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973 HTTP/1.1" 302 0
+06/28/2016 10:30:24 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:25 PM [DEBUG] "GET /doi/10.1002/bjs.1800631222/abstract;jsessionid=43F9BB12A151509DB80C1D6FF9FB8A8D.f04t02 HTTP/1.1" 200 None
+06/28/2016 10:30:27 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+06/28/2016 10:30:27 PM [INFO] Article added!
+06/28/2016 10:30:27 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:28 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281 HTTP/1.1" 302 0
+06/28/2016 10:30:28 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:28 PM [DEBUG] "GET /doi/10.1002/bjs.1800640415/abstract;jsessionid=7AE4D8AF31FFE76F2D1D85A515D0950A.f04t04 HTTP/1.1" 200 None
+06/28/2016 10:30:31 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+06/28/2016 10:30:31 PM [INFO] Article added!
+06/28/2016 10:30:31 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:31 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206 HTTP/1.1" 302 0
+06/28/2016 10:30:31 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:32 PM [DEBUG] "GET /doi/10.1111/j.1445-2197.1976.tb03316.x/abstract;jsessionid=DEB58F2B19D2EEBC8668975EBD93CD65.f03t04 HTTP/1.1" 200 None
+06/28/2016 10:30:34 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+06/28/2016 10:30:34 PM [INFO] Article added!
+06/28/2016 10:30:34 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:30:34 PM [DEBUG] "GET /10.1288/00005537-197611000-00015 HTTP/1.1" 303 191
+06/28/2016 10:30:34 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:30:34 PM [DEBUG] "GET /10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+06/28/2016 10:30:34 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:34 PM [DEBUG] "GET /resolve/doi?DOI=10.1288/00005537-197611000-00015 HTTP/1.1" 302 0
+06/28/2016 10:30:34 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:30:35 PM [DEBUG] "GET /doi/10.1288/00005537-197611000-00015/abstract;jsessionid=AE5DA06161738C0F86E235BC4DD7995E.f01t01 HTTP/1.1" 200 None
+06/28/2016 10:30:37 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+06/28/2016 10:30:37 PM [INFO] Article added!
+06/28/2016 10:30:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:30:38 PM [DEBUG] "GET /resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787 HTTP/1.1" 302 0
+06/28/2016 10:30:38 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:04 PM [INFO] Scraper started at 2016-06-28 22:31:04.144060
+06/28/2016 10:31:04 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:04 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:31:07 PM [INFO] Article added!
+06/28/2016 10:31:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:09 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:31:09 PM [INFO] Article added!
+06/28/2016 10:31:09 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:10 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:13 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:31:13 PM [INFO] Article added!
+06/28/2016 10:31:13 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:13 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:31:16 PM [INFO] Article added!
+06/28/2016 10:31:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:17 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:20 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:31:20 PM [INFO] Article added!
+06/28/2016 10:31:20 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:23 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:31:23 PM [INFO] Article added!
+06/28/2016 10:31:23 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:23 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:26 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+06/28/2016 10:31:26 PM [INFO] Article added!
+06/28/2016 10:31:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:26 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:29 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+06/28/2016 10:31:29 PM [INFO] Article added!
+06/28/2016 10:31:29 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:30 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:33 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+06/28/2016 10:31:33 PM [INFO] Article added!
+06/28/2016 10:31:33 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:31:33 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:31:33 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:33 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:37 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+06/28/2016 10:31:37 PM [INFO] Article added!
+06/28/2016 10:31:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:37 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:40 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+06/28/2016 10:31:40 PM [INFO] Article added!
+06/28/2016 10:31:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:40 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:31:43 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236
+06/28/2016 10:31:43 PM [INFO] Article added!
+06/28/2016 10:31:43 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:31:44 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:01 PM [INFO] Scraper started at 2016-06-28 22:35:01.489236
+06/28/2016 10:35:01 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:02 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:05 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:35:05 PM [INFO] Article added!
+06/28/2016 10:35:05 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:35:07 PM [INFO] Article added!
+06/28/2016 10:35:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:08 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:11 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:35:11 PM [INFO] Article added!
+06/28/2016 10:35:11 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:11 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:14 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:35:14 PM [INFO] Article added!
+06/28/2016 10:35:14 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:14 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:17 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:35:17 PM [INFO] Article added!
+06/28/2016 10:35:17 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:18 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:21 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:35:21 PM [INFO] Article added!
+06/28/2016 10:35:21 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:21 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:26 PM [INFO] Scraper started at 2016-06-28 22:35:26.161468
+06/28/2016 10:35:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:27 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:30 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:35:30 PM [INFO] Article added!
+06/28/2016 10:35:30 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:32 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:35:32 PM [INFO] Article added!
+06/28/2016 10:35:32 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:32 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:35 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:35:35 PM [INFO] Article added!
+06/28/2016 10:35:35 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:36 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:38 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:35:38 PM [INFO] Article added!
+06/28/2016 10:35:38 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:39 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:42 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:35:42 PM [INFO] Article added!
+06/28/2016 10:35:42 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:42 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:45 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:35:45 PM [INFO] Article added!
+06/28/2016 10:35:45 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:45 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:48 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+06/28/2016 10:35:48 PM [INFO] Article added!
+06/28/2016 10:35:48 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:49 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:51 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+06/28/2016 10:35:51 PM [INFO] Article added!
+06/28/2016 10:35:51 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:52 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:55 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+06/28/2016 10:35:55 PM [INFO] Article added!
+06/28/2016 10:35:55 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:35:55 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:35:55 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:56 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:35:59 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+06/28/2016 10:35:59 PM [INFO] Article added!
+06/28/2016 10:35:59 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:35:59 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+06/28/2016 10:36:02 PM [INFO] Article added!
+06/28/2016 10:36:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:04 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236
+06/28/2016 10:36:07 PM [INFO] Article added!
+06/28/2016 10:36:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:10 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470
+06/28/2016 10:36:10 PM [INFO] Article added!
+06/28/2016 10:36:10 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:13 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664
+06/28/2016 10:36:13 PM [INFO] Article added!
+06/28/2016 10:36:13 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:13 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141
+06/28/2016 10:36:16 PM [INFO] Article added!
+06/28/2016 10:36:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:17 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754
+06/28/2016 10:36:19 PM [INFO] Article added!
+06/28/2016 10:36:19 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:23 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431
+06/28/2016 10:36:23 PM [INFO] Article added!
+06/28/2016 10:36:23 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:25 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=4&spage=321
+06/28/2016 10:36:25 PM [INFO] Article added!
+06/28/2016 10:36:25 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:26 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:29 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1977&volume=96&issue=2&spage=179
+06/28/2016 10:36:29 PM [INFO] Article added!
+06/28/2016 10:36:29 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:29 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:32 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=5&spage=891
+06/28/2016 10:36:32 PM [INFO] Article added!
+06/28/2016 10:36:32 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:32 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:36 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=7&spage=379
+06/28/2016 10:36:36 PM [INFO] Article added!
+06/28/2016 10:36:36 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:36 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:39 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0307-7772&date=1977&volume=2&issue=1&spage=53
+06/28/2016 10:36:39 PM [INFO] Article added!
+06/28/2016 10:36:39 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:39 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:42 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=627
+06/28/2016 10:36:42 PM [INFO] Article added!
+06/28/2016 10:36:42 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:36:42 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:36:42 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:43 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:46 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197610000-00004
+06/28/2016 10:36:46 PM [INFO] Article added!
+06/28/2016 10:36:46 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:46 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:49 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1977&volume=3&issue=3&spage=133
+06/28/2016 10:36:49 PM [INFO] Article added!
+06/28/2016 10:36:49 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:49 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:52 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=643
+06/28/2016 10:36:52 PM [INFO] Article added!
+06/28/2016 10:36:52 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:52 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:55 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1977&volume=4&issue=1&spage=57
+06/28/2016 10:36:55 PM [INFO] Article added!
+06/28/2016 10:36:55 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:56 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:36:59 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1750
+06/28/2016 10:36:59 PM [INFO] Article added!
+06/28/2016 10:36:59 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:36:59 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=6&spage=2579
+06/28/2016 10:37:02 PM [INFO] Article added!
+06/28/2016 10:37:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:03 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:06 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=528
+06/28/2016 10:37:06 PM [INFO] Article added!
+06/28/2016 10:37:06 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:06 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:09 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1977&volume=35&issue=1&spage=135
+06/28/2016 10:37:09 PM [INFO] Article added!
+06/28/2016 10:37:09 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:10 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:13 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1977&volume=7&issue=3&spage=294
+06/28/2016 10:37:13 PM [INFO] Article added!
+06/28/2016 10:37:13 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:13 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1977&volume=202&issue=6&spage=523
+06/28/2016 10:37:16 PM [INFO] Article added!
+06/28/2016 10:37:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:16 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1556
+06/28/2016 10:37:19 PM [INFO] Article added!
+06/28/2016 10:37:19 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:54 PM [INFO] Scraper started at 2016-06-28 22:37:54.094028
+06/28/2016 10:37:54 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:54 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:37:57 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1977&volume=202&issue=6&spage=523
+06/28/2016 10:37:57 PM [INFO] Article added!
+06/28/2016 10:37:57 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:37:57 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:38:00 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1556
+06/28/2016 10:38:00 PM [INFO] Article added!
+06/28/2016 10:38:00 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:38:00 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:38:03 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=538
+06/28/2016 10:38:03 PM [INFO] Article added!
+06/28/2016 10:38:03 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:38:04 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:38:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=315
+06/28/2016 10:38:07 PM [INFO] Article added!
+06/28/2016 10:38:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:38:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:38:10 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=5&spage=887
+06/28/2016 10:38:10 PM [INFO] Article added!
+06/28/2016 10:38:10 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:38:10 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:38:10 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:38:11 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:18 PM [INFO] Scraper started at 2016-06-28 22:39:18.651894
+06/28/2016 10:39:18 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:19 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:21 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:39:21 PM [INFO] Article added!
+06/28/2016 10:39:21 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:24 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:39:24 PM [INFO] Article added!
+06/28/2016 10:39:24 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:24 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:27 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:39:27 PM [INFO] Article added!
+06/28/2016 10:39:27 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:28 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:30 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:39:30 PM [INFO] Article added!
+06/28/2016 10:39:30 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:31 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:34 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:39:34 PM [INFO] Article added!
+06/28/2016 10:39:34 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:34 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:37 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:39:37 PM [INFO] Article added!
+06/28/2016 10:39:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:37 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:40 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+06/28/2016 10:39:40 PM [INFO] Article added!
+06/28/2016 10:39:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:41 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:44 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+06/28/2016 10:39:44 PM [INFO] Article added!
+06/28/2016 10:39:44 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:44 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:47 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+06/28/2016 10:39:47 PM [INFO] Article added!
+06/28/2016 10:39:47 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:39:47 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:39:47 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:47 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:50 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+06/28/2016 10:39:50 PM [INFO] Article added!
+06/28/2016 10:39:50 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:50 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:53 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+06/28/2016 10:39:53 PM [INFO] Article added!
+06/28/2016 10:39:53 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:54 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:39:57 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236
+06/28/2016 10:39:57 PM [INFO] Article added!
+06/28/2016 10:39:57 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:39:57 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:00 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470
+06/28/2016 10:40:00 PM [INFO] Article added!
+06/28/2016 10:40:00 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664
+06/28/2016 10:40:02 PM [INFO] Article added!
+06/28/2016 10:40:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:03 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:06 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141
+06/28/2016 10:40:06 PM [INFO] Article added!
+06/28/2016 10:40:06 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:10 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754
+06/28/2016 10:40:10 PM [INFO] Article added!
+06/28/2016 10:40:10 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:10 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:13 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431
+06/28/2016 10:40:13 PM [INFO] Article added!
+06/28/2016 10:40:13 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=4&spage=321
+06/28/2016 10:40:16 PM [INFO] Article added!
+06/28/2016 10:40:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:16 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1977&volume=96&issue=2&spage=179
+06/28/2016 10:40:19 PM [INFO] Article added!
+06/28/2016 10:40:19 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:23 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=5&spage=891
+06/28/2016 10:40:23 PM [INFO] Article added!
+06/28/2016 10:40:23 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:23 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:26 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=7&spage=379
+06/28/2016 10:40:26 PM [INFO] Article added!
+06/28/2016 10:40:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:26 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:29 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0307-7772&date=1977&volume=2&issue=1&spage=53
+06/28/2016 10:40:29 PM [INFO] Article added!
+06/28/2016 10:40:29 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:29 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:32 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=627
+06/28/2016 10:40:32 PM [INFO] Article added!
+06/28/2016 10:40:32 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:40:33 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:40:33 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:33 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:36 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197610000-00004
+06/28/2016 10:40:36 PM [INFO] Article added!
+06/28/2016 10:40:36 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:37 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:40 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1977&volume=3&issue=3&spage=133
+06/28/2016 10:40:40 PM [INFO] Article added!
+06/28/2016 10:40:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:40 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:43 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=643
+06/28/2016 10:40:43 PM [INFO] Article added!
+06/28/2016 10:40:43 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:43 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:46 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1977&volume=4&issue=1&spage=57
+06/28/2016 10:40:46 PM [INFO] Article added!
+06/28/2016 10:40:46 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:47 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:50 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1750
+06/28/2016 10:40:50 PM [INFO] Article added!
+06/28/2016 10:40:50 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:50 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:53 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=6&spage=2579
+06/28/2016 10:40:53 PM [INFO] Article added!
+06/28/2016 10:40:53 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:54 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:40:56 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=528
+06/28/2016 10:40:56 PM [INFO] Article added!
+06/28/2016 10:40:56 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:40:57 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:00 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1977&volume=35&issue=1&spage=135
+06/28/2016 10:41:00 PM [INFO] Article added!
+06/28/2016 10:41:00 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:00 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:03 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1977&volume=7&issue=3&spage=294
+06/28/2016 10:41:03 PM [INFO] Article added!
+06/28/2016 10:41:03 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:03 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:06 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1977&volume=202&issue=6&spage=523
+06/28/2016 10:41:06 PM [INFO] Article added!
+06/28/2016 10:41:06 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:10 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1556
+06/28/2016 10:41:10 PM [INFO] Article added!
+06/28/2016 10:41:10 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:10 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:13 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=538
+06/28/2016 10:41:13 PM [INFO] Article added!
+06/28/2016 10:41:13 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:13 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=315
+06/28/2016 10:41:16 PM [INFO] Article added!
+06/28/2016 10:41:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:16 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=5&spage=887
+06/28/2016 10:41:19 PM [INFO] Article added!
+06/28/2016 10:41:19 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:41:20 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:41:20 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:23 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197607000-00003
+06/28/2016 10:41:23 PM [INFO] Article added!
+06/28/2016 10:41:23 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:23 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:26 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=5&spage=2081
+06/28/2016 10:41:26 PM [INFO] Article added!
+06/28/2016 10:41:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:27 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:30 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1977&volume=3&issue=4&spage=379
+06/28/2016 10:41:30 PM [INFO] Article added!
+06/28/2016 10:41:30 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:41:30 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:41:30 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:30 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:33 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197609000-00011
+06/28/2016 10:41:33 PM [INFO] Article added!
+06/28/2016 10:41:33 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:34 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:36 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=6&spage=499
+06/28/2016 10:41:36 PM [INFO] Article added!
+06/28/2016 10:41:36 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:37 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:40 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2580
+06/28/2016 10:41:40 PM [INFO] Article added!
+06/28/2016 10:41:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:40 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:43 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=322
+06/28/2016 10:41:43 PM [INFO] Article added!
+06/28/2016 10:41:43 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:44 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:47 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1976&volume=24&issue=4&spage=155
+06/28/2016 10:41:47 PM [INFO] Article added!
+06/28/2016 10:41:47 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:47 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:41:50 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2671
+06/28/2016 10:41:50 PM [INFO] Article added!
+06/28/2016 10:41:50 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:41:50 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:33 PM [INFO] Scraper started at 2016-06-28 22:42:33.455284
+06/28/2016 10:42:33 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:33 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:36 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=95&issue=3&spage=323
+06/28/2016 10:42:36 PM [INFO] Article added!
+06/28/2016 10:42:36 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:39 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1976&volume=84B&issue=6&spage=359
+06/28/2016 10:42:39 PM [INFO] Article added!
+06/28/2016 10:42:39 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:39 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:42 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1978&volume=204&issue=5&spage=423
+06/28/2016 10:42:42 PM [INFO] Article added!
+06/28/2016 10:42:42 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:42 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:45 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=4&spage=225
+06/28/2016 10:42:45 PM [INFO] Article added!
+06/28/2016 10:42:45 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:46 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:49 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1977&volume=47&issue=6&spage=745
+06/28/2016 10:42:49 PM [INFO] Article added!
+06/28/2016 10:42:49 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:49 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:52 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=4&spage=627
+06/28/2016 10:42:52 PM [INFO] Article added!
+06/28/2016 10:42:52 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:52 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:55 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=12&spage=973
+06/28/2016 10:42:55 PM [INFO] Article added!
+06/28/2016 10:42:55 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:55 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:42:58 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=281
+06/28/2016 10:42:58 PM [INFO] Article added!
+06/28/2016 10:42:58 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:42:59 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=3&spage=206
+06/28/2016 10:43:02 PM [INFO] Article added!
+06/28/2016 10:43:02 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:43:02 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:43:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:02 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:05 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197611000-00015
+06/28/2016 10:43:05 PM [INFO] Article added!
+06/28/2016 10:43:05 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:05 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:08 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=40&issue=6&spage=2787
+06/28/2016 10:43:08 PM [INFO] Article added!
+06/28/2016 10:43:08 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:08 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:12 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=4&spage=236
+06/28/2016 10:43:12 PM [INFO] Article added!
+06/28/2016 10:43:12 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:12 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:15 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=5&spage=470
+06/28/2016 10:43:15 PM [INFO] Article added!
+06/28/2016 10:43:15 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:17 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=664
+06/28/2016 10:43:17 PM [INFO] Article added!
+06/28/2016 10:43:17 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:18 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:21 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0041-1132&date=1977&volume=17&issue=2&spage=141
+06/28/2016 10:43:21 PM [INFO] Article added!
+06/28/2016 10:43:21 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:21 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:24 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=10&spage=754
+06/28/2016 10:43:24 PM [INFO] Article added!
+06/28/2016 10:43:24 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:24 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:28 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1977&volume=49&issue=5&spage=431
+06/28/2016 10:43:28 PM [INFO] Article added!
+06/28/2016 10:43:28 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:30 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1976&volume=6&issue=4&spage=321
+06/28/2016 10:43:30 PM [INFO] Article added!
+06/28/2016 10:43:30 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:31 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:34 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1977&volume=96&issue=2&spage=179
+06/28/2016 10:43:34 PM [INFO] Article added!
+06/28/2016 10:43:34 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:34 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:37 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1976&volume=3&issue=5&spage=891
+06/28/2016 10:43:37 PM [INFO] Article added!
+06/28/2016 10:43:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:38 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:40 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1977&volume=17&issue=7&spage=379
+06/28/2016 10:43:40 PM [INFO] Article added!
+06/28/2016 10:43:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:41 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:44 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0307-7772&date=1977&volume=2&issue=1&spage=53
+06/28/2016 10:43:44 PM [INFO] Article added!
+06/28/2016 10:43:44 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:44 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:47 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=627
+06/28/2016 10:43:47 PM [INFO] Article added!
+06/28/2016 10:43:47 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:43:47 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:43:47 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:48 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:50 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197610000-00004
+06/28/2016 10:43:50 PM [INFO] Article added!
+06/28/2016 10:43:50 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:51 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:54 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1977&volume=3&issue=3&spage=133
+06/28/2016 10:43:54 PM [INFO] Article added!
+06/28/2016 10:43:54 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:54 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:43:57 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=8&spage=643
+06/28/2016 10:43:57 PM [INFO] Article added!
+06/28/2016 10:43:57 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:43:57 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:00 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1977&volume=4&issue=1&spage=57
+06/28/2016 10:44:00 PM [INFO] Article added!
+06/28/2016 10:44:00 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:00 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:03 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1750
+06/28/2016 10:44:03 PM [INFO] Article added!
+06/28/2016 10:44:03 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:04 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=6&spage=2579
+06/28/2016 10:44:07 PM [INFO] Article added!
+06/28/2016 10:44:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:10 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=528
+06/28/2016 10:44:10 PM [INFO] Article added!
+06/28/2016 10:44:10 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:11 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:14 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1977&volume=35&issue=1&spage=135
+06/28/2016 10:44:14 PM [INFO] Article added!
+06/28/2016 10:44:14 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:14 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:17 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1977&volume=7&issue=3&spage=294
+06/28/2016 10:44:17 PM [INFO] Article added!
+06/28/2016 10:44:17 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:18 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:21 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0001-6101&date=1977&volume=202&issue=6&spage=523
+06/28/2016 10:44:21 PM [INFO] Article added!
+06/28/2016 10:44:21 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:21 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:24 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=38&issue=4&spage=1556
+06/28/2016 10:44:24 PM [INFO] Article added!
+06/28/2016 10:44:24 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:24 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:27 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=7&spage=538
+06/28/2016 10:44:27 PM [INFO] Article added!
+06/28/2016 10:44:27 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:28 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:31 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=315
+06/28/2016 10:44:31 PM [INFO] Article added!
+06/28/2016 10:44:31 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:31 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:34 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=5&spage=887
+06/28/2016 10:44:34 PM [INFO] Article added!
+06/28/2016 10:44:34 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:44:34 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:44:34 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:34 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:37 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197607000-00003
+06/28/2016 10:44:37 PM [INFO] Article added!
+06/28/2016 10:44:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:38 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:41 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1977&volume=39&issue=5&spage=2081
+06/28/2016 10:44:41 PM [INFO] Article added!
+06/28/2016 10:44:41 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:41 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:44 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1977&volume=3&issue=4&spage=379
+06/28/2016 10:44:44 PM [INFO] Article added!
+06/28/2016 10:44:44 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:44:44 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:44:44 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:45 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:48 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197609000-00011
+06/28/2016 10:44:48 PM [INFO] Article added!
+06/28/2016 10:44:48 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:48 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:51 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=6&spage=499
+06/28/2016 10:44:51 PM [INFO] Article added!
+06/28/2016 10:44:51 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:52 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:55 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2580
+06/28/2016 10:44:55 PM [INFO] Article added!
+06/28/2016 10:44:55 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:55 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:44:58 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1977&volume=64&issue=5&spage=322
+06/28/2016 10:44:58 PM [INFO] Article added!
+06/28/2016 10:44:58 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:44:59 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0002-8614&date=1976&volume=24&issue=4&spage=155
+06/28/2016 10:45:02 PM [INFO] Article added!
+06/28/2016 10:45:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:02 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:05 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=6&spage=2671
+06/28/2016 10:45:05 PM [INFO] Article added!
+06/28/2016 10:45:05 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:06 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:08 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=7&spage=518
+06/28/2016 10:45:08 PM [INFO] Article added!
+06/28/2016 10:45:08 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:09 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:12 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=3&spage=229
+06/28/2016 10:45:12 PM [INFO] Article added!
+06/28/2016 10:45:12 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:12 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:15 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=3&spage=299
+06/28/2016 10:45:15 PM [INFO] Article added!
+06/28/2016 10:45:15 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:16 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1048&date=1976&volume=33&issue=1&spage=53
+06/28/2016 10:45:19 PM [INFO] Article added!
+06/28/2016 10:45:19 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:19 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:22 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-3591&date=1976&volume=19&issue=2&spage=169
+06/28/2016 10:45:22 PM [INFO] Article added!
+06/28/2016 10:45:22 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:22 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:26 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0098-1532&date=1976&volume=2&issue=1&spage=99
+06/28/2016 10:45:26 PM [INFO] Article added!
+06/28/2016 10:45:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:28 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=285
+06/28/2016 10:45:28 PM [INFO] Article added!
+06/28/2016 10:45:28 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:28 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:31 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8682&date=1976&volume=46&issue=2&spage=131
+06/28/2016 10:45:31 PM [INFO] Article added!
+06/28/2016 10:45:31 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:32 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:35 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8461&date=1976&volume=20&issue=1&spage=38
+06/28/2016 10:45:35 PM [INFO] Article added!
+06/28/2016 10:45:35 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:35 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:38 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=3&spage=198
+06/28/2016 10:45:38 PM [INFO] Article added!
+06/28/2016 10:45:38 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:39 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:42 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=1%20suppl&spage=487
+06/28/2016 10:45:42 PM [INFO] Article added!
+06/28/2016 10:45:42 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:45:42 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:45:42 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:42 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:45 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197605000-00008
+06/28/2016 10:45:45 PM [INFO] Article added!
+06/28/2016 10:45:45 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:46 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:49 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1976&volume=15&issue=2%20Suppl&spage=1
+06/28/2016 10:45:49 PM [INFO] Article added!
+06/28/2016 10:45:49 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:51 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-0656&date=1975&volume=83&issue=3&spage=219
+06/28/2016 10:45:51 PM [INFO] Article added!
+06/28/2016 10:45:51 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:52 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:54 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0105-1873&date=1976&volume=2&issue=1&spage=43
+06/28/2016 10:45:54 PM [INFO] Article added!
+06/28/2016 10:45:54 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:45:55 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:45:55 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:55 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:45:58 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197605000-00006
+06/28/2016 10:45:58 PM [INFO] Article added!
+06/28/2016 10:45:58 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:45:58 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:02 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1975&volume=47&issue=6&spage=679
+06/28/2016 10:46:02 PM [INFO] Article added!
+06/28/2016 10:46:02 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:02 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:05 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0306-5251&date=1975&volume=2&issue=3&spage=277
+06/28/2016 10:46:05 PM [INFO] Article added!
+06/28/2016 10:46:05 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:05 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:08 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2751&date=1976&volume=4&issue=1&spage=23
+06/28/2016 10:46:08 PM [INFO] Article added!
+06/28/2016 10:46:08 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:08 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:12 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0303-6979&date=1976&volume=3&issue=2&spage=104
+06/28/2016 10:46:12 PM [INFO] Article added!
+06/28/2016 10:46:12 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:12 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:16 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0045-0421&date=1975&volume=20&issue=6&spage=375
+06/28/2016 10:46:16 PM [INFO] Article added!
+06/28/2016 10:46:16 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:16 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:19 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1976&volume=63&issue=4&spage=299
+06/28/2016 10:46:19 PM [INFO] Article added!
+06/28/2016 10:46:19 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:20 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:23 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0022-3549&date=1975&volume=64&issue=5&spage=793
+06/28/2016 10:46:23 PM [INFO] Article added!
+06/28/2016 10:46:23 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:23 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:26 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2%20Suppl&spage=1186
+06/28/2016 10:46:26 PM [INFO] Article added!
+06/28/2016 10:46:26 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:27 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:30 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1975&volume=93&issue=5&spage=487
+06/28/2016 10:46:30 PM [INFO] Article added!
+06/28/2016 10:46:30 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:30 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:33 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=5-6&spage=401
+06/28/2016 10:46:33 PM [INFO] Article added!
+06/28/2016 10:46:33 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:33 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:36 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=2&spage=922
+06/28/2016 10:46:36 PM [INFO] Article added!
+06/28/2016 10:46:36 PM [INFO] Starting new HTTP connection (1): dx.doi.org
+06/28/2016 10:46:36 PM [INFO] Starting new HTTP connection (1): doi.wiley.com
+06/28/2016 10:46:37 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:37 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:40 PM [INFO] Link to full text:http://dx.doi.org/10.1288/00005537-197604000-00011
+06/28/2016 10:46:40 PM [INFO] Article added!
+06/28/2016 10:46:40 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:40 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:43 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0091-2700&date=1975&volume=15&issue=10&spage=666
+06/28/2016 10:46:43 PM [INFO] Article added!
+06/28/2016 10:46:43 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:43 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:46 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-0963&date=1976&volume=94&issue=1&spage=89
+06/28/2016 10:46:46 PM [INFO] Article added!
+06/28/2016 10:46:46 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:47 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:50 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1323&date=1975&volume=62&issue=5&spage=375
+06/28/2016 10:46:50 PM [INFO] Article added!
+06/28/2016 10:46:50 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:50 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:53 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=5&spage=447
+06/28/2016 10:46:53 PM [INFO] Article added!
+06/28/2016 10:46:53 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:53 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:56 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0011-9059&date=1976&volume=15&issue=3&spage=219
+06/28/2016 10:46:56 PM [INFO] Article added!
+06/28/2016 10:46:56 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:46:56 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:46:59 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0007-1331&date=1976&volume=48&issue=7&spage=531
+06/28/2016 10:46:59 PM [INFO] Article added!
+06/28/2016 10:46:59 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:47:00 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:47:03 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0004-8291&date=1975&volume=5&issue=5&spage=435
+06/28/2016 10:47:03 PM [INFO] Article added!
+06/28/2016 10:47:03 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:47:04 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
+06/28/2016 10:47:07 PM [INFO] Link to full text:http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0008-543X&date=1976&volume=37&issue=4&spage=1937
+06/28/2016 10:47:07 PM [INFO] Article added!
+06/28/2016 10:47:07 PM [INFO] Starting new HTTP connection (1): onlinelibrary.wiley.com
+06/28/2016 10:47:07 PM [INFO] Resetting dropped connection: onlinelibrary.wiley.com
