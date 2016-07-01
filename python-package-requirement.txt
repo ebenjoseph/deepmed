@@ -1,8 +1,0 @@
-jupyter
-nltk
-lxml
-requests
-numpy
-scipy
-bs4
-matplotlib
