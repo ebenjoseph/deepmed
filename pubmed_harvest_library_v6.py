@@ -384,8 +384,8 @@ logging.debug('Debugging logging active')
 libraries = [
 #'loprovOvid', #COMPLETE!
 #'loprovWiley',
-'loprovES'
-#'loprovHighWire',
+#'loprovES'
+'loprovHighWire',
 #'loprovSpringer',
 #'loprovNPG'
 ]
@@ -393,8 +393,8 @@ libraries = [
 libraryxpaths = [
 #'Ovid Technologies, Inc.', #COMPLETE!
 #'Wiley',
-'Elsevier Science'
-#'HighWire',
+#'Elsevier Science'
+'HighWire'
 #'Springer',
 #'Nature Publishing Group'
 ]
@@ -469,7 +469,7 @@ service_args = [
 followed_fulltextlink = ''
 error_pagesource = ''
 counter_item = 100000 #starting counter
-counter_end = 119999 #pause at this count
+counter_end = 1000000 #pause at this count
 
 #Start PhantomJS browser
 logging.info('Starting PhantomJS...')
