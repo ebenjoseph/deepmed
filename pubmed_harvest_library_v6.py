@@ -384,8 +384,8 @@ logging.debug('Debugging logging active')
 libraries = [
 #'loprovOvid', #COMPLETE!
 #'loprovWiley',
-#'loprovES'
-'loprovHighWire',
+'loprovES'
+#'loprovHighWire',
 #'loprovSpringer',
 #'loprovNPG'
 ]
@@ -393,8 +393,8 @@ libraries = [
 libraryxpaths = [
 #'Ovid Technologies, Inc.', #COMPLETE!
 #'Wiley',
-#'Elsevier Science'
-'HighWire'
+'Elsevier Science'
+#'HighWire'
 #'Springer',
 #'Nature Publishing Group'
 ]
