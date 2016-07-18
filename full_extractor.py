@@ -67,7 +67,7 @@ wordsOut = [
 "C-p", "C-a"
 ]
 
-out = open('finalout.csv', 'w')
+out = open('../finalout.csv', 'w')
 a = csv.writer(out)
 
 a.writerow(words)
@@ -75,11 +75,11 @@ a.writerow(words)
 pubDocs = {}
 artDocs = {}
 
-with open('ES_amsp1000.jsonl') as f:
+with open('../ES_amsp1000.jsonl') as f:
 	for line in f:
-		pval = open('csv_outputs/pval_output.csv', 'r')
-		n = open('csv_outputs/n_output.csv', 'r')
-		funding = open('csv_outputs/funding_output.csv', 'r')
+		pval = open('../csv_outputs/pval_output.csv', 'r')
+		n = open('../csv_outputs/n_output.csv', 'r')
+		funding = open('../csv_outputs/funding_output.csv', 'r')
 
 		data = json.loads(line)
 		docData = {}
@@ -98,18 +98,23 @@ with open('ES_amsp1000.jsonl') as f:
 				info.append(0)
 
 		c = 0
+		existing = []
 		for line in pval:
 			row = line.split(',')
 			if int(row[0]) == int(data['id']):
-				info.append(row[2].strip())
-				c += 1
+				if row[2].strip() not in existing:
+					existing.append(row[2].strip())  # add to array if not there yet
+					c += 1
 			if c == 10: 
 				print 'more than 10 pvals'
 				break
 
 		while c < 10:
-			info.append(0)
+			existing.append(0)
 			c += 1
+
+		for i in existing:
+			info.append(i)
 
 		c = 0
 		for line in n:
@@ -119,18 +124,16 @@ with open('ES_amsp1000.jsonl') as f:
 				try:
 					if int(num) not in info:
 						info.append(int(num))
-					else:
-						info.append(0)
+						c += 1
 				except:
 					try:
 						num = text2int(num)
 						if num not in info:
 							info.append(text2int(num))
-						else:
-							info.append(0)
+							c += 1
 					except:
-						info.append(0)
-				c += 1
+						print 'bah'
+				#c += 1
 			if c == 10: 
 				print 'more than 10 n'
 				break
@@ -140,11 +143,13 @@ with open('ES_amsp1000.jsonl') as f:
 			c += 1
 
 		c = 0
+		existing = []
 		for line in funding:
 			row = line.split(',')
 			if int(row[0]) == int(data['id']):
-				info.append(row[2].strip())
-				c += 1
+				if row[2].strip() not in existing:
+					existing.append(row[2].strip())
+					c += 1
 			if c == 10: 
 				print 'more than 10 fundings'
 				break
@@ -152,6 +157,9 @@ with open('ES_amsp1000.jsonl') as f:
 		while c < 10:
 			info.append(0)
 			c += 1
+
+		for i in existing:
+			info.append(i)
 
 
 		a.writerow(info)
