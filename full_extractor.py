@@ -67,7 +67,7 @@ wordsOut = [
 "C-p", "C-a"
 ]
 
-out = open('../finalout.csv', 'w')
+out = open('../modeling/finalout.csv', 'w')
 a = csv.writer(out)
 
 a.writerow(words)
@@ -75,7 +75,7 @@ a.writerow(words)
 pubDocs = {}
 artDocs = {}
 
-with open('../ES_amsp1000.jsonl') as f:
+with open('../modeling/ES_n.jsonl') as f:
 	for line in f:
 		pval = open('../csv_outputs/pval_output.csv', 'r')
 		n = open('../csv_outputs/n_output.csv', 'r')
@@ -87,7 +87,6 @@ with open('../ES_amsp1000.jsonl') as f:
 
 		#docData['id'] = data['id']
 		pubInfo = data['pubtypes'].lower()
-		content = data['content'].lower()
 
 		info.append(data['id'])
 
@@ -132,7 +131,7 @@ with open('../ES_amsp1000.jsonl') as f:
 							info.append(text2int(num))
 							c += 1
 					except:
-						print 'bah'
+						print ''
 				#c += 1
 			if c == 10: 
 				print 'more than 10 n'
@@ -151,11 +150,11 @@ with open('../ES_amsp1000.jsonl') as f:
 					existing.append(row[2].strip())
 					c += 1
 			if c == 10: 
-				print 'more than 10 fundings'
+				print 'more than 10 funding agencies'
 				break
 
 		while c < 10:
-			info.append(0)
+			existing.append(0)
 			c += 1
 
 		for i in existing:

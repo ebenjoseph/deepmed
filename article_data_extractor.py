@@ -1,13 +1,12 @@
 import json
 
-setKeys = ['pmid', 'golden']
-contentWords = ['result', 'summary', 'abstract']
+contentWords = ['Foot', 'Fund', 'Ackn', 'Conflict', 'Interest', 'Conclusion', 'Contribut', 'Disclos']  #['funding', 'acknowledge', 'abstract']
 finalContent = []
 tables = [0, 1]
 
-outfile = open('ES_pval1000.jsonl', 'a')
+outfile = open('../modeling/ES_funding.jsonl', 'a')
 
-with open('Arduino_ES_output1000.jsonl') as file:
+with open('../modeling/Arduino_ES_output_filtered.jsonl') as file:
 	for line in file:
 		data = json.loads(line)
 		finalData = {}
@@ -39,7 +38,7 @@ with open('Arduino_ES_output1000.jsonl') as file:
 				if table['Section'].lower().find(word.lower()) >= 0:
 		'''
 
-		if len(contentString) > 0 and len(contentString) < 100: continue
+		#if len(contentString) > 0 and len(contentString) < 100: continue
 
 
 		json.dump(finalData, outfile)
