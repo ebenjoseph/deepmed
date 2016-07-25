@@ -40,7 +40,7 @@ words = [
 "sections",
 ] + readability.extractors()
 
-out = open('../finalout.csv', 'w')
+out = open('csv_outputs/finalout.csv', 'w')
 a = csv.writer(out)
 
 CUTOFF = 5
@@ -49,11 +49,11 @@ a.writerow(words)
 pubDocs = {}
 artDocs = {}
 
-with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
+with open('Arduino_ES_output_filtered.jsonl') as f:
 	for line in f:
-		pval = open('../csv_outputs/pval_output.csv', 'r')
-		n = open('../csv_outputs/n_output.csv', 'r')
-		funding = open('../csv_outputs/funding_output.csv', 'r')
+		pval = open('csv_outputs/pval_output.csv', 'r')
+		n = open('csv_outputs/n_output.csv', 'r')
+		funding = open('csv_outputs/funding_output.csv', 'r')
 
 		data = json.loads(line)
 		#docData = {}
