@@ -28,9 +28,27 @@ def char_count(string, **kwargs):
     return len(string)
 
 
-@extractor('word')
+@extractor('words')
 def word_count(words, **kwargs):
     return len(words)
+
+@extractor('ARI')
+def automated_readability_index(string, words, sentences):
+    return 4.71 * (len(string) / len(words)) + 0.5 * (len(words) / len(sentences)) - 21.43
+
+@extractor('hard-words')
+def hardword_count(words, **kwargs):
+    hardwords = [word for word, syllables in words if syllables and syllables[0] > 2]
+    return float(len(hardwords)) / len(words)
+
+@extractor('lexical-density')
+def lexical_density(words, **kwargs):
+    return float(len(set([word for word, syllable in words]))) / len(words)
+
+@extractor('sentences')
+def sentence_count(sentences, **kwargs):
+    return len(sentences)
+
 
 
 def extract(string):
