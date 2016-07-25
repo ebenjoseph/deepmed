@@ -48,7 +48,9 @@ words = [
 "funding-7",
 "funding-8",
 "funding-9",
-"funding-10"
+"funding-10",
+"length",
+"sections"
 ]
 
 wordsPub = ["Multicenter Study", "Randomized Controlled Trial",
@@ -67,7 +69,7 @@ wordsOut = [
 "C-p", "C-a"
 ]
 
-out = open('../modeling/finalout.csv', 'w')
+out = open('../finalout.csv', 'w')
 a = csv.writer(out)
 
 a.writerow(words)
@@ -75,7 +77,7 @@ a.writerow(words)
 pubDocs = {}
 artDocs = {}
 
-with open('../modeling/ES_n.jsonl') as f:
+with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 	for line in f:
 		pval = open('../csv_outputs/pval_output.csv', 'r')
 		n = open('../csv_outputs/n_output.csv', 'r')
@@ -87,6 +89,7 @@ with open('../modeling/ES_n.jsonl') as f:
 
 		#docData['id'] = data['id']
 		pubInfo = data['pubtypes'].lower()
+		content = data['content']
 
 		info.append(data['id'])
 
@@ -160,6 +163,15 @@ with open('../modeling/ES_n.jsonl') as f:
 		for i in existing:
 			info.append(i)
 
+
+		# length of article and num sections
+		l = [len(value) for key, value in content.items()]
+		x = 0
+		for i in l:
+			x += i
+
+		info.append(i)
+		info.append(len(content.keys()))
 
 		a.writerow(info)
 

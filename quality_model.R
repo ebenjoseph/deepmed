@@ -56,3 +56,5 @@ prediction_class_mdl_covariates[prediction_class_mdl_covariates <= 0.5] = FALSE
 foo = (prediction_class_mdl_covariates - validation.df$golden)
 bar = foo[foo != 0]
 misclassification_error_few_covariates = length(bar) / nrow(validation.df)
+
+
