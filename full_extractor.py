@@ -2,6 +2,9 @@
 
 import json
 import csv
+from lib import readability
+
+contentWords = ['Abstract', 'Method', 'Summary', 'Result', 'Conclusion', 'Discussion', 'Material', 'Future']
 
 words = [
 "Doc ID",
@@ -24,54 +27,23 @@ words = [
 "pval-3",
 "pval-4",
 "pval-5",
-"pval-6",
-"pval-7",
-"pval-8",
-"pval-9",
-"pval-10",
 "n-1",
 "n-2",
 "n-3",
 "n-4",
 "n-5",
-"n-6",
-"n-7",
-"n-8",
-"n-9",
-"n-10",
 "funding-1",
 "funding-2",
 "funding-3",
 "funding-4",
 "funding-5",
-"funding-6",
-"funding-7",
-"funding-8",
-"funding-9",
-"funding-10",
-"length",
-"sections"
-]
-
-wordsPub = ["Multicenter Study", "Randomized Controlled Trial",
-						"Observational Study", "Comparative Study"]
-
-wordsTrial = ["Trial"]
-wordsMulti = ["Multicenter", "Multi-center", "Multicentric"]
-wordsRandom = ["Randomized", "Random", "Randomly"]
-wordsComparative = ["Comparative"]
-
-wordsOut = [
-"Doc ID",
-"T-p", "T-a",
-"MC-p", "MC-a",
-"R-p", "R-a",
-"C-p", "C-a"
-]
+"sections",
+] + readability.extractors()
 
 out = open('../finalout.csv', 'w')
 a = csv.writer(out)
 
+CUTOFF = 5
 a.writerow(words)
 
 pubDocs = {}
@@ -84,15 +56,16 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 		funding = open('../csv_outputs/funding_output.csv', 'r')
 
 		data = json.loads(line)
-		docData = {}
+		#docData = {}
 		info = []
 
 		#docData['id'] = data['id']
 		pubInfo = data['pubtypes'].lower()
 		content = data['content']
 
-		info.append(data['id'])
+		info.append(data['pmid'])
 
+		# extract pubtypes info
 		for word in words[1:15]:
 			if pubInfo.find(word.lower()) >= 0:
 				info.append(1)
@@ -103,15 +76,15 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 		existing = []
 		for line in pval:
 			row = line.split(',')
-			if int(row[0]) == int(data['id']):
+			if int(row[0]) == int(data['pmid']):
 				if row[2].strip() not in existing:
 					existing.append(row[2].strip())  # add to array if not there yet
 					c += 1
-			if c == 10: 
-				print 'more than 10 pvals'
+			if c == CUTOFF: 
+				print 'more than 5 pvals'
 				break
 
-		while c < 10:
+		while c < CUTOFF:
 			existing.append(0)
 			c += 1
 
@@ -121,7 +94,7 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 		c = 0
 		for line in n:
 			row = line.split(',')
-			if int(row[0]) == int(data['id']):
+			if int(row[0]) == int(data['pmid']):
 				num = row[2].strip().lower()
 				try:
 					if int(num) not in info:
@@ -136,11 +109,11 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 					except:
 						print ''
 				#c += 1
-			if c == 10: 
-				print 'more than 10 n'
+			if c == CUTOFF: 
+				print 'more than 5 n'
 				break
 
-		while c < 10:
+		while c < CUTOFF:
 			info.append(0)
 			c += 1
 
@@ -148,15 +121,15 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 		existing = []
 		for line in funding:
 			row = line.split(',')
-			if int(row[0]) == int(data['id']):
+			if int(row[0]) == int(data['pmid']):
 				if row[2].strip() not in existing:
 					existing.append(row[2].strip())
 					c += 1
-			if c == 10: 
-				print 'more than 10 funding agencies'
+			if c == CUTOFF: 
+				print 'more than 5 funding agencies'
 				break
 
-		while c < 10:
+		while c < CUTOFF:
 			existing.append(0)
 			c += 1
 
@@ -164,14 +137,25 @@ with open('../modeling/Arduino_ES_output_filtered.jsonl') as f:
 			info.append(i)
 
 
-		# length of article and num sections
-		l = [len(value) for key, value in content.items()]
-		x = 0
-		for i in l:
-			x += i
-
-		info.append(i)
+		# num sections
 		info.append(len(content.keys()))
+
+
+		# extract readability data
+		contentString = ""
+
+		# content extractor
+		for key in content:
+			for word in contentWords:
+				if key.lower().find(word.lower()) >= 0:
+					contentString += data['content'][key]
+					contentString += ' '
+
+		if len(contentString) < 1000: continue
+
+		readability_dict = readability.extract(contentString)
+		info += readability_dict.values()
+
 
 		a.writerow(info)
 
