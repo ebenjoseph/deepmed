@@ -20,4 +20,5 @@ if __name__ == '__main__':
                         contentString += data['content'][key]
                         contentString += ' '
 
-            print readability.extract(contentString)
+            if len(contentString) != 0:
+                print readability.extract(contentString)
