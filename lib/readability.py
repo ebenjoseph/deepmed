@@ -2,7 +2,7 @@
 The ``readability`` module contains extractors for a text's "ease of reading", i.e.
 some ratios between syllables and words.
 """
-import collections
+from collections import OrderedDict
 import math
 
 from nltk.corpus import cmudict
@@ -10,7 +10,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import statistics
 
 CMUDICT = cmudict.dict()
-EXTRACTORS = collections.OrderedDict()
+EXTRACTORS = OrderedDict()
 
 
 def syllables(word):
@@ -108,7 +108,7 @@ def extract(string):
         'words': [(word, syllables(word)) for word in words],
         'sentences': sentences,
     }
-    return {name: function(**kwargs) for name, function in EXTRACTORS.iteritems()}
+    return OrderedDict((name, function(**kwargs)) for name, function in EXTRACTORS.iteritems())
 
 def extractors():
     """Return the list of extractor names."""
