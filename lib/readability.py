@@ -61,7 +61,7 @@ def sentence_length_avg(words, sentences, **kwargs):
 	return float(len(words)) / len(sentences)
 
 @extractor('words-per-sentence-stdev')
-def sentence_length_avg(sentences, **kwargs):
+def sentence_length_std(sentences, **kwargs):
 	sentence_lengths = list(len(word_tokenize(sentence)) for sentence in sentences)
 	return stdev(sentence_lengths)
 
