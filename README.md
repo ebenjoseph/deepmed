@@ -2,7 +2,16 @@
 
 ## Install
 
-### Readability
+### Python Deps
+
+Install the python dependences, preferably in a
+[virtualenv](https://pypi.python.org/pypi/virtualenvwrapper):
+
+```shell
+$ pip install -r requirements.txt
+```
+
+### Readability NLTK Data
 
 Install the CMU corpus and Punkt tokenizer models:
 
@@ -11,4 +20,4 @@ Install the CMU corpus and Punkt tokenizer models:
 >>> nltk.download()
 ```
 
-Select `corpora/cmudict`, `models/punkt`.
+Select `corpora/cmudict` and `models/punkt`.
