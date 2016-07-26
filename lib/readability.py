@@ -7,10 +7,14 @@ import math
 
 from nltk.corpus import cmudict
 from nltk.tokenize import sent_tokenize, word_tokenize
-import statistics
 
 CMUDICT = cmudict.dict()
 EXTRACTORS = OrderedDict()
+
+
+def stdev(values):
+	mean = float(sum(values)) / len(values)
+	return math.sqrt(1.0 / (len(values) - 1) * sum((v - mean) ** 2 for v in values))
 
 
 def syllables(word):
@@ -44,13 +48,13 @@ def sentence_count(sentences, **kwargs):
 
 @extractor('chars-per-word-mean')
 def word_length_avg(string, words, **kwargs):
-	word_lengths = (len(word) for word, _ in words)
+	word_lengths = [len(word) for word, _ in words]
 	return float(sum(word_lengths)) / len(words)
 
 @extractor('chars-per-word-stdev')
 def word_length_stdev(words, **kwargs):
-	word_lengths = (len(word) for word, _ in words)
-	return statistics.stdev(word_lengths)
+	word_lengths = [len(word) for word, _ in words]
+	return stdev(word_lengths)
 
 @extractor('words-per-sentence-mean')
 def sentence_length_avg(words, sentences, **kwargs):
@@ -59,17 +63,17 @@ def sentence_length_avg(words, sentences, **kwargs):
 @extractor('words-per-sentence-stdev')
 def sentence_length_avg(sentences, **kwargs):
 	sentence_lengths = list(len(word_tokenize(sentence)) for sentence in sentences)
-	return statistics.stdev(sentence_lengths)
+	return stdev(sentence_lengths)
 
 @extractor('syallables-per-word-mean')
 def syllables_per_word_mean(words, **kwargs):
-	syllables = (word_syllables[0] for _, word_syllables in words if word_syllables)
+	syllables = [word_syllables[0] for _, word_syllables in words if word_syllables]
 	return float(sum(syllables)) / len(words)
 
 @extractor('syallables-per-word-stdev')
 def syllables_per_word_stdev(words, **kwargs):
-	syllables = (word_syllables[0] for _, word_syllables in words if word_syllables)
-	return statistics.stdev(syllables)
+	syllables = [word_syllables[0] for _, word_syllables in words if word_syllables]
+	return stdev(syllables)
 
 @extractor('ARI')
 def automated_readability_index(string, words, sentences):
