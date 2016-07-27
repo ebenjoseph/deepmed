@@ -17,6 +17,7 @@ SUBSECTION_CLASS = 'subsection'
 KEYWORD_CLASS = 'kwd-group'
 KEYWORD_ITEM_CLASS = 'kwd'
 KEY_DELIMITER = ': '
+TITLE_BODY_PARSABLE = {'abstract', 'intro'}
 
 def getsoup(root_link):
 	try:
@@ -36,20 +37,6 @@ def getsoup(root_link):
 	return BeautifulSoup(web_page.content, "lxml") #lxml (faster)
 
 
-# Custom parsing subroutine for abstract (copy full text to output)
-def parse_abstract(root):
-	subsections = root.find_all(attrs={'class': re.compile('^%s' % SUBSECTION_CLASS)})
-	for s in subsections:
-		subtitle = root['class'][1]+KEY_DELIMITER+s.strong.contents[0]
-		body = s.p.contents[1]
-		
-		#TODO: Replace with file output
-		print 'SUBTITLE: '+subtitle
-		print 'BODY: '+body
-		
-	return
-
-# Custom parsing subroutine for keywords
 def parse_keywords(root):
 	keywords = root.find_all(attrs={'class': re.compile(KEYWORD_ITEM_CLASS)})
 	keywords_flattened = []
@@ -62,9 +49,32 @@ def parse_keywords(root):
 		
 	return
 
-# Custom parsing subroutine for intro (copy full text to output)	
-def parse_intro(root):
-	print 'PARSE INTRO NOT IMPLEMENTED YET!'
+# Custom parsing subroutine for sections that have just title and body, supporting subsections
+# that have their own subtitles.  This should work for most abstract / intro / discussion sections.	
+def parse_title_body(root):
+	subsections = root.find_all(attrs={'class': re.compile('^%s' % SUBSECTION_CLASS)})
+	title = title = root.h2.contents[0]
+	body = ''
+	print 'TITLE: '+title
+	
+	if len(subsections) > 0:
+		for s in subsections:
+			subtitle = title+KEY_DELIMITER+s.strong.contents[0]
+			#TODO: replace s.strong with something that supports h3 to get Materials
+			b = s.p.contents[1]
+			print 'SUBTITLE: '+subtitle
+			print 'BODY: '+b
+			#TODO: Add code here that exports each subtitle / body
+	else:
+		content = root.find_all(attrs={'id': re.compile('^p-')})
+		for c in content:
+			print c['id']
+			for d in c.contents:
+				if isinstance(d, basestring):
+					body += d
+					body += ' '
+		print 'BODY: '+body
+		#TODO: Add code here that exports the combined body with the title
 	return
 	
 # Custom parsin subroutine for materials (copy full text to output, flatten any sub-headers using ': ' as delimiter)	
@@ -115,11 +125,16 @@ def pull_article(root_link):
 		# Find section headers (children of full article div)	
 		for s in article.find_all(attrs={'class': re.compile('^%s' % SECTION_PREFIX)}):
 			section_type = s['class'][1]	
-			if section_type == 'abstract':
+			if section_type in TITLE_BODY_PARSABLE:
 				try:
-					parse_abstract(s)
+					parse_title_body(s)
 				except:
-					print 'ERROR parsing abstract'	
+					print 'ERROR parsing %s' % section_type
+			elif section_type == KEYWORD_CLASS:
+				try:
+					parse_keywords(s)
+				except:
+					print 'ERROR parsing %s' % section_type			
 			else:
 				#TODO: implement other custom parsers
 					
