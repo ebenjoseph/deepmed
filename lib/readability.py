@@ -8,13 +8,11 @@ import math
 from nltk.corpus import cmudict
 from nltk.tokenize import sent_tokenize, word_tokenize
 
+from . import stats
+
+
 CMUDICT = cmudict.dict()
 EXTRACTORS = OrderedDict()
-
-
-def stdev(values):
-	mean = float(sum(values)) / len(values)
-	return math.sqrt(1.0 / (len(values) - 1) * sum((v - mean) ** 2 for v in values))
 
 
 def syllables(word):
