@@ -12,6 +12,26 @@ CONTENT_WORDS = [
 ]
 
 
+def find_indices(string, keyword):
+	"""Yields the indices ``keywords`` within string."""
+	index = -1
+	while True:
+		try:
+			index = string.index(keyword, index + 1)
+		except ValueError:
+			break
+		else:
+			yield index
+
+
+def get_surround(string, keyword, before=100, after=100):
+	"""Yields the keyword with the surrounding text"""
+	for index in find_indices(string, keyword):
+		start = max(0, index - before)
+		end = min(len(string), index + after)
+		yield string[start:end]
+
+
 def text_content(data, content_words=None):
 	"""Pluck the text content from the entry data. A content section has a title
 	containing a ``content_word``.
