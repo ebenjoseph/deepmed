@@ -1,12 +1,12 @@
 import json
 
-contentWords = ['Foot', 'Fund', 'Ackn', 'Conflict', 'Interest', 'Conclusion', 'Contribut', 'Disclos']  #['funding', 'acknowledge', 'abstract']
+contentWords = ['','']  #['funding', 'acknowledge', 'abstract']
 finalContent = []
 tables = [0, 1]
 
-outfile = open('../modeling/ES_funding.jsonl', 'a')
+outfile = open('modeling/ES_randomizer.jsonl', 'a')
 
-with open('../modeling/Arduino_ES_output_filtered.jsonl') as file:
+with open('Arduino_ES_output_filtered.jsonl') as file:
 	for line in file:
 		data = json.loads(line)
 		finalData = {}
