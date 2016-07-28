@@ -9,15 +9,17 @@ import xml.etree.ElementTree
 from multiprocessing.dummy import Pool as ThreadPool
 import threading
 import collections
+import traceback
 
 
 CONTENT_CLASS = 'article fulltext-view '
+REFERENCE_CLASS = 'ref-list'
 SECTION_PREFIX = 'section '
 SUBSECTION_CLASS = 'subsection'
 KEYWORD_CLASS = 'kwd-group'
 KEYWORD_ITEM_CLASS = 'kwd'
 KEY_DELIMITER = ': '
-TITLE_BODY_PARSABLE = {'abstract', 'intro'}
+TITLE_BODY_PARSABLE = {'abstract', 'intro', 'materials', 'results', 'discussion', 'acknowledgments', 'sources_of_funding', 'disclosures'}
 
 def getsoup(root_link):
 	try:
@@ -39,72 +41,87 @@ def getsoup(root_link):
 
 def parse_keywords(root):
 	keywords = root.find_all(attrs={'class': re.compile(KEYWORD_ITEM_CLASS)})
-	keywords_flattened = []
-	for k in keywords:
-		keywords_flattened += k.a.contents[0].split(',')	
+	keywords_flattened = ''
+	title = 'Key words'
 	
-	#TODO: Replace with file output
-	for k in keywords_flattened:
-		print str(k)	
+	for k in keywords:
+		keywords_flattened += k.a.contents[0]
+		keywords_flattened += ', '
+	
+	if len(keywords) > 0:
+		output = collections.OrderedDict()
+		output[title] = keywords_flattened
+		return output
 		
-	return
+	return None
+
+def parse_references(root):
+	title = root.find(['strong','h2','h3','h4']).contents[0]
+	ref_list = root.find(['ol'])
+	refs = ref_list.find_all('li')
+	output = collections.OrderedDict()
+	output_list = []
+	print 'PARSING.... %s' % title
+	
+	for r in refs:
+		print r
+		output_list.append(r.get_text())
+	
+	if len(output_list) > 0:
+		output[title] = output_list
+		return output
+				
+	return None
 
 # Custom parsing subroutine for sections that have just title and body, supporting subsections
 # that have their own subtitles.  This should work for most abstract / intro / discussion sections.	
 def parse_title_body(root):
 	subsections = root.find_all(attrs={'class': re.compile('^%s' % SUBSECTION_CLASS)})
-	title = title = root.h2.contents[0]
-	body = ''
-	print 'TITLE: '+title
+	title = root.find(['strong','h2','h3','h4']).contents[0]
+	output = collections.OrderedDict()
+	print 'PARSING.... %s' % title
 	
 	if len(subsections) > 0:
-		for s in subsections:
-			subtitle = title+KEY_DELIMITER+s.strong.contents[0]
-			#TODO: replace s.strong with something that supports h3 to get Materials
-			b = s.p.contents[1]
-			print 'SUBTITLE: '+subtitle
-			print 'BODY: '+b
-			#TODO: Add code here that exports each subtitle / body
+		# Case: There is at least 1 subsection in this section of the article	
+		for s in subsections:			
+			subtitle = s.find(['strong','h2','h3','h4']).contents[0]
+			subsubsections = s.find_all(attrs={'class': re.compile('^%s' % SUBSECTION_CLASS)})
+			
+			if len(subsections) > 0:
+				for ss in subsubsections:
+					subsubtitle = ss.find(['strong','h2','h3','h4']).contents[0]
+					body = ss.p.contents[1]
+					if body != None:
+						key = title
+						if subtitle != None:
+							key += KEY_DELIMITER
+							key += subtitle
+						if subsubtitle != None:
+							key += KEY_DELIMITER
+							key += subsubtitle	
+						output[key] = body
+			if s.p.contents != None and len(s.p.contents) > 1:	
+				body = s.p.contents[1]
+			if body != None:
+				if subtitle != None:
+					key = title+KEY_DELIMITER+subtitle
+					output[key] = body
+			
 	else:
+		body = ''
 		content = root.find_all(attrs={'id': re.compile('^p-')})
 		for c in content:
-			print c['id']
+			#print c['id']
 			for d in c.contents:
 				if isinstance(d, basestring):
 					body += d
 					body += ' '
-		print 'BODY: '+body
-		#TODO: Add code here that exports the combined body with the title
-	return
-	
-# Custom parsin subroutine for materials (copy full text to output, flatten any sub-headers using ': ' as delimiter)	
-def parse_materials(root):
-	print 'PARSE MATERIALS NOT IMPLEMENTED YET!'
-	return
-
-def parse_results(root):
-	print 'PARSE RESULTS NOT IMPLEMENTED YET!'
-	return
-
-def parse_discussion(root):
-	print 'PARSE DISCUSSION NOT IMPLEMENTED YET!'
-	return
-	
-def parse_acknowledgements(root):
-	print 'PARSE ACKNOWLEDGEMENTS NOT IMPLEMENTED YET!'
-	return
-	
-def parse_funding(root):
-	print 'PARSE FUNDING NOT IMPLEMENTED YET!'
-	return
-
-def parse_disclosures(root):
-	print 'PARSE DISCLOSURES NOT IMPLEMENTED YET!'
-	return
-	
-def parse_references(root):
-	print 'PARSE REFERENCES NOT IMPLEMENTED YET!'
-	return			
+		
+		# Case when there are no subsections: output body as key to title
+		output[title] = body
+				
+	return output
+		
 	
 def pull_article(root_link):
 	try:
@@ -124,22 +141,40 @@ def pull_article(root_link):
 		
 		# Find section headers (children of full article div)	
 		for s in article.find_all(attrs={'class': re.compile('^%s' % SECTION_PREFIX)}):
-			section_type = s['class'][1]	
+			section_type = s['class'][1]
 			if section_type in TITLE_BODY_PARSABLE:
 				try:
-					parse_title_body(s)
-				except:
+					#parse_title_body(s)
+					print 'Parsed section: %s' % section_type
+				except Exception as e:
 					print 'ERROR parsing %s' % section_type
+					print e.__doc__
+					tb = traceback.format_exc()
+					print tb
+					
 			elif section_type == KEYWORD_CLASS:
 				try:
 					parse_keywords(s)
-				except:
-					print 'ERROR parsing %s' % section_type			
-			else:
-				#TODO: implement other custom parsers
-					
+					print 'Parsed section: %s' % section_type
+				except Exception as e:
+					print 'ERROR parsing %s' % section_type
+					print e.__doc__
+					tb = traceback.format_exc()
+					print tb
 			
-		
+			elif section_type == REFERENCE_CLASS:
+				try:
+					parse_references(s)
+					print 'Parsed section: %s' % section_type
+				except Exception as e:
+					print 'ERROR parsing %s' % section_type
+					print e.__doc__
+					tb = traceback.format_exc()
+					print tb		
+					
+			else:
+				print 'UNSUPPORTED SECTION: %s' % section_type
+				#TODO: implement other custom parsers
 	except:
 		print 'Error loading article'
 	return
