@@ -18,11 +18,11 @@ import ast
 ##												 ##
 ##   UPDATE JSON OUTPUT FILE WITH EACH LIBRARY   ##
 ##												 ##
-outfile = open('./../data_deepmed/scrape_output_wiley.jsonl', 'a')
+outfile = open('scrape_output_wiley.jsonl', 'a')
 
 journals_to_scrape = []
 # read in csv
-with open('./../data_deepmed/pubmed_harvest_gt_output_cochrane_wiley.csv', 'rU') as csvfile:
+with open('pubmed_harvest_gt_output_cochrane_wiley.csv', 'rU') as csvfile:
 	reader = csv.reader(csvfile, delimiter=',')
 	counter = 0
 	for row in reader:
@@ -71,7 +71,7 @@ docs = []
 ##												 		##
 ##  UPDATE ARTICLE CHECKING FILENAME WITH EACH LIBRARY  ##
 ##												 		##
-articletracker = './../data_deepmed/wiley_scrape_article_tracker'
+articletracker = 'wiley_scrape_article_tracker'
 
 p = re.compile(ur'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', re.MULTILINE)
 sub = u"\n\n"
