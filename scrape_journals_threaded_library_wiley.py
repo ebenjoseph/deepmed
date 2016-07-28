@@ -104,12 +104,12 @@ def getsoup(root_link):
 		session = requests.Session()
 		session.headers = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9'
 		#run locally on the arduino, use this:################################################
-		web_page = session.get(root_link)
+		#web_page = session.get(root_link)
 		#with deepmed proxy for aws, use these:###############################################
-		#proxies = {
-		#    "http": "http://deepmed:deepmed@10.254.18.174:3128",
-		#}
-		#web_page = session.get(root_link, proxies=proxies)
+		proxies = {
+		    "http": "http://myth32.stanford.edu:12345",
+		}
+		web_page = session.get(root_link, proxies=proxies)
 	except:
 		logging.info('Error requesting page...')
 		return -1
@@ -321,41 +321,42 @@ def grabtable(sibs):
 
 def pull_journal(journal):
 	root_link = journal['link'][0]
-	print root_link
-	sleep(60)
-	break
+	logging.info('Target site: %s', root_link)
+	sleep(10)
 
-	if not len(journalsRead) % 10: print len(journalsRead)
+	#counter for number of journals completed
+	if not len(journalsRead) % 10: print "Number of journals processed this run: " + str(len(journalsRead))
 	
 	journalLock.acquire()
 	try:
 		journalsRead[root_link]
 		journalLock.release()
-		print 'Article found in tracker. Skipping...'
+		logging.info('Article found in tracker. Skipping...')
 		return
 	except:
 		journalsRead[root_link] = 1
 
+	logging.info('Article not found in tracker. Attempting to collect...')
 
 	
 	articledata = {}
 	fullarticle = ""
 
-	
-	'''
-	#SAMPLE LINKS FROM THE ES DATASET:
-
-	'''
 	try:
-		#specific to ES: link requires '?np=y' appended to end in order to not use javascript
-		#root_link = "http://linkinghub.elsevier.com/retrieve/pii/S0022-4804(15)00809-4"
-		#root_link = "http://www.sciencedirect.com/science/article/pii/S0140673616303105?np=y"
-		#root_link = "http://www.sciencedirect.com/science/article/pii/S0161642014008616?np=y"
-		#root_link = "http://www.sciencedirect.com/science/article/pii/S0090429514009728?np=y"
-		#root_link = "http://www.sciencedirect.com/science/article/pii/S0002870315006274?np=y"
-
+		#load the original page link
 		soup = getsoup(root_link)
-		logging.info("Article loaded...")
+		logging.info("Link loaded...")
+
+		logging.info("Checking for link to Old View")
+		try:
+			oldview = soup.find('a',id='wol1backlink')['href']
+			logging.info("Found the Old View link. Loading it now...")
+			soup = getsoup(oldview)
+		except:
+			logging.info("On the correct page. Continuing pull...")
+
+		sleep(60)
+
 
 		#Full article text from Title through references
 		article_text = grab_text(soup.find('div',id='centerInner'))
@@ -495,7 +496,7 @@ def pull_journal(journal):
 
 logging.info("Scraper started at " + str(datetime.now()) )
 # setup threadpool
-pool = ThreadPool(1)
+pool = ThreadPool(2)
 
 results = pool.map(pull_journal, journals_to_scrape)
 

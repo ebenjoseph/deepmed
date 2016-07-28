@@ -32,15 +32,15 @@ with open('Cochrane_harvest_charstudies_output.csv', 'rU') as csvfile:
 		data['link'] = row[0]
 		journals_to_scrape.append(data)
 
-counter = 0
-docs = []
+#counter = 0
+#docs = []
 ##												 		##
 ##  UPDATE ARTICLE CHECKING FILENAME WITH EACH LIBRARY  ##
 ##												 		##
 articletracker = 'cochrane_table_tracker'
 
-p = re.compile(ur'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', re.MULTILINE)
-sub = u"\n\n"
+#p = re.compile(ur'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', re.MULTILINE)
+#sub = u"\n\n"
 journalsRead = {}
 
 # read in previously read journal links
@@ -69,7 +69,7 @@ def getsoup(root_link):
 	try:
 		session = requests.Session()
 		session.headers = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9'
-		#run locally on the arduino, use this:################################################
+		#run locally, use this:################################################
 		web_page = session.get(root_link)
 		#with deepmed proxy for aws, use these:###############################################
 		#proxies = {
@@ -86,6 +86,8 @@ def getsoup(root_link):
 def pull_journal(journal):
 	root_link = journal['link']
 	
+	if not len(journalsRead) % 10: print len(journalsRead)
+
 	journalLock.acquire()
 	try:
 		journalsRead[root_link]
@@ -206,7 +208,7 @@ def pull_journal(journal):
 
 logging.info("Scraper started at " + str(datetime.now()) )
 # setup threadpool
-pool = ThreadPool(1)
+pool = ThreadPool(2)
 
 results = pool.map(pull_journal, journals_to_scrape)
 
