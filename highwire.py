@@ -1,4 +1,5 @@
 import requests
+import sys
 from bs4 import BeautifulSoup
 import re
 import logging
@@ -11,16 +12,28 @@ import threading
 import collections
 import traceback
 
-
+# Constants specific to article sections (can be easily changed for non-Highwire articles)
 CONTENT_CLASS = 'article fulltext-view '
 REFERENCE_CLASS = 'ref-list'
 SECTION_PREFIX = 'section '
 SUBSECTION_CLASS = 'subsection'
 KEYWORD_CLASS = 'kwd-group'
 KEYWORD_ITEM_CLASS = 'kwd'
+FOOTNOTE_CLASS = 'fn-group'
 KEY_DELIMITER = ': '
 TITLE_BODY_PARSABLE = {'abstract', 'intro', 'materials', 'results', 'discussion', 'acknowledgments', 'sources_of_funding', 'disclosures'}
 
+
+# Set up logging
+root = logging.getLogger()
+logging.basicConfig(filename='scraping_log.log',level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+streamthelog = logging.StreamHandler(sys.stdout)
+streamthelog.setLevel(logging.INFO)
+streamthelog.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p'))
+root.addHandler(streamthelog)
+
+
+# Method for getting an instance of the BeautifulSoup HTML scraping library
 def getsoup(root_link):
 	try:
 		session = requests.Session()
@@ -38,11 +51,12 @@ def getsoup(root_link):
 	#return BeautifulSoup(web_page.content, "html.parser") #python's parser
 	return BeautifulSoup(web_page.content, "lxml") #lxml (faster)
 
-
+# Custom parsing subroutine for the list of keywords in the article.  Outputs a dictionary with 'key words' as key and a flattened, comma separated string of all keywords as value.
 def parse_keywords(root):
 	keywords = root.find_all(attrs={'class': re.compile(KEYWORD_ITEM_CLASS)})
 	keywords_flattened = ''
 	title = 'Key words'
+	logging.info('PARSING.... %s' % title)
 	
 	for k in keywords:
 		keywords_flattened += k.a.contents[0]
@@ -55,16 +69,16 @@ def parse_keywords(root):
 		
 	return None
 
+# Custom parsing subroutine for the list of references for the article.  Outputs a dictionary keyed by 'References' and with a single array with all references as value
 def parse_references(root):
 	title = root.find(['strong','h2','h3','h4']).contents[0]
 	ref_list = root.find(['ol'])
-	refs = ref_list.find_all('li')
+	refs = ref_list.find_all('li', recursive=False)
 	output = collections.OrderedDict()
 	output_list = []
-	print 'PARSING.... %s' % title
+	logging.info('PARSING.... %s' % title)
 	
 	for r in refs:
-		print r
 		output_list.append(r.get_text())
 	
 	if len(output_list) > 0:
@@ -73,13 +87,33 @@ def parse_references(root):
 				
 	return None
 
+# Custom parsing subroutine for the list of footnotes for the article.  Outputs a dictionary keyed by 'Footnotes' and with a single array with all footnotes as value
+def parse_footnotes(root):
+	title = root.find(['strong','h2','h3','h4']).contents[0]
+	fn_list = root.find(['ul'])
+	footnotes = fn_list.find_all('li', recursive=False)
+	output = collections.OrderedDict()
+	output_list = []
+	logging.info('PARSING.... %s' % title)
+	
+	for f in footnotes:
+		output_list.append(f.get_text())
+	
+	if len(output_list) > 0:
+		output[title] = output_list
+		return output
+	
+	return None
+
+
+
 # Custom parsing subroutine for sections that have just title and body, supporting subsections
 # that have their own subtitles.  This should work for most abstract / intro / discussion sections.	
 def parse_title_body(root):
 	subsections = root.find_all(attrs={'class': re.compile('^%s' % SUBSECTION_CLASS)})
 	title = root.find(['strong','h2','h3','h4']).contents[0]
 	output = collections.OrderedDict()
-	print 'PARSING.... %s' % title
+	logging.info('PARSING.... %s' % title)
 	
 	if len(subsections) > 0:
 		# Case: There is at least 1 subsection in this section of the article	
@@ -111,7 +145,6 @@ def parse_title_body(root):
 		body = ''
 		content = root.find_all(attrs={'id': re.compile('^p-')})
 		for c in content:
-			#print c['id']
 			for d in c.contents:
 				if isinstance(d, basestring):
 					body += d
@@ -122,61 +155,49 @@ def parse_title_body(root):
 				
 	return output
 		
-	
+# Primary method for pulling each article.  Find the content sub-tree of the DOM, then use mini-parsers for each type of section
+# NOTE: doesnt currently support generalized scraping of non-recognized article sections
 def pull_article(root_link):
 	try:
-		soup = getsoup(root_link)
-		
 		# Find full article text
+		soup = getsoup(root_link)
 		article = soup.find_all('div',class_=CONTENT_CLASS)[0]
-		
-		
+
 		# Find Keywords
 		kwd = article.find_all(attrs={'class': re.compile(KEYWORD_CLASS)})
 		if len(kwd) > 0:
 			try:
 				parse_keywords(kwd[0])
 			except:
-				print 'ERROR parsing keywords'	
+				logging.info('ERROR parsing keywords')
+				logging.exception("message")
 		
 		# Find section headers (children of full article div)	
 		for s in article.find_all(attrs={'class': re.compile('^%s' % SECTION_PREFIX)}):
 			section_type = s['class'][1]
-			if section_type in TITLE_BODY_PARSABLE:
-				try:
-					#parse_title_body(s)
-					print 'Parsed section: %s' % section_type
-				except Exception as e:
-					print 'ERROR parsing %s' % section_type
-					print e.__doc__
-					tb = traceback.format_exc()
-					print tb
-					
-			elif section_type == KEYWORD_CLASS:
-				try:
-					parse_keywords(s)
-					print 'Parsed section: %s' % section_type
-				except Exception as e:
-					print 'ERROR parsing %s' % section_type
-					print e.__doc__
-					tb = traceback.format_exc()
-					print tb
 			
-			elif section_type == REFERENCE_CLASS:
-				try:
+			try:
+				if section_type in TITLE_BODY_PARSABLE:
+					parse_title_body(s)
+					logging.info('Parsed section: %s' % section_type)
+				elif section_type == KEYWORD_CLASS:
+					parse_keywords(s)
+					logging.info('Parsed section: %s' % section_type)
+				elif section_type == FOOTNOTE_CLASS:	
+					parse_footnotes(s)
+					logging.info('Parsed section: %s' % section_type)
+				elif section_type == REFERENCE_CLASS:
 					parse_references(s)
-					print 'Parsed section: %s' % section_type
-				except Exception as e:
-					print 'ERROR parsing %s' % section_type
-					print e.__doc__
-					tb = traceback.format_exc()
-					print tb		
-					
-			else:
-				print 'UNSUPPORTED SECTION: %s' % section_type
-				#TODO: implement other custom parsers
+					logging.info('Parsed section: %s' % section_type)
+				else:
+					logging.info('UNSUPPORTED SECTION: %s' % section_type)	
+			except Exception as e:
+				logging.info('ERROR parsing %s' % section_type)
+				logging.exception("message")		
+				
 	except:
-		print 'Error loading article'
+		logging.info('Error loading article')
+		logging.exception("message")
 	return
 
 pull_article('http://circ.ahajournals.org/content/134/4/270.long')
