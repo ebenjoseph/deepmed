@@ -93,9 +93,9 @@ writingLock = threading.Lock()
 
 # setup logging
 root = logging.getLogger()
-logging.basicConfig(filename='scraping_log_wiley.log',level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.basicConfig(filename='scraping_log_wiley.log',level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 streamthelog = logging.StreamHandler(sys.stdout)
-streamthelog.setLevel(logging.INFO)
+streamthelog.setLevel(logging.DEBUG)
 streamthelog.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p'))
 root.addHandler(streamthelog)
 
@@ -103,13 +103,16 @@ def getsoup(root_link):
 	try:
 		session = requests.Session()
 		session.headers = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9'
+		#session.keep_alive = False
 		#run locally on the arduino, use this:################################################
-		#web_page = session.get(root_link)
+		web_page = session.get(root_link)
 		#with deepmed proxy for aws, use these:###############################################
-		proxies = {
-		    "http": "http://myth32.stanford.edu:12345",
-		}
-		web_page = session.get(root_link, proxies=proxies)
+		#proxies = {
+		#    "http": "http://myth32.stanford.edu:12345",
+		#}
+		#web_page = session.get(root_link, proxies=proxies, headers=headers)
+		sleep(.25)
+		logging.info("Link loaded...")
 	except:
 		logging.info('Error requesting page...')
 		return -1
@@ -130,10 +133,13 @@ def grab_text(sibs):
 		return ''
 
 def check_subheader(subheader,sibs):
-	try:
-		strong = get_name(sibs.contents[0])
-	except:
-		strong = ''
+	#try:
+	#	strong = get_name(sibs.contents[0])
+	#except:
+	#	strong = ''
+	if get_name(sibs) == 'h5':
+		#found h4, set as new subheader
+		subheader = grab_text(sibs)
 	if get_name(sibs) == 'h4':
 		#found h4, set as new subheader
 		subheader = grab_text(sibs)
@@ -143,9 +149,9 @@ def check_subheader(subheader,sibs):
 	if get_name(sibs) == 'h2':
 		#found h2, set as new subheader
 		subheader = grab_text(sibs)
-	if strong == 'strong':
-		#found strong, set as new subheader
-		subheader = grab_text(sibs.contents[0])
+	#if strong == 'strong':
+	#	#found strong, set as new subheader
+	#	subheader = grab_text(sibs.contents[0])
 	return subheader
 
 def check_attrib(sibs, attrib):
@@ -156,16 +162,19 @@ def check_attrib(sibs, attrib):
 		return 'Not found'
 
 def check_objtype(sibs):
-	try:
-		strong = get_name(sibs.contents[0])
-	except:
-		strong = ''
-	if (get_name(sibs) == 'ol'):
+	#try:
+	#	strong = get_name(sibs.contents[0])
+	#except:
+	#	strong = ''
+	if 'bibliography' in check_attrib(sibs,'class'):
 		#found the references list
 		objtype = "references"
-	elif 'artFooterContent' in check_attrib(sibs,'class'): 
-		#found the footer
-		objtype = "footer"
+	#elif 'artFooterContent' in check_attrib(sibs,'class'): 
+	#	#found the footer
+	#	objtype = "footer"
+	elif get_name(sibs) == 'h5':
+		#found a header
+		objtype = "header"
 	elif get_name(sibs) == 'h4':
 		#found a header
 		objtype = "header"
@@ -175,14 +184,23 @@ def check_objtype(sibs):
 	elif get_name(sibs) == 'h2':
 		#found a header
 		objtype = "header"
-	elif strong == 'strong':
-		#found a header
-		objtype = "header"
-	elif 'table' in check_attrib(sibs,'id'): 
-		#found a table
-		objtype = "table"
-	else:
+	#elif strong == 'strong':
+	#	#found a header
+	#	objtype = "header"
+	#elif 'table' in check_attrib(sibs,'id'): 
+	#	#found a table
+	#	objtype = "table"
+	elif 'para' in check_attrib(sibs,'class'):
+		#found a paragraph
 		objtype = "data"
+	elif 'keywordLists' in check_attrib(sibs,'class'):
+		#found a paragraph
+		objtype = "data"
+	elif 'figure' in check_attrib(sibs,'class'):
+		#found a paragraph
+		objtype = "data"
+	else:
+		objtype = "none"
 	#print objtype   #################
 	#sleep(1)        #################
 	#print "" 		#################
@@ -322,7 +340,6 @@ def grabtable(sibs):
 def pull_journal(journal):
 	root_link = journal['link'][0]
 	logging.info('Target site: %s', root_link)
-	sleep(10)
 
 	#counter for number of journals completed
 	if not len(journalsRead) % 10: print "Number of journals processed this run: " + str(len(journalsRead))
@@ -335,6 +352,7 @@ def pull_journal(journal):
 		return
 	except:
 		journalsRead[root_link] = 1
+		journalLock.release()
 
 	logging.info('Article not found in tracker. Attempting to collect...')
 
@@ -345,30 +363,45 @@ def pull_journal(journal):
 	try:
 		#load the original page link
 		soup = getsoup(root_link)
-		logging.info("Link loaded...")
+		if soup == -1:
+			logging.info("ERROR: Page could not be loaded! Skipping article.")
+			return
 
+		#NAVIGATE TO THE PROPER PAGE VIEW
 		logging.info("Checking for link to Old View")
 		try:
 			oldview = soup.find('a',id='wol1backlink')['href']
-			logging.info("Found the Old View link. Loading it now...")
+			logging.info("Found the Old View link. Loading it now: %s", oldview)
 			soup = getsoup(oldview)
 		except:
-			logging.info("On the correct page. Continuing pull...")
+			logging.info("On the New View. Continuing pull...")
 
-		sleep(60)
-
+		logging.info("Checking for link to Full Text View")
+		try:
+			fullview = soup.find('a',class_='viewFullTextLink')['href']
+			fullview = "http://onlinelibrary.wiley.com" + fullview
+			logging.info("Found the Full Text View link. Loading it now: %s", fullview)
+			soup = getsoup(fullview)
+		except:
+			logging.info("No full view link available. Continuing pull...")
 
 		#Full article text from Title through references
-		article_text = grab_text(soup.find('div',id='centerInner'))
+		article_text = grab_text(soup.find('div',id='fulltext'))
 
 		# if fullarticle length is < 4000 characters, it's probably junk, so don't add
-		if len(article_text) < 4000: 
-			print 'Short article (less than 4,000 chars) - not adding'
+		if len(article_text) < 4000:
+			logging.info('Article less than 4,000 characters. Not saving output, but writing to tracker.')
+			journalLock.acquire()
+			journalfile.write(root_link)
+			journalfile.write('\n')
+			journalLock.release()
 			return
 		logging.info('Article longer than 4,000 chars -- attempting to parse...')
-		article = soup.find('div',id='centerInner')
-		content = collections.OrderedDict()
+		article = soup.find('div',id='fulltext')
 		logging.info('Starting parse loop...')
+
+
+		'''
 		try:
 			abst = article.find('div',class_='svAbstract')
 			try:
@@ -380,14 +413,18 @@ def pull_journal(journal):
 				main = main + article.find_all(attrs={'class':['svArticle','references','svKeywords','artFooterContent']})
 		except:
 			main = article.find_all(attrs={'class':['svArticle','references','svKeywords','artFooterContent']})
+		'''
 
+		#main = article.find_all(attrs={'class':['keywords','fullTextAbstract','headingCont','section']})
+		content = collections.OrderedDict()
+		main = article.find_all(['h1','h2','h3','h4','h5','div'])
 		header = "Header"
 		subheader = ""
 		content[header] = ""
 		for sibs in main:
 			#print sibs ########################
 			logging.info('     Header: %s', header)
-			if get_name(sibs) == 'h2':
+			if get_name(sibs) == 'h3':
 				header = grab_text(sibs)
 				#print header + "------------------------" #######################
 				subheader = ""
@@ -418,7 +455,7 @@ def pull_journal(journal):
 			if objtype == 'references':
 				#this is the reference list, we need to split it into a list and add it to the references header
 				ref = []
-				bibs = sibs.find_all('li',id=lambda x: x and (x.startswith('bib') or (x.startswith('bb'))))
+				bibs = sibs.find_all('li',id=lambda x: x and (x.startswith('b') or (x.startswith('bb'))))
 				for item in bibs:
 					if not grab_text(item) == '':
 						ref = ref + [grab_text(item)]
@@ -446,7 +483,8 @@ def pull_journal(journal):
 		#Reference section may have text in addition to citations, so add the refs list, then append any text to the end of the list
 		content["References"] = ref + [content.get("References","")]
 		logging.info('Article successfully parsed!')
-		logging.info('Article not found in tracker. Adding to tracker...')
+		logging.info('Adding to tracker...')
+		journalLock.acquire()
 		journalfile.write(root_link)
 		journalfile.write('\n')
 		journalLock.release()
@@ -478,20 +516,18 @@ def pull_journal(journal):
 		data['link'] = journal['link']
 
 		#new data pulled from article link
-		data['golden'] = 0
+		data['golden'] = 1
 		data['content'] = content
-		logging.info("Article added!")
-
 		writingLock.acquire()
 		json.dump(data, outfile)
 		outfile.write('\n')
 		writingLock.release()
+		logging.info("Article added!")
 
 		return 1
 
 	except:
-		logging.info("Error! Could not parse or could not output to JSON")
-		logging.info(root_link)
+		logging.info("Error! Could not parse or could not output to JSON: %s", root_link)
 		return
 
 logging.info("Scraper started at " + str(datetime.now()) )
