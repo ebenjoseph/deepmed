@@ -112,7 +112,12 @@ def jadad_scores(data):
 
 def jadad_score(data):
 	"""Return a Jadad score as a scalar number."""
-	return sum(jadad_scores(data).values())
+	return reduce_jadad_scores(jadad_scores(data))
+
+
+def reduce_jadad_scores(scores):
+	"""Return the overall score for ``scores``."""
+	return sum(scores.values())
 
 
 def pubmed_id(data):

@@ -10,16 +10,18 @@ from lib import cochrane, pluck
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description='Convert cochrane review to jadad score')
-    parser.add_argument('input', help='cochrane review jsonl file')
-    args = parser.parse_args()
-
-    for review in pluck.jsonl(args.input):
+	parser = argparse.ArgumentParser(
+		description='Convert cochrane review to jadad score')
+	parser.add_argument('input', help='cochrane review jsonl file')
+	args = parser.parse_args()
+	for review in pluck.jsonl(args.input):
 		try:
-			print json.dumps({
+			scores = cochrane.jadad_scores(review)
+			data = {
 				'id': cochrane.pubmed_id(review),
-				'jadad': cochrane.jadad_score(review),
-			})
+				'overall': cochrane.reduce_jadad_scores(scores),
+			}
+			data.update(scores)
+			print json.dumps(data)
 		except ValueError:
 			continue
