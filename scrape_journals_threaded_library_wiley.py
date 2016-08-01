@@ -93,9 +93,9 @@ writingLock = threading.Lock()
 
 # setup logging
 root = logging.getLogger()
-logging.basicConfig(filename='scraping_log_wiley.log',level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.basicConfig(filename='scraping_log_wiley.log',level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 streamthelog = logging.StreamHandler(sys.stdout)
-streamthelog.setLevel(logging.DEBUG)
+streamthelog.setLevel(logging.INFO)
 streamthelog.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p'))
 root.addHandler(streamthelog)
 
@@ -352,6 +352,8 @@ def pull_journal(journal):
 		return
 	except:
 		journalsRead[root_link] = 1
+		journalfile.write(root_link)
+		journalfile.write('\n')
 		journalLock.release()
 
 	logging.info('Article not found in tracker. Attempting to collect...')
@@ -391,10 +393,11 @@ def pull_journal(journal):
 		# if fullarticle length is < 4000 characters, it's probably junk, so don't add
 		if len(article_text) < 4000:
 			logging.info('Article less than 4,000 characters. Not saving output, but writing to tracker.')
-			journalLock.acquire()
-			journalfile.write(root_link)
-			journalfile.write('\n')
-			journalLock.release()
+			#journalLock.acquire()
+			#journalfile.write(root_link)
+			#journalfile.write('\n')
+      #journalfile.flush()
+			#journalLock.release()
 			return
 		logging.info('Article longer than 4,000 chars -- attempting to parse...')
 		article = soup.find('div',id='fulltext')
@@ -484,10 +487,11 @@ def pull_journal(journal):
 		content["References"] = ref + [content.get("References","")]
 		logging.info('Article successfully parsed!')
 		logging.info('Adding to tracker...')
-		journalLock.acquire()
-		journalfile.write(root_link)
-		journalfile.write('\n')
-		journalLock.release()
+		#journalLock.acquire()
+		#journalfile.write(root_link)
+		#journalfile.write('\n')
+    #journalfile.flush()
+		#journalLock.release()
 
 		#Abstract section
 		#References section
@@ -532,7 +536,7 @@ def pull_journal(journal):
 
 logging.info("Scraper started at " + str(datetime.now()) )
 # setup threadpool
-pool = ThreadPool(2)
+pool = ThreadPool(4)
 
 results = pool.map(pull_journal, journals_to_scrape)
 
