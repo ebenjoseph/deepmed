@@ -21,7 +21,7 @@ if __name__ == '__main__':
 			continue
 		randomization_risk = None
 		for key, (risk, comment) in review['table'].iteritems():
-			if 'random' in key.lower():
+			if 'conceal' in key.lower():
 				if 'low' in risk.lower():
 					randomization_risk = -1
 				elif 'unclear' in risk.lower():
@@ -32,5 +32,5 @@ if __name__ == '__main__':
 		if randomization_risk is not None:
 			print json.dumps({
 				'id': id,
-				'randomization': randomization_risk,
+				'conceal': randomization_risk,
 			})

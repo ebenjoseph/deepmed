@@ -1,14 +1,15 @@
 # Pull in libraries
 library(dplyr)
 library(cvTools)
+library(ggplot2)
 
 # Turn off scientific notation
 options(scipen = 999)
 
 # load in data
-df = read.csv("~/Documents/Code/ML/modeling/finalout2.csv")
+df = read.csv("~/Documents/Code/ML/deepmed/modeling/finalmodelsheet.csv")
 
-factors = c(36,37,38,39,40,41,42,43,44,45)
+factors = c(26,27,28,29,30)
 df[,factors] = lapply(df[,factors], factor)
 
 # Set seed and split up dataset
@@ -21,13 +22,16 @@ validation.ind = sample(1:nrow(train.df), 0.20 * nrow(train.df))
 validation.df = train.df[validation.ind,]
 train.df = train.df[-validation.ind,]
 
+plot(train.df$rand.risk, train.df$score)
+cor(train.df$rand.risk, train.df$score)
+
 ##################################################################################################################
 # BASELINE MODELS
 ##################################################################################################################
 
 # Baseline Regression Model
-baseline_mdl_mean = lm(formula = pval.1 ~ 1, data = train.df)
-baseline_mdl_mean_cv = cvFit(baseline_mdl_mean, data = train.df, y = train.df$golden, K = 10)
+baseline_mdl_mean = lm(formula = score ~ 1 + pval.2 + SMOG, data = train.df)
+baseline_mdl_mean_cv = cvFit(baseline_mdl_mean, data = train.df, y = train.df$score, K = 10)
 baseline_mdl_mean_cv$cv^2 # MSE = 0.001904314
 
 # Using the validation set to double check the above MSE calculation
@@ -45,11 +49,13 @@ mean(validation.df$pval.1) # 0.2081432
 ##################################################################################################################
 
 # Linear Regression On Relevant Covariates
-regression_mdl_few_covariates = lm(formula = golden ~ 1 + pval.1 + pval.2 + Multicenter.Study + n.1 + n.2 + n.3 + funding.1, data = train.df)
+regression_mdl_few_covariates = lm(formula = score ~ 1 + pval.2 + Multicenter.Study + n.1 + n.2 + n.3 + SMOG, data = train.df)
 prediction_mdl_few_covariates = predict(regression_mdl_few_covariates, validation.df)
-MSE_mdl_few_covariates = mean((prediction_mdl_few_covariates - validation.df$int_rate)^2)
+MSE_mdl_few_covariates = mean((prediction_mdl_few_covariates - validation.df$score)^2)
 
-class_mdl_few_covariates = glm(formula = golden ~ 1 + pval.1 + pval.2 + Multicenter.Study + n.1 + n.2 + n.3, data = train.df, family = "binomial")
+
+# classification - not done here right now
+class_mdl_few_covariates = glm(formula = score ~ 1 + pval.2 + Multicenter.Study + n.1 + n.2 + n.3 + SMOG, data = train.df, family = "binomial")
 prediction_class_mdl_covariates = predict(class_mdl_few_covariates, validation.df)
 prediction_class_mdl_covariates[prediction_class_mdl_covariates > 0.5] = TRUE
 prediction_class_mdl_covariates[prediction_class_mdl_covariates <= 0.5] = FALSE
