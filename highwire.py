@@ -15,7 +15,7 @@ import traceback
 # Constants specific to article sections (can be easily changed for non-Highwire articles)
 CONTENT_CLASS = 'article fulltext-view '
 REFERENCE_CLASS = 'ref-list'
-SECTION_PREFIX = 'section '
+SECTION_PREFIX = 'section'
 SUBSECTION_CLASS = 'subsection'
 KEYWORD_CLASS = 'kwd-group'
 KEYWORD_ITEM_CLASS = 'kwd'
@@ -88,24 +88,19 @@ def parse_references(root):
 	return None
 
 # Custom parsing subroutine for the list of footnotes for the article.  Outputs a dictionary keyed by 'Footnotes' and with a single array with all footnotes as value
+#UPDATE: Parser creates a string of Footnotes and outputs as string.
 def parse_footnotes(root):
 	title = root.find(['strong','h2','h3','h4']).contents[0]
 	fn_list = root.find(['ul'])
 	footnotes = fn_list.find_all('li', recursive=False)
 	output = collections.OrderedDict()
-	output_list = []
+	output_list = ''
 	logging.info('PARSING.... %s' % title)
 	
 	for f in footnotes:
-		output_list.append(f.get_text())
+		output_list = output_list + ' ' + (f.get_text())
 	
-	if len(output_list) > 0:
-		output[title] = output_list
-		return output
-	
-	return None
-
-
+	return output_list
 
 # Custom parsing subroutine for sections that have just title and body, supporting subsections
 # that have their own subtitles.  This should work for most abstract / intro / discussion sections.	
@@ -159,45 +154,47 @@ def parse_title_body(root):
 # NOTE: doesnt currently support generalized scraping of non-recognized article sections
 def pull_article(root_link):
 	try:
-		# Find full article text
+		content = collections.OrderedDict()
 		soup = getsoup(root_link)
 		article = soup.find_all('div',class_=CONTENT_CLASS)[0]
-
 		# Find Keywords
 		kwd = article.find_all(attrs={'class': re.compile(KEYWORD_CLASS)})
 		if len(kwd) > 0:
 			try:
-				parse_keywords(kwd[0])
+				content['Key words'] = parse_keywords(kwd[0])['Key words']
+				logging.info('Keywords parsed!')
 			except:
 				logging.info('ERROR parsing keywords')
 				logging.exception("message")
-		
 		# Find section headers (children of full article div)	
 		for s in article.find_all(attrs={'class': re.compile('^%s' % SECTION_PREFIX)}):
-			section_type = s['class'][1]
-			
 			try:
-				if section_type in TITLE_BODY_PARSABLE:
-					parse_title_body(s)
-					logging.info('Parsed section: %s' % section_type)
-				elif section_type == KEYWORD_CLASS:
-					parse_keywords(s)
-					logging.info('Parsed section: %s' % section_type)
-				elif section_type == FOOTNOTE_CLASS:	
-					parse_footnotes(s)
-					logging.info('Parsed section: %s' % section_type)
-				elif section_type == REFERENCE_CLASS:
-					parse_references(s)
-					logging.info('Parsed section: %s' % section_type)
-				else:
-					logging.info('UNSUPPORTED SECTION: %s' % section_type)	
-			except Exception as e:
-				logging.info('ERROR parsing %s' % section_type)
-				logging.exception("message")		
-				
+				section_type = s['class'][1]
+				try:
+					if section_type in TITLE_BODY_PARSABLE:
+						output = parse_title_body(s)
+						for key in output.keys():
+							content[key] = output[key]
+						logging.info('Parsed section: %s' % section_type)
+					#elif section_type == KEYWORD_CLASS:
+					#	content[section_type] = parse_keywords(s)
+					#	logging.info('Parsed section: %s' % section_type)
+					elif section_type == FOOTNOTE_CLASS:	
+						content['Footnotes'] = parse_footnotes(s)
+						logging.info('Parsed section: %s' % section_type)
+					elif section_type == REFERENCE_CLASS:
+						content['References'] = parse_references(s)['References']
+						logging.info('Parsed section: %s' % section_type)
+					else:
+						logging.info('UNSUPPORTED SECTION: %s' % section_type)	
+				except Exception as e:
+					logging.info('ERROR parsing %s' % section_type)
+					logging.exception("message")
+			except:
+				logging.info('Could not find section. Skipped.')	
 	except:
 		logging.info('Error loading article')
 		logging.exception("message")
-	return
+	return content
 
-pull_article('http://circ.ahajournals.org/content/134/4/270.long')
+content = pull_article('http://circ.ahajournals.org/content/134/4/270.long')
