@@ -42,7 +42,7 @@ def getsoup(root_link):
 		#web_page = session.get(root_link)
 		#with deepmed proxy for aws, use these:###############################################
 		proxies = {
-		    "http": "http://myth31.stanford.edu:12345",
+		    "http": "http://myth32.stanford.edu:12345",
 		}
 		web_page = session.get(root_link, proxies=proxies)
 	except:
