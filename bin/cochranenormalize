@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+import argparse
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(sys.path[0]))
+
+from lib import cochrane, pluck
+
+
+if __name__ == '__main__':
+	parser = argparse.ArgumentParser(
+		description='Clean cochrane reviews')
+	parser.add_argument('input', help='cochrane review jsonl file')
+	args = parser.parse_args()
+	for review in pluck.jsonl(args.input):
+		try:
+			id = cochrane.pubmed_id(review)
+			normalized = cochrane.normalize(review)
+		except ValueError as e:
+			continue
+
+		output = {'id': id}
+		output.update(normalized)
+		if any(v != cochrane.NA for v in normalized.values()):
+			print json.dumps(output)

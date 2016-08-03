@@ -18,12 +18,13 @@ def _match(string, matchers):
 	raise ValueError('could not find match for {}'.format(string))
 
 
+NA = 'NA'
+
 RATING_MATCHERS = _create_matchers({
 	'Low': 1,
 	'Unclear': 0,
 	'High': -1,
 })
-
 
 # Jadad Score:
 # - (2) blinding
@@ -73,7 +74,7 @@ def _normalize_header(header, matchers=None):
 		return None
 
 
-def _normalize_jadad_headers(headers):
+def _normalize_headers(headers):
 	"""To normalize the cochrane paper reviews we collect and categorize
 	each review assessment. If it correlates with a Jadad score the assessment
 	is collected an normalized. All assessment scores are averaged to get the
@@ -133,12 +134,21 @@ def pubmed_id(data):
 
 
 def normalize(data):
-	"""Return the normalized cochrane scores."""
-	normalized = {header: 'NA' for header in COCHRANE_HEADER_MATCHERS.values()}
+	"""Return the normalized cochrane scores.
+
+	  - NA: No relevant review
+	  - -1: High risk
+	  -  0: Unclear risk
+	  -  1: Low risk
+	"""
+	normalized = {header: NA for header in COCHRANE_HEADER_MATCHERS.values()}
 	for header, (rating, _) in data['table'].iteritems():
-		normalized_header = _normalize_header(
-			header, matchers=COCHRANE_HEADER_MATCHERS)
-		if normalized_header:
-			normalized_rating = _normalize_rating(rating)
-			normalized[normalized_header] = normalized_rating
+		try:
+			normalized_header = _match(header, COCHRANE_HEADER_MATCHERS)
+		except ValueError:
+			continue
+		if normalized[normalized_header] != NA:
+			raise ValueError("multiple headers for '{}'".format(normalized_header))
+		normalized_rating = _normalize_rating(rating)
+		normalized[normalized_header] = normalized_rating
 	return normalized
