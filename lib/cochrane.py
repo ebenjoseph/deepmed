@@ -47,6 +47,14 @@ HEADER_MATCHERS = _create_matchers({
 })
 
 
+COCHRANE_HEADER_MATCHERS = _create_matchers({
+	'blinding': BLINDING,
+	'sequence generation': 'sequence generation',
+	'selective reporting': 'selective reporting',
+	'allocation concealment': 'allocation concealment',
+	'incomplete outcome data': 'incomplete outcome data',
+})
+
 def _normalize_rating(rating, matchers=None):
 	"""Returns the ``rating`` string normalized as an integer value.
 
@@ -65,7 +73,7 @@ def _normalize_header(header, matchers=None):
 		return None
 
 
-def _normalize_headers(headers):
+def _normalize_jadad_headers(headers):
 	"""To normalize the cochrane paper reviews we collect and categorize
 	each review assessment. If it correlates with a Jadad score the assessment
 	is collected an normalized. All assessment scores are averaged to get the
@@ -122,3 +130,15 @@ def reduce_jadad_scores(scores):
 
 def pubmed_id(data):
 	return _pubmed_url_to_id(data['pubmedurl'])
+
+
+def normalize(data):
+	"""Return the normalized cochrane scores."""
+	normalized = {header: 'NA' for header in COCHRANE_HEADER_MATCHERS.values()}
+	for header, (rating, _) in data['table'].iteritems():
+		normalized_header = _normalize_header(
+			header, matchers=COCHRANE_HEADER_MATCHERS)
+		if normalized_header:
+			normalized_rating = _normalize_rating(rating)
+			normalized[normalized_header] = normalized_rating
+	return normalized
