@@ -73,8 +73,6 @@ docs = []
 ##												 		##
 articletracker = 'pmc_scrape_article_tracker'
 
-p = re.compile(ur'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', re.MULTILINE)
-sub = u"\n\n"
 journalsRead = {}
 
 # read in previously read journal links
@@ -369,15 +367,15 @@ def pull_journal(journal):
 		article_text = grab_text(soup.find('div',class_='jig-ncbiinpagenav'))
 
 		# if fullarticle length is < 4000 characters, it's probably junk, so don't add
-		if len(article_text) < 4000:
-			logging.info('Article less than 4,000 characters. Not saving output, but writing to tracker.')
+		if len(article_text) < 2000:
+			logging.info('Article less than 2,000 characters. Not saving output, but writing to tracker.')
 			#journalLock.acquire()
 			#journalfile.write(root_link)
 			#journalfile.write('\n')
       		#journalfile.flush()
 			#journalLock.release()
 			return
-		logging.info('Article longer than 4,000 chars -- attempting to parse...')
+		logging.info('Article longer than 2,000 chars -- attempting to parse...')
 		article = soup.find('div',class_='jig-ncbiinpagenav')
 		logging.info('Starting parse loop...')
 
