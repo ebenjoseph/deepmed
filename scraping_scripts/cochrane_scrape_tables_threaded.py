@@ -70,12 +70,12 @@ def getsoup(root_link):
 		session = requests.Session()
 		session.headers = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9'
 		#run locally, use this:################################################
-		#web_page = session.get(root_link)
+		web_page = session.get(root_link)
 		#with deepmed proxy for aws, use these:###############################################
-		proxies = {
-		'http': 'myth32.stanford.edu:12345'
-		}	
-		web_page = session.get(root_link, proxies=proxies)
+		#proxies = {
+		#'http': 'myth32.stanford.edu:12345'
+		#}	
+		#web_page = session.get(root_link, proxies=proxies)
 	except:
 		logging.info('Error requesting page...')
 		return -1
