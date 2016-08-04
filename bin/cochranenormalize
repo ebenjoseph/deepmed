@@ -14,6 +14,8 @@ if __name__ == '__main__':
 		description='Clean cochrane reviews')
 	parser.add_argument('input', help='cochrane review jsonl file')
 	args = parser.parse_args()
+	results = {}
+	repeated = set()
 	for review in pluck.jsonl(args.input):
 		try:
 			id = cochrane.pubmed_id(review)
@@ -21,7 +23,13 @@ if __name__ == '__main__':
 		except ValueError as e:
 			continue
 
-		output = {'id': id}
-		output.update(normalized)
-		if any(v != cochrane.NA for v in normalized.values()):
-			print json.dumps(output)
+		if id not in repeated:
+			if id in results:
+				del results[id]
+				repeated.add(id)
+			elif any(v != cochrane.NA for v in normalized.values()):
+				output = {'id': id}
+				output.update(normalized)
+				results[id] = output
+	for result in results.values():
+		print json.dumps(result)

@@ -137,9 +137,9 @@ def normalize(data):
 
 	  - MULT: Multiple relevant reviews
 	  - NA: No relevant review
-	  - -1: High risk
+	  -  1: High risk
 	  -  0: Unclear risk
-	  -  1: Low risk
+	  - -1: Low risk
 	"""
 	normalized = {header: NA for header in COCHRANE_HEADER_MATCHERS.values()}
 	for header, (rating, _) in data['table'].iteritems():
@@ -148,7 +148,8 @@ def normalize(data):
 		except ValueError:
 			continue
 		if normalized[normalized_header] == NA:
-			normalized_rating = _normalize_rating(rating)
+			normalized_rating = - _normalize_rating(rating)
+			# The score is flipped (negated) for consistency
 			normalized[normalized_header] = normalized_rating
 		elif normalized[normalized_header] != MULTIPLE:
 			normalized[normalized_header] = MULTIPLE
