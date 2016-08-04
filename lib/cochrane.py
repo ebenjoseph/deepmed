@@ -19,7 +19,7 @@ def _match(string, matchers):
 
 
 NA = 'NA'
-
+MULTIPLE = 'MULT'
 RATING_MATCHERS = _create_matchers({
 	'Low': 1,
 	'Unclear': 0,
@@ -46,8 +46,6 @@ HEADER_MATCHERS = _create_matchers({
 	'selective reporting': PATIENTS_ACCOUNTED,
 	'incomplete outcome data': PATIENTS_ACCOUNTED,
 })
-
-
 COCHRANE_HEADER_MATCHERS = _create_matchers({
 	'blinding': BLINDING,
 	'sequence generation': 'sequence generation',
@@ -55,6 +53,7 @@ COCHRANE_HEADER_MATCHERS = _create_matchers({
 	'allocation concealment': 'allocation concealment',
 	'incomplete outcome data': 'incomplete outcome data',
 })
+
 
 def _normalize_rating(rating, matchers=None):
 	"""Returns the ``rating`` string normalized as an integer value.
@@ -136,6 +135,7 @@ def pubmed_id(data):
 def normalize(data):
 	"""Return the normalized cochrane scores.
 
+	  - MULT: Multiple relevant reviews
 	  - NA: No relevant review
 	  - -1: High risk
 	  -  0: Unclear risk
@@ -147,8 +147,9 @@ def normalize(data):
 			normalized_header = _match(header, COCHRANE_HEADER_MATCHERS)
 		except ValueError:
 			continue
-		if normalized[normalized_header] != NA:
-			raise ValueError("multiple headers for '{}'".format(normalized_header))
-		normalized_rating = _normalize_rating(rating)
-		normalized[normalized_header] = normalized_rating
+		if normalized[normalized_header] == NA:
+			normalized_rating = _normalize_rating(rating)
+			normalized[normalized_header] = normalized_rating
+		elif normalized[normalized_header] != MULTIPLE:
+			normalized[normalized_header] = MULTIPLE
 	return normalized
