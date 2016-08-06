@@ -22,7 +22,7 @@ $(RAW_DATA_DIR)/%:
 	$(AWS) s3 cp s3://$(S3_BUCKET)/$* $@
 
 $(BUILD_DATA_DIR)/cochrane_assessments_normalized.jsonl: $(RAW_DATA_DIR)/cochrane_assessments.jsonl $(COCHRANE_NORMALIZE) $(BUILD_DATA_DIR)
-	$(COCHRANE_NORMALIZE) $< > $@
+	$(COCHRANE_NORMALIZE) $< $@
 
 $(BUILD_DATA_DIR):
 	mkdir -p $@

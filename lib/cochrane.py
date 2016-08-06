@@ -41,17 +41,17 @@ RANDOMIZATION = 'randomization'
 PATIENTS_ACCOUNTED = 'patients-accounted'
 HEADER_MATCHERS = _create_matchers({
 	'blinding': BLINDING,
-	'sequence generation': RANDOMIZATION,
-	'allocation concealment': RANDOMIZATION,
-	'selective reporting': PATIENTS_ACCOUNTED,
-	'incomplete outcome data': PATIENTS_ACCOUNTED,
+	'sequence_generation': RANDOMIZATION,
+	'allocation_concealment': RANDOMIZATION,
+	'selective_reporting': PATIENTS_ACCOUNTED,
+	'incomplete_outcome_data': PATIENTS_ACCOUNTED,
 })
 COCHRANE_HEADER_MATCHERS = _create_matchers({
 	'blinding': BLINDING,
-	'sequence generation': 'sequence generation',
-	'selective reporting': 'selective reporting',
-	'allocation concealment': 'allocation concealment',
-	'incomplete outcome data': 'incomplete outcome data',
+	'sequence generation': 'sequence_generation',
+	'selective reporting': 'selective_reporting',
+	'allocation concealment': 'allocation_concealment',
+	'incomplete outcome data': 'incomplete_outcome data',
 })
 
 
@@ -140,17 +140,25 @@ def normalize(data):
 	  -  1: High risk
 	  -  0: Unclear risk
 	  - -1: Low risk
+
+    Return shape:
+
+    {name :: string: (score :: integer | NA | MULTIPLE, comment :: string | None)}
 	"""
-	normalized = {header: NA for header in COCHRANE_HEADER_MATCHERS.values()}
-	for header, (rating, _) in data['table'].iteritems():
+	normalized = {header: {'score': NA}
+                  for header in COCHRANE_HEADER_MATCHERS.values()}
+	for header, (rating, comment) in data['table'].iteritems():
 		try:
 			normalized_header = _match(header, COCHRANE_HEADER_MATCHERS)
 		except ValueError:
 			continue
-		if normalized[normalized_header] == NA:
-			normalized_rating = - _normalize_rating(rating)
+		if normalized[normalized_header]['score'] == NA:
 			# The score is flipped (negated) for consistency
-			normalized[normalized_header] = normalized_rating
-		elif normalized[normalized_header] != MULTIPLE:
-			normalized[normalized_header] = MULTIPLE
+			normalized_rating = - _normalize_rating(rating)
+			normalized[normalized_header] = {
+				'score': normalized_rating,
+				'comment': comment,
+			}
+		elif normalized[normalized_header]['score'] != MULTIPLE:
+			normalized[normalized_header] = {'score': MULTIPLE}
 	return normalized
