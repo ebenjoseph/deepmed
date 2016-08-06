@@ -8,7 +8,7 @@ COCHRANE_NORMALIZE = ./bin/cochranenormalize
 
 .PHONY: all clean clean-raw clean-build
 
-all: $(BUILD_DATA_DIR)/cochrane_assessments_normalized.jsonl
+all: $(BUILD_DATA_DIR)/cochrane_assessments_normalized.csv
 
 clean: clean-raw clean-build
 
@@ -21,7 +21,7 @@ clean-build:
 $(RAW_DATA_DIR)/%:
 	$(AWS) s3 cp s3://$(S3_BUCKET)/$* $@
 
-$(BUILD_DATA_DIR)/cochrane_assessments_normalized.jsonl: $(RAW_DATA_DIR)/cochrane_assessments.jsonl $(COCHRANE_NORMALIZE) $(BUILD_DATA_DIR)
+$(BUILD_DATA_DIR)/cochrane_assessments_normalized.csv: $(RAW_DATA_DIR)/cochrane_assessments.jsonl $(COCHRANE_NORMALIZE) $(BUILD_DATA_DIR)
 	$(COCHRANE_NORMALIZE) $< $@
 
 $(BUILD_DATA_DIR):
