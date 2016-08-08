@@ -111,42 +111,7 @@ def pull_journal(journal):
 	try:
 		logging.info("Loading article: %s", root_link)
 		soup = getsoup(root_link)
-		logging.info("Article loaded...")
-
-		#First, grab the list of references (title, citation, and pubmedurl if available)
-		logging.info("Finding references...")
-		allrefs = soup.findAll('h4',class_='reference__title')
-		for refs in allrefs:
-			if refs.find(text=re.compile('studies included')):
-				included_refs = refs
-		logging.info("Found references for included studies")
-		bibs = included_refs.next_sibling.findAll('div',class_='bibSection')
-		refs_list = []
-		for bib in bibs:
-			ref_data = collections.OrderedDict()
-			#grab bib title
-			try:
-				title = bib.find('h5',class_='reference__title').get_text()
-				temp = title.find(' {')
-				if not (temp == -1):
-					title = title[:temp]	
-			except:
-				title = 'Not found'
-			#grab bib full citation
-			try:
-				citation = bib.find('cite').get_text().strip()
-			except:
-				citation = 'Not found'
-			#grab pubmed url
-			try:
-				pubmedurl = bib.find('a',text='PubMed')['href']
-			except:
-				pubmedurl = 'Not found'
-			ref_data['title'] = title
-			ref_data['citation'] = citation
-			ref_data['pubmedurl'] = pubmedurl
-			refs_list.append(ref_data)
-			logging.info("Captured reference data.")
+		re
 		logging.info("Captured all references of included studies")
 		#Next, we grab the table data
 		logging.info("Grabbing data from bias tables")
