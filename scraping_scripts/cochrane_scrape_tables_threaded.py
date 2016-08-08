@@ -111,7 +111,87 @@ def pull_journal(journal):
 	try:
 		logging.info("Loading article: %s", root_link)
 		soup = getsoup(root_link)
-		re
+		logging.info("Article loaded...")
+
+		#First, grab the list of references (title, citation, and pubmedurl if available)
+		logging.info("Finding references...")
+		allrefs = soup.findAll('h4',class_='reference__title')
+		for refs in allrefs:
+			if refs.find(text=re.compile('studies included')):
+				included_refs = refs
+
+		logging.info("Found references for included studies")
+		bibs = included_refs.next_sibling.findAll('div',class_='bibSection')
+		refs_list = []
+		for bib in bibs:
+			ref_data = collections.OrderedDict()
+			#grab bib title
+			try:
+				title = bib.find('h5',class_='reference__title').get_text()
+				temp = title.find(' {')
+				if not (temp == -1):
+					title = title[:temp]	
+				temp2 = title.find(' ')
+				if not (temp2 == -1):
+					titleyear = title[temp2+1:]	
+			except:
+				title = 'Not found'
+				titleyear = 'Not found'
+			biblist = bib.findAll('li', attrs = {'id' : True})
+			bibcount = len(biblist)
+			yearmatches = 0
+			ref_data['title'] = title
+			ref_data['citation'] = 'Not found'
+			ref_data['pubmedurl'] = 'Not found'
+			ref_data['bibcount'] = bibcount
+			ref_data['yearmatches'] = yearmatches
+			if bibcount > 1:
+				for each in biblist:
+					#grab bib full citation
+					try:
+						citation = each.find('cite').get_text().strip()
+					except:
+						citation = 'Not found'
+					#grab pubmed url
+					try:
+						pubmedurl = each.find('a',text='PubMed')['href']
+					except:
+						pubmedurl = 'Not found'
+					try:
+						pubyear = each.find('span',class_='pubYear').get_text()
+					except:
+						pubyear = 'Not found'
+					if (pubyear == titleyear) and not(pubyear == 'Not found'):		
+						yearmatches += 1
+						ref_data['title'] = title
+						ref_data['citation'] = citation
+						ref_data['pubmedurl'] = pubmedurl
+						ref_data['bibcount'] = bibcount
+						ref_data['yearmatches'] = yearmatches
+				refs_list.append(ref_data)
+				logging.info("Captured reference data.")		
+			else:
+				#grab bib full citation
+				try:
+					citation = bib.find('cite').get_text().strip()
+				except:
+					citation = 'Not found'
+				#grab pubmed url
+				try:
+					pubmedurl = bib.find('a',text='PubMed')['href']
+				except:
+					pubmedurl = 'Not found'
+				try:
+					pubyear = bib.find('span',class_='pubYear').get_text()
+				except:
+					pubyear = 'Not found'
+				ref_data['title'] = title
+				ref_data['citation'] = citation
+				ref_data['pubmedurl'] = pubmedurl
+				ref_data['bibcount'] = bibcount
+				ref_data['yearmatches'] = yearmatches
+				refs_list.append(ref_data)
+				logging.info("Captured reference data.")
 		logging.info("Captured all references of included studies")
 		#Next, we grab the table data
 		logging.info("Grabbing data from bias tables")
@@ -145,10 +225,11 @@ def pull_journal(journal):
 			citation = refs_list[table_count]['citation']
 			pubmedurl = refs_list[table_count]['pubmedurl']
 			bibtitle = refs_list[table_count]['title']
-			data = [pubmedurl,citation,table_data]
+			bibcount = refs_list[table_count]['bibcount']
+			yearmatches = refs_list[table_count]['yearmatches']
+			data = [pubmedurl,citation,table_data,bibcount,yearmatches]
 			tables_list.append(data)
 			logging.info("Captured table data.")
-			print table_count
 			table_count += 1
 		
 		logging.info("Writing to file...")
@@ -159,6 +240,8 @@ def pull_journal(journal):
 			data['pubmedurl'] = each[0]
 			data['citation'] = each[1]
 			data['table'] = each[2]
+			data['bibcount'] = each[3]
+			data['yearmatches'] = each[4]
 			json.dump(data, outfile)
 			outfile.write('\n')
 		writingLock.release()
