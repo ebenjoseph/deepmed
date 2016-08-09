@@ -76,7 +76,7 @@ def _normalize_header(header, matchers=None):
 def _normalize_headers(headers):
 	"""To normalize the cochrane paper reviews we collect and categorize
 	each review assessment. If it correlates with a Jadad score the assessment
-	is collected an normalized. All assessment scores are averaged to get the
+	is collected and normalized. All assessment scores are averaged to get the
 	corresponding ``appropriate`` Jadad score. The ``mentioned`` Jadad score
 	is set to whether an assessment for the relevant category is present.
 	"""
@@ -130,6 +130,14 @@ def reduce_jadad_scores(scores):
 
 def pubmed_id(data):
 	return _pubmed_url_to_id(data['pubmedurl'])
+
+
+def bibcount(data):
+	return data['bibcount']
+
+
+def yearmatches(data):
+	return data['yearmatches']
 
 
 def normalize(data):

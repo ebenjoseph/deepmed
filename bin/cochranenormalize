@@ -22,8 +22,13 @@ if __name__ == '__main__':
 		try:
 			id = cochrane.pubmed_id(review)
 			normalized = cochrane.normalize(review)
+			bibcount = cochrane.bibcount(review)
+			yearmatches = cochrane.yearmatches(review)
 		except ValueError as e:
 			continue
+
+		if bibcount > 1 and yearmatches > 1:
+			continue  # uncertain mapping in review, skip
 
 		if id not in repeated:
 			if id in results:
