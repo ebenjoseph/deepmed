@@ -40,8 +40,8 @@ if __name__ == '__main__':
 				results[id] = output
 
 
-	writer = csv.DictWriter(open(args.output, 'w'),
-							['doc_id'] + cochrane.COCHRANE_HEADER_MATCHERS.values())
+	cochrane_headers = sorted(cochrane.COCHRANE_HEADER_MATCHERS.values())
+	writer = csv.DictWriter(open(args.output, 'w'), ['doc_id'] + cochrane_headers)
 	writer.writeheader()
 	for result in results.values():
 		writer.writerow(result)
