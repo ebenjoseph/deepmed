@@ -47,7 +47,16 @@ HEADER_MATCHERS = _create_matchers({
 	'incomplete_outcome_data': PATIENTS_ACCOUNTED,
 })
 COCHRANE_HEADER_MATCHERS = _create_matchers({
-	'blinding': BLINDING,
+	'performance bias': 'performance_bias',
+	'Blinding of assessors': 'performance_bias',
+	'Blinded outcome assessment': 'performance_bias',
+	'Blinded Assessors': 'performance_bias',
+	'Blinding? \u2028 All outcomes': 'performance_bias',
+	'Blinding? \u2028 All outcomes': 'detection_bias',
+	'Blinding \u2028 All outcomes': 'performance_bias',
+	'Blinding \u2028 All outcomes': 'detection_bias',
+	'detection bias': 'detection_bias',
+	'Blinding of participants': 'detection_bias',
 	'sequence generation': 'sequence_generation',
 	'selective reporting': 'selective_reporting',
 	'allocation concealment': 'allocation_concealment',
