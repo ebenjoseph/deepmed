@@ -1,0 +1,113 @@
+#!/usr/bin/env python
+import json
+import os
+import random
+import re
+import sys
+
+from collections import defaultdict
+
+
+DESCRIPTION_RE = re.compile(r'^\*\*(.*)\*\*: (.*)$')
+RATINGS = ['high/unclear', 'low']
+RATING_NAMES = {
+    'Allocation concealment': 'allocation_concealment',
+    'Random sequence generation': 'sequence_generation',
+    'Blinding of participants and personnel': 'performance_bias',
+    'Blinding of outcome assessment': 'detection_bias',
+    'Selective reporting': 'selective_reporting',
+    'Incomplete outcome data': 'incomplete_outcome_data',
+}
+
+def _prepend_to_paths(path):
+    assert path not in sys.path
+    sys.path.insert(0, path)
+
+
+_prepend_to_paths(os.path.dirname(sys.path[0]))
+from lib import cochrane, pluck
+
+
+def _content_to_string(content):
+    return ' '.join(section for section in content.values()
+                    if isinstance(section, basestring))
+
+
+def _get_articles(path):
+  for article in pluck.jsonl('data/raw/cochrane_GT_ES_output.jsonl'):
+      try:
+          id = cochrane._pubmed_url_to_id(article['pubmed_page'])
+      except ValueError:
+          continue
+      yield (id, article['content'])
+
+def _get_scores(path):
+    for score in pluck.jsonl('data/raw/cochrane_assessments.jsonl'):
+        try:
+            id = cochrane.pubmed_id(score)
+            normalized = cochrane.normalize(score)
+        except ValueError as e:
+            continue
+        yield id, normalized
+
+def _get_scores_from_annotations(data):
+    for score in data['marginalia']:
+        _, rating = DESCRIPTION_RE.match(score['description']).groups()
+        assert rating in RATINGS
+        yield RATING_NAMES[score['title']], rating
+
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(
+        description='test the robotreviewer against cochrane data')
+    parser.add_argument('--robotreviewer', default='../robotreviewer',
+                        help='path to robot reviewer')
+    parser.add_argument('--articles', default='data/raw/cochrane_GT_ES_output.jsonl',
+                        help='path to articles .jsonl file')
+    parser.add_argument('--cochrane', default='data/raw/cochrane_assessments.jsonl',
+                        help='path to cochrane assessments .jsonl file')
+    parser.add_argument('-n', type=int,
+                        help='number of articles to test')
+    parser.add_argument('--ids', nargs='+',
+                        help='path to file with list of ids')
+    args = parser.parse_args()
+
+    # Load robotreviewer
+    _prepend_to_paths(args.robotreviewer)
+    import biasrobot
+    bot = biasrobot.BiasRobot()
+
+    # Load articles
+    articles = dict(_get_articles(args.articles))
+
+    # Load cochrane reveiws
+    reviews = dict(_get_scores(args.cochrane))
+
+    # Test articles
+    if args.ids:
+        ids = args.ids
+    else:
+        ids = articles.keys()
+        random.shuffle(ids)
+        ids = ids[:args.n]
+
+    counts = defaultdict(lambda: defaultdict(lambda: 0))
+    for id in ids:
+        # print articles[id]
+        # print articles[id].values()
+        if id in reviews and id in articles:
+            annotations = bot.annotate(_content_to_string(articles[id]))
+            review = reviews[id]
+            for name, score in _get_scores_from_annotations(annotations):
+                expected_score = review[name]['score']
+                if expected_score not in [1, 0, -1]:
+                    continue
+                if expected_score == -1 and score == RATINGS[1]:
+                    counts[name]['true-pos'] += 1
+                if expected_score != -1 and score == RATINGS[0]:
+                    counts[name]['false-pos'] += 1
+                if expected_score == -1 and score == RATINGS[0]:
+                    counts[name]['false-neg'] += 1
+
+    print json.dumps(counts)

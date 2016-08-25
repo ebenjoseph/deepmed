@@ -52,7 +52,7 @@ COCHRANE_HEADER_MATCHERS = _create_matchers({
 	'sequence generation': 'sequence_generation',
 	'selective reporting': 'selective_reporting',
 	'allocation concealment': 'allocation_concealment',
-	'incomplete outcome data': 'incomplete_outcome data',
+	'incomplete outcome data': 'incomplete_outcome_data',
 })
 
 
