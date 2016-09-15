@@ -196,7 +196,7 @@ def getlink(ref):
 	try:
 		journalsRead[coch_id]
 		journalLock.release()
-		print 'Title found in tracker. Skipping...'
+		logging.info('Title found in tracker. Skipping...')
 		return
 	except:
 		journalsRead[coch_id] = 1
@@ -235,7 +235,8 @@ def getlink(ref):
 	#Load the PubMed page (reportPage) using BeautifulSoup4
 	logging.info('Target article: %s', coch_title)
 	logging.info('Loading page with BS4...')
-	reportLink = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + coch_title + '"[Title]'
+	coch_title = coch_title.replace(" ","%20")
+	reportLink = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + coch_title + '"'
 	soup = getsoup(reportLink)
 	logging.info('Page loaded')
 
@@ -244,8 +245,8 @@ def getlink(ref):
 	#if multiple results or no results, then skip metadat (match = 0)
 	match = 0
 	try:
-		resultcount = soup.find('div',class_='content').find('h3').get_text()
-		if resultcount[:14] == 'See 1 citation':
+		resultcount = soup.find('div',class_='content').find('h3').get_text().replace("\n","")
+		if resultcount[:4] == 'See ':
 			logging.info('Number of results: %s', resultcount)
 			resultcount = '1'
 			match = 1
@@ -263,7 +264,7 @@ def getlink(ref):
 			match = 0
 	except:
 		try:
-			resultcount = soup.find('li',class_='info icon').find('span',class_='icon').get_text()
+			resultcount = soup.find('li',class_='info icon').find('span',class_='icon').get_text().replace("\n","")
 			if resultcount == 'No items found.':
 				logging.info('second No results returned')
 				resultcount = 'NoResults'
@@ -505,8 +506,10 @@ def getlink(ref):
 		data['pubdate'] = str(pubdate)
 		data['pubmed_page'] = reportLink
 		data['fulltext_page'] = fullTextLinks
+	writingLock.acquire()
 	json.dump(data, outfile) # use previously opened file (need it opened before implementing threads)
 	outfile.write('\n')
+	writingLock.release()
 
 # Let's go!
 logging.info('Program initiated')
@@ -547,4 +550,4 @@ results = pool.map(getlink, refs_to_pull)
 pool.close()
 pool.join()
 # output results
-print len(results)
+logging.info(len(results))
