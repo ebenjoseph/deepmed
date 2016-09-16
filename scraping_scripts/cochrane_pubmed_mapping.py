@@ -4,7 +4,6 @@
 import logging
 import sys
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from time import sleep
 import time
 import json
@@ -235,8 +234,8 @@ def getlink(ref):
 	#Load the PubMed page (reportPage) using BeautifulSoup4
 	logging.info('Target article: %s', coch_title)
 	logging.info('Loading page with BS4...')
-	coch_title = coch_title.replace(" ","%20")
-	reportLink = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + coch_title + '"'
+	search_title = coch_title.replace(" ","%20")
+	reportLink = 'http://www.ncbi.nlm.nih.gov/pubmed/?term="' + search_title + '"'
 	soup = getsoup(reportLink)
 	logging.info('Page loaded')
 
@@ -244,7 +243,52 @@ def getlink(ref):
 	#if 1 result, then collect metadata (match = 1)
 	#if multiple results or no results, then skip metadat (match = 0)
 	match = 0
+	multresult = 0
 	try:
+		#search for div class = "rprt abstract" > div class = "cit"
+		citsearch = soup.find('div', class_='rprt abstract').find('div',class_='cit').get_text()
+		logging.info('1 Result found by title')
+		match = 1
+		resultcount = '1'
+	except:
+		match = 0
+		try:
+			noresultsearch = soup.find('span', text = re.compile('No items found.'), attrs = {'class' : 'icon'}).get_text()
+			logging.info('No results found by title')
+			resultcount = 'NoResults'
+			multresult = 1
+		except:
+			resultcount = 'MultipleResults'
+			logging.info('Multiple results found by title')
+			multresult = 1
+		
+	if multresult == 1:
+		#check by authors for a single match
+		logging.info('Searching by author')
+		search_authors = coch_author.replace(" ","%20")
+		reportLink = 'http://www.ncbi.nlm.nih.gov/pubmed/?term=' + search_authors
+		soup = getsoup(reportLink)
+		logging.info('Page loaded')
+		match = 0
+		multresult = 0
+		try:
+			#search for div class = "rprt abstract" > div class = "cit"
+			citsearch = soup.find('div', class_='rprt abstract').find('div',class_='cit').get_text()
+			logging.info('1 Result found by authors')
+			match = 1
+			resultcount = '1'
+		except:
+			match = 0
+			try:
+				noresultsearch = soup.find('span', text = re.compile('No items found.'), attrs = {'class' : 'icon'}).get_text()
+				logging.info('No results found by authors')
+				resultcount = 'NoResults'
+			except:
+				resultcount = 'MultipleResults'
+				logging.info('Multiple results found by authors')
+				multresult = 1
+
+	'''	
 		resultcount = soup.find('div',class_='content').find('h3').get_text().replace("\n","")
 		if resultcount[:4] == 'See ':
 			logging.info('Number of results: %s', resultcount)
@@ -277,6 +321,7 @@ def getlink(ref):
 			logging.info('third No results returned')
 			resultcount = 'NoResults'	
 			match = 0
+	'''
 
 	if match == 1:
 		#Grab meta data
