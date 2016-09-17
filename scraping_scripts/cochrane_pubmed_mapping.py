@@ -150,43 +150,43 @@ def getlink(ref):
 	data = collections.OrderedDict()
 	start_time = time.time()
 	try:
-		coch_country = ref['CY']
+		coch_country = ref['coch_country']
 	except:
 		coch_country = 'N/A'
 	try:
-		coch_author = ref['AU']
+		coch_author = ref['coch_author']
 	except:
 		coch_author = 'N/A'
 	try:
-		coch_title = ref['TI']
+		coch_title = ref['coch_title']
 	except:
 		coch_title = 'N/A'
 	try:
-		coch_year = ref['YR']
+		coch_year = ref['coch_year']
 	except:
 		coch_year = 'N/A'
 	try:
-		coch_source = ref['SO']
+		coch_source = ref['coch_source']
 	except:
 		coch_source = 'N/A'
 	try:
-		coch_volume = ref['VL']
+		coch_volume = ref['coch_volume']
 	except:
 		coch_volume = 'N/A'
 	try:
-		coch_pages = ref['PG']
+		coch_pages = ref['coch_pages']
 	except:
 		coch_pages = 'N/A'
 	try:
-		coch_publisher = ref['PB']
+		coch_publisher = ref['coch_publisher']
 	except:
 		coch_publisher = 'N/A'
 	try:
-		coch_number = ref['NO']
+		coch_number = ref['coch_number']
 	except:
 		coch_number = 'N/A'
 	try:
-		coch_id = ref['id']
+		coch_id = ref['coch_id']
 	except:
 		coch_id = 'N/A'
 
@@ -239,6 +239,14 @@ def getlink(ref):
 	soup = getsoup(reportLink)
 	logging.info('Page loaded')
 
+	
+	#Check for a link to a single citation
+	try:
+		citlinksearch = soup.find('div', class_='portlet_title').find('a', text = re.compile('citation found'))['href']
+		logging.info('Found link to the citation, following it...')
+		soup = getsoup('http://www.ncbi.nlm.nih.gov/' + citlinksearch)
+	except:
+		print ()
 	#Check for only 1 result
 	#if 1 result, then collect metadata (match = 1)
 	#if multiple results or no results, then skip metadat (match = 0)
@@ -579,8 +587,7 @@ journalLock = threading.Lock()
 writingLock = threading.Lock()
 
 # open or create output file
-outfile = open('cochrane_pubmed_mapping.jsonl', 'a')
-
+outfile = open('cochrane_pubmed_mapping_redo.jsonl', 'a')
 
 refs_to_pull = []
 # read in JSON
