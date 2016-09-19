@@ -1,9 +1,15 @@
 #!/usr/bin/env python
+"""
+Run robot reviewer against papers scored by us! [deepmed]
+"""
+
 import json
 import os
 import random
 import re
 import sys
+
+import psycopg2
 
 from collections import defaultdict
 
@@ -17,6 +23,10 @@ RATING_NAMES = {
     'Blinding of outcome assessment': 'detection_bias',
     'Selective reporting': 'selective_reporting',
     'Incomplete outcome data': 'incomplete_outcome_data',
+}
+TABLES = {
+    'blind_mention': 'performance_bias',
+    'random_mention': 'sequence_generation',
 }
 
 def _prepend_to_paths(path):
@@ -69,8 +79,6 @@ if __name__ == '__main__':
                         help='path to cochrane assessments .jsonl file')
     parser.add_argument('-n', type=int,
                         help='number of articles to test')
-    parser.add_argument('--ids', nargs='+',
-                        help='path to file with list of ids')
     args = parser.parse_args()
 
     # Load robotreviewer
@@ -84,25 +92,25 @@ if __name__ == '__main__':
     # Load cochrane reveiws
     reviews = dict(_get_scores(args.cochrane))
 
-    # Test articles
-    if args.ids:
-        ids = args.ids
-    else:
-        ids = articles.keys()
-        random.shuffle(ids)
-        ids = ids[:args.n]
+    # The ids of the articles to test are fetched from biguns database
+    conn = psycopg2.connect(database='deepdive_deepmed_ubuntu',
+                            user='ubuntu', host='localhost', port=5433)
+    cur = conn.cursor()
 
     counts = defaultdict(lambda: defaultdict(lambda: 0))
-    for id in ids:
-        # print articles[id]
-        # print articles[id].values()
-        if id in reviews and id in articles:
-            annotations = bot.annotate(_content_to_string(articles[id]))
-            review = reviews[id]
-            for name, score in _get_scores_from_annotations(annotations):
+    for table, name in TABLES.iteritems():
+        cur.execute('SELECT DISTINCT doc_id FROM {}'.format(table))
+        for (id,) in cur.fetchall():
+            # print articles[id]
+            # print articles[id].values()
+            if id in reviews and id in articles:
+                annotations = bot.annotate(_content_to_string(articles[id]))
+                review = reviews[id]
+                score = dict(_get_scores_from_annotations(annotations))[name]
                 expected_score = review[name]['score']
                 if expected_score not in [1, 0, -1]:
-                    continue
+                    continue # print id, expected_score
+                # assert expected_score in [1, 0, -1]
                 if expected_score == -1 and score == RATINGS[1]:
                     counts[name]['true-pos'] += 1
                 if expected_score != -1 and score == RATINGS[0]:
